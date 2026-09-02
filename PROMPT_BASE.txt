@@ -1,0 +1,34 @@
+PUNTO CONECTADO - PROMPT BASE DEL PROYECTO
+
+VERSIONADO
+Versión inicial de referencia: 1.0.0
+Fecha de la versión inicial: 2026-09-01
+
+REGLA DE VERSIONADO
+- La versión inicial es 1.0.0.
+- La incorporación de esta documentación de versionado se considera parte de la versión inicial y NO incrementa la versión.
+- A partir de la próxima modificación funcional o de contenido, la versión deberá incrementarse.
+- Mantener un historial de cambios en VERSION.txt.
+- Cada ZIP debe utilizar exactamente esta estructura de nombre:
+  PuntoConectado_Web_vX.Y.Z_YYYY-MM-DD.zip
+- Ejemplo:
+  PuntoConectado_Web_v1.0.0_2026-09-01.zip
+
+REGLA DE MODIFICACION AISLADA
+- Cuando se solicite modificar un bloque específico, modificar únicamente los archivos,
+  HTML, CSS y JavaScript necesarios para ese bloque.
+- No modificar otros bloques, estilos, contenido o comportamiento salvo indicación expresa.
+- Antes de entregar una nueva versión, comprobar que los bloques no solicitados se mantienen.
+- Si un cambio técnico tiene impacto inevitable sobre otro bloque, indicarlo antes de considerar
+  ese bloque como modificado.
+
+BASE DE TRABAJO
+- El ZIP de la última versión entregada es la fuente de verdad del proyecto.
+- La memoria puede conservar decisiones generales, pero no sustituye los archivos del proyecto.
+- Para continuar el trabajo con precisión, utilizar preferentemente el ZIP de la última versión.
+
+HISTORIAL INICIAL
+1.0.0 - 2026-09-01
+- Primera versión del sitio PUNTO CONECTADO.
+- Se incorporó la documentación inicial de versionado.
+- Esta documentación no constituye una modificación funcional del sitio.

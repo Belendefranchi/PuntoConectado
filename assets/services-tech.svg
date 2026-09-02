@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 510">
+<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9f9fe"/><stop offset="1" stop-color="#edf0ff"/></linearGradient></defs>
+<rect width="760" height="510" rx="28" fill="url(#a)"/>
+<rect x="72" y="80" width="220" height="260" rx="18" fill="#22265d"/>
+<rect x="94" y="104" width="176" height="106" rx="10" fill="#0e1738"/>
+<rect x="111" y="121" width="142" height="72" rx="6" fill="#eaf7fb"/>
+<rect x="116" y="126" width="50" height="8" rx="4" fill="#00b0e6"/>
+<rect x="116" y="145" width="111" height="6" rx="3" fill="#cfe4ea"/>
+<rect x="116" y="160" width="90" height="6" rx="3" fill="#cfe4ea"/>
+<rect x="111" y="225" width="142" height="88" rx="12" fill="#2d3670"/>
+<rect x="122" y="240" width="120" height="8" rx="4" fill="#00b0e6"/>
+<rect x="122" y="260" width="98" height="8" rx="4" fill="#6c78a4"/>
+<rect x="122" y="280" width="85" height="8" rx="4" fill="#6c78a4"/>
+<rect x="330" y="80" width="332" height="46" rx="13" fill="#fff" stroke="#dbe6f2"/>
+<rect x="330" y="142" width="265" height="46" rx="13" fill="#fff" stroke="#dbe6f2"/>
+<rect x="330" y="204" width="300" height="46" rx="13" fill="#fff" stroke="#dbe6f2"/>
+<rect x="330" y="266" width="235" height="46" rx="13" fill="#fff" stroke="#dbe6f2"/>
+<rect x="330" y="328" width="285" height="46" rx="13" fill="#fff" stroke="#dbe6f2"/>
+<g fill="#00b0e6"><circle cx="358" cy="103" r="11"/><circle cx="358" cy="165" r="11"/><circle cx="358" cy="227" r="11"/><circle cx="358" cy="289" r="11"/><circle cx="358" cy="351" r="11"/></g>
+<g fill="#fff"><path d="M353 102l4 4 8-8" stroke="#fff" stroke-width="2.5" fill="none"/><path d="M353 164l4 4 8-8" stroke="#fff" stroke-width="2.5" fill="none"/><path d="M353 226l4 4 8-8" stroke="#fff" stroke-width="2.5" fill="none"/><path d="M353 288l4 4 8-8" stroke="#fff" stroke-width="2.5" fill="none"/><path d="M353 350l4 4 8-8" stroke="#fff" stroke-width="2.5" fill="none"/></g>
+<g fill="#22265d" font-family="Arial,sans-serif"><text x="382" y="108" font-size="15" font-weight="700">Soporte técnico</text><text x="382" y="170" font-size="15" font-weight="700">Servidores</text><text x="382" y="232" font-size="15" font-weight="700">Redes y cableado</text><text x="382" y="294" font-size="15" font-weight="700">Software y licencias</text><text x="382" y="356" font-size="15" font-weight="700">Asistencia remota y presencial</text></g>
+</svg>

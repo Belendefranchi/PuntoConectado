@@ -1,0 +1,12 @@
+PUNTO CONECTADO - HISTORIAL DE VERSIONES
+
+Versión actual: 1.0.0
+
+1.0.0 - 2026-09-01
+- Versión inicial de referencia del sitio.
+- Se incorporó la documentación de versionado y reglas de trabajo.
+- Esta primera documentación se considera parte de la versión inicial y no incrementa la versión.
+
+Regla:
+- A partir de la próxima modificación del proyecto, incrementar la versión.
+- Formato de ZIP: PuntoConectado_Web_vX.Y.Z_YYYY-MM-DD.zip

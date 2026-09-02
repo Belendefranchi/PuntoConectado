@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 500">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22265d"/><stop offset="1" stop-color="#00b0e6"/></linearGradient></defs>
+<rect width="620" height="500" rx="28" fill="#091b49"/>
+<g opacity=".14" fill="#00b0e6"><circle cx="85" cy="80" r="70"/><circle cx="535" cy="410" r="110"/></g>
+<rect x="92" y="78" width="436" height="292" rx="26" fill="#101936" stroke="#405182"/>
+<rect x="122" y="108" width="190" height="230" rx="16" fill="#eef7fa"/>
+<rect x="338" y="108" width="160" height="230" rx="16" fill="#22265d"/>
+<g stroke="#00b0e6" stroke-width="3" fill="none" opacity=".9"><circle cx="220" cy="178" r="44"/><path d="M190 150l30-22 30 22 8 35-38 27-38-27z"/></g>
+<g fill="#fff"><text x="360" y="148" font-family="Arial,sans-serif" font-size="16" font-weight="700">PUNTO</text><text x="360" y="170" font-family="Arial,sans-serif" font-size="16" font-weight="700">CONECTADO</text><rect x="360" y="193" width="98" height="8" rx="4" fill="#00b0e6"/><rect x="360" y="212" width="110" height="7" rx="3.5" fill="#6673a1"/><rect x="360" y="230" width="92" height="7" rx="3.5" fill="#6673a1"/></g>
+<g fill="#d9edf6" font-family="Arial,sans-serif" font-size="14"><text x="107" y="402">Tecnología cercana · Experiencia · Confianza</text></g>
+</svg>
