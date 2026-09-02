@@ -2,6 +2,7 @@ PUNTO CONECTADO - PROMPT BASE DEL PROYECTO
 
 VERSIONADO
 Versión inicial de referencia: 1.0.0
+Versión actual: 1.0.1
 Fecha de la versión inicial: 2026-09-01
 
 REGLA DE VERSIONADO
@@ -27,7 +28,15 @@ BASE DE TRABAJO
 - La memoria puede conservar decisiones generales, pero no sustituye los archivos del proyecto.
 - Para continuar el trabajo con precisión, utilizar preferentemente el ZIP de la última versión.
 
-HISTORIAL INICIAL
+HISTORIAL DE VERSIONES
+1.0.1 - 2026-09-02
+- Modificado únicamente el bloque Navbar.
+- Fondo con degradado azul oscuro.
+- Logo del navbar adaptado al archivo de referencia adjunto.
+- Navegación en blanco y sin negrita.
+- Botón cambiado a “Solicitar Presupuesto” con ícono de palomita.
+- Resto de los bloques sin modificaciones.
+
 1.0.0 - 2026-09-01
 - Primera versión del sitio PUNTO CONECTADO.
 - Se incorporó la documentación inicial de versionado.

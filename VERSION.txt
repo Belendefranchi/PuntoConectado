@@ -1,6 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 1.0.0
+Versión actual: 1.0.1
+
+1.0.1 - 2026-09-02
+- Modificado únicamente el bloque Navbar.
+- Fondo con degradado azul oscuro.
+- Logo del navbar adaptado al archivo de referencia adjunto.
+- Navegación en blanco y sin negrita.
+- Botón cambiado a “Solicitar Presupuesto” con ícono de palomita.
+- Resto de los bloques sin modificaciones.
 
 1.0.0 - 2026-09-01
 - Versión inicial de referencia del sitio.
@@ -8,5 +16,5 @@ Versión actual: 1.0.0
 - Esta primera documentación se considera parte de la versión inicial y no incrementa la versión.
 
 Regla:
-- A partir de la próxima modificación del proyecto, incrementar la versión.
+- Cada nueva modificación del proyecto incrementa la versión.
 - Formato de ZIP: PuntoConectado_Web_vX.Y.Z_YYYY-MM-DD.zip
