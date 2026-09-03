@@ -1,6 +1,12 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 1.0.1
+Versión actual: 1.0.2
+
+1.0.2 - 2026-09-03
+- Corrección aislada del Footer afectado por los cambios visuales del Navbar.
+- Restaurado el tamaño correcto del logo del Footer.
+- Restaurada la composición, color y posición del slogan del Footer.
+- No se modificaron los demás bloques.
 
 1.0.1 - 2026-09-02
 - Modificado únicamente el bloque Navbar.

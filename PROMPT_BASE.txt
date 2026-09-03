@@ -2,7 +2,7 @@ PUNTO CONECTADO - PROMPT BASE DEL PROYECTO
 
 VERSIONADO
 Versión inicial de referencia: 1.0.0
-Versión actual: 1.0.1
+Versión actual: 1.0.2
 Fecha de la versión inicial: 2026-09-01
 
 REGLA DE VERSIONADO
@@ -29,6 +29,12 @@ BASE DE TRABAJO
 - Para continuar el trabajo con precisión, utilizar preferentemente el ZIP de la última versión.
 
 HISTORIAL DE VERSIONES
+1.0.2 - 2026-09-03
+- Corrección aislada del Footer afectado por los cambios visuales del Navbar.
+- Restaurado el tamaño correcto del logo del Footer.
+- Restaurada la composición, color y posición del slogan del Footer.
+- No se modificaron los demás bloques.
+
 1.0.1 - 2026-09-02
 - Modificado únicamente el bloque Navbar.
 - Fondo con degradado azul oscuro.
