@@ -1,6 +1,15 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 1.0.2
+Versión actual: 1.0.3
+
+1.0.3 - 2026-09-03
+- Modificado únicamente el bloque Inicio.
+- Se incorporó un fondo tecnológico propio con planeta Tierra y nodos interconectados.
+- Eyebrow cambiado a “Servidores · Redes · Soporte” y color azul.
+- Título cambiado a “PUNTO CONECTADO / TU PUNTO DE PARTIDA” en blanco.
+- Texto descriptivo del hero cambiado a blanco.
+- Botones del hero conservados sin cambios.
+- Navbar, Servicios, Planes a medida, Sobre nosotros, Contacto y Footer sin modificaciones.
 
 1.0.2 - 2026-09-03
 - Corrección aislada del Footer afectado por los cambios visuales del Navbar.

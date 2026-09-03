@@ -1,34 +1,48 @@
 PUNTO CONECTADO - PROMPT BASE DEL PROYECTO
 
 VERSIONADO
+Versión actual: 1.0.3
 Versión inicial de referencia: 1.0.0
-Versión actual: 1.0.2
 Fecha de la versión inicial: 2026-09-01
 
 REGLA DE VERSIONADO
 - La versión inicial es 1.0.0.
-- La incorporación de esta documentación de versionado se considera parte de la versión inicial y NO incrementa la versión.
-- A partir de la próxima modificación funcional o de contenido, la versión deberá incrementarse.
+- La incorporación de documentación de versionado se considera parte de la versión inicial y no incrementa la versión.
+- A partir de la primera modificación funcional, la versión se incrementa.
 - Mantener un historial de cambios en VERSION.txt.
 - Cada ZIP debe utilizar exactamente esta estructura de nombre:
   PuntoConectado_Web_vX.Y.Z_YYYY-MM-DD.zip
 - Ejemplo:
   PuntoConectado_Web_v1.0.0_2026-09-01.zip
 
-REGLA DE MODIFICACION AISLADA
-- Cuando se solicite modificar un bloque específico, modificar únicamente los archivos,
-  HTML, CSS y JavaScript necesarios para ese bloque.
+REGLA DE MODIFICACIÓN AISLADA
+- Cuando se solicite modificar un bloque específico, modificar únicamente los archivos, HTML, CSS y JavaScript necesarios para ese bloque.
 - No modificar otros bloques, estilos, contenido o comportamiento salvo indicación expresa.
 - Antes de entregar una nueva versión, comprobar que los bloques no solicitados se mantienen.
-- Si un cambio técnico tiene impacto inevitable sobre otro bloque, indicarlo antes de considerar
-  ese bloque como modificado.
+- Si un cambio técnico tiene impacto inevitable sobre otro bloque, indicarlo.
+- Las reglas CSS nuevas deben ser específicas del bloque cuando sea posible, para evitar regresiones en otras secciones.
 
 BASE DE TRABAJO
 - El ZIP de la última versión entregada es la fuente de verdad del proyecto.
-- La memoria puede conservar decisiones generales, pero no sustituye los archivos del proyecto.
+- La memoria conserva decisiones generales, pero no sustituye los archivos del proyecto.
 - Para continuar el trabajo con precisión, utilizar preferentemente el ZIP de la última versión.
 
+REFERENCIA VISUAL
+- La segunda imagen de referencia generada durante el diseño sirve como guía visual para aproximar el sitio a ese estilo.
+- Las referencias visuales no implican copiar literalmente imágenes o recursos de terceros.
+- Los recursos gráficos propios deben mantenerse dentro del proyecto.
+
 HISTORIAL DE VERSIONES
+
+1.0.3 - 2026-09-03
+- Modificado únicamente el bloque Inicio.
+- Incorporado fondo tecnológico propio con planeta Tierra y nodos interconectados.
+- Eyebrow: “Servidores · Redes · Soporte”, en azul.
+- H1: “PUNTO CONECTADO / TU PUNTO DE PARTIDA”, en blanco.
+- Texto descriptivo del hero en blanco.
+- Botones del hero conservados sin cambios.
+- Navbar, Servicios, Planes a medida, Sobre nosotros, Contacto y Footer sin modificaciones.
+
 1.0.2 - 2026-09-03
 - Corrección aislada del Footer afectado por los cambios visuales del Navbar.
 - Restaurado el tamaño correcto del logo del Footer.
@@ -44,6 +58,6 @@ HISTORIAL DE VERSIONES
 - Resto de los bloques sin modificaciones.
 
 1.0.0 - 2026-09-01
-- Primera versión del sitio PUNTO CONECTADO.
-- Se incorporó la documentación inicial de versionado.
-- Esta documentación no constituye una modificación funcional del sitio.
+- Versión inicial de referencia del sitio.
+- Se incorporó la documentación de versionado y reglas de trabajo.
+- Esta primera documentación se considera parte de la versión inicial y no incrementa la versión.
