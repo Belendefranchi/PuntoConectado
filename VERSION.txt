@@ -1,15 +1,19 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 1.0.3
+Versión actual: 1.0.4
+
+1.0.4 - 2026-09-04
+- Reemplazada la imagen del logo del Navbar por la imagen personalizada proporcionada.
+- Recortado el espacio transparente del logo para conservar el tamaño visual actual del Navbar.
+- Reemplazado el fondo del Hero por la imagen personalizada portada.jpg.
+- La imagen del Hero se adapta al ancho completo mediante background-size: cover, conservando proporciones y recortando verticalmente sin deformación.
+- No se modificaron los demás bloques.
 
 1.0.3 - 2026-09-03
-- Modificado únicamente el bloque Inicio.
-- Se incorporó un fondo tecnológico propio con planeta Tierra y nodos interconectados.
-- Eyebrow cambiado a “Servidores · Redes · Soporte” y color azul.
-- Título cambiado a “PUNTO CONECTADO / TU PUNTO DE PARTIDA” en blanco.
-- Texto descriptivo del hero cambiado a blanco.
-- Botones del hero conservados sin cambios.
-- Navbar, Servicios, Planes a medida, Sobre nosotros, Contacto y Footer sin modificaciones.
+- Modificado el bloque Inicio con fondo tecnológico y presentación de marca.
+- Eyebrow: “Servidores · Redes · Soporte”.
+- Títulos y texto del Hero adaptados a fondo oscuro.
+- Botones conservados sin modificaciones.
 
 1.0.2 - 2026-09-03
 - Corrección aislada del Footer afectado por los cambios visuales del Navbar.
@@ -20,16 +24,10 @@ Versión actual: 1.0.3
 1.0.1 - 2026-09-02
 - Modificado únicamente el bloque Navbar.
 - Fondo con degradado azul oscuro.
-- Logo del navbar adaptado al archivo de referencia adjunto.
+- Logo del Navbar adaptado al archivo de referencia.
 - Navegación en blanco y sin negrita.
 - Botón cambiado a “Solicitar Presupuesto” con ícono de palomita.
-- Resto de los bloques sin modificaciones.
 
 1.0.0 - 2026-09-01
 - Versión inicial de referencia del sitio.
-- Se incorporó la documentación de versionado y reglas de trabajo.
-- Esta primera documentación se considera parte de la versión inicial y no incrementa la versión.
-
-Regla:
-- Cada nueva modificación del proyecto incrementa la versión.
-- Formato de ZIP: PuntoConectado_Web_vX.Y.Z_YYYY-MM-DD.zip
+- Documentación inicial de versionado y reglas de trabajo.

@@ -1,7 +1,7 @@
 PUNTO CONECTADO - PROMPT BASE DEL PROYECTO
 
 VERSIONADO
-Versión actual: 1.0.3
+Versión actual: 1.0.4
 Versión inicial de referencia: 1.0.0
 Fecha de la versión inicial: 2026-09-01
 
@@ -33,6 +33,12 @@ REFERENCIA VISUAL
 - Los recursos gráficos propios deben mantenerse dentro del proyecto.
 
 HISTORIAL DE VERSIONES
+1.0.4 - 2026-09-04
+- Reemplazo del logo personalizado del Navbar.
+- Reemplazo del fondo del Hero por portada.jpg.
+- Ajuste de proporciones y recorte vertical del Hero sin deformación.
+- Resto de bloques preservados.
+
 
 1.0.3 - 2026-09-03
 - Modificado únicamente el bloque Inicio.

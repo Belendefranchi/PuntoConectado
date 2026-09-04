@@ -200,11 +200,20 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
 
-/* v1.0.3 - Inicio: fondo tecnológico y tipografía del hero */
+/* v1.0.4 - Inicio: reemplazo de imagen de hero y logo de navbar */
+.navbar-brand img{
+  width:205px;
+  height:auto;
+  max-height:62px;
+  object-fit:contain;
+}
+
 .hero{
   background-color:#031838;
-  background-image:linear-gradient(90deg,rgba(3,24,56,.98) 0%,rgba(3,24,56,.88) 38%,rgba(3,24,56,.34) 68%,rgba(3,24,56,.10) 100%),url('hero-earth.svg');
-  background-position:center, center;
+  background-image:
+    linear-gradient(90deg,rgba(3,24,56,.96) 0%,rgba(3,24,56,.82) 38%,rgba(3,24,56,.30) 68%,rgba(3,24,56,.06) 100%),
+    url('portada.jpg');
+  background-position:center,center;
   background-size:cover,cover;
   background-repeat:no-repeat;
 }
