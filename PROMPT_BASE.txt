@@ -1,7 +1,7 @@
 PUNTO CONECTADO - PROMPT BASE DEL PROYECTO
 
 VERSIONADO
-Versión actual: 1.0.4
+Versión actual: 1.0.6
 Versión inicial de referencia: 1.0.0
 Fecha de la versión inicial: 2026-09-01
 
@@ -33,6 +33,17 @@ REFERENCIA VISUAL
 - Los recursos gráficos propios deben mantenerse dentro del proyecto.
 
 HISTORIAL DE VERSIONES
+1.0.6 - 2026-09-07
+- Corregido el selector del botón “Solicitar Presupuesto” del Navbar.
+- Se aplicó el mismo radio de borde de 11 px utilizado por los botones generales de la página.
+- Se corrigió la regla de v1.0.5, que no afectaba al botón debido a que el selector no coincidía con la estructura HTML real.
+- No se modificó ningún otro bloque.
+
+1.0.5 - 2026-09-07
+- Corregido únicamente el botón “Solicitar Presupuesto” del Navbar.
+- Se redujo el redondeo para que tenga bordes redondeados de forma cuadrada, coherentes con los demás botones de la página.
+- No se modificaron los demás bloques.
+
 1.0.4 - 2026-09-04
 - Reemplazo del logo personalizado del Navbar.
 - Reemplazo del fondo del Hero por portada.jpg.

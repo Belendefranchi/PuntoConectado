@@ -235,3 +235,13 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .hero-copy h1 strong{color:#fff}
 .hero-copy .lead{color:#fff}
 .hero-visual{min-height:500px}
+
+/* v1.0.5 - Corrección aislada del botón Solicitar Presupuesto del Navbar */
+.navbar .btn {
+  border-radius: 12px;
+}
+
+/* v1.0.6 - Corrección efectiva del botón Solicitar Presupuesto del Navbar */
+.nav-budget-btn{
+  border-radius:11px;
+}
