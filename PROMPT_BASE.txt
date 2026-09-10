@@ -101,3 +101,10 @@ CAMBIO v1.0.9 — NAVBAR (2026-09-10)
 - El símbolo del logo se ajusta para mantener visualmente un tamaño equivalente al anterior.
 - PUNTO CONECTADO y TU PUNTO DE PARTIDA pasan a ser texto HTML editable, conservando tipografía, tamaño y disposición visual del logo con slogan.
 - Botón “Solicitar Presupuesto”: eliminado el check, fondo turquesa (#00B0E6), texto azul oscuro regular.
+
+
+REGLA DE VERSION.txt
+- VERSION.txt debe conservar SIEMPRE el historial acumulativo completo de versiones.
+- Cada nueva versión debe agregarse al inicio del historial, con fecha y detalle de los cambios realizados.
+- Nunca reemplazar VERSION.txt únicamente por el número y la fecha de la versión actual.
+- La línea “Versión actual” debe reflejar la última versión entregada.
