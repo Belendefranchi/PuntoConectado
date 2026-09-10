@@ -54,23 +54,15 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .btn-outline{border-color:#b9c8db;background:#fff;color:var(--navy)}
 .btn-outline:hover{border-color:var(--blue);color:var(--blue-dark)}
 .btn-ghost{padding-inline:3px}
-.nav-budget-btn{border:1px solid var(--blue);background:transparent;color:#fff;padding:10px 17px;border-radius:999px;box-shadow:none}
+.nav-budget-btn{border:1px solid var(--blue);background:transparent;color:#fff;padding:10px 17px;border-radius:11px;box-shadow:none}
 .nav-budget-btn span{font-size:1rem;line-height:1}
 .nav-budget-btn:hover{background:var(--blue);color:#fff;box-shadow:0 8px 22px rgba(0,176,230,.24)}
 .menu-btn{color:#fff}
 .menu-btn{display:none;margin-left:auto;border:0;background:none;padding:8px;color:var(--navy)}
 .menu-btn span{display:block;width:25px;height:2px;background:currentColor;margin:5px 0;border-radius:2px}
-.hero{position:relative;overflow:hidden;background:radial-gradient(circle at 78% 18%,rgba(0,176,230,.12),transparent 28%),linear-gradient(180deg,#fff 0%,#f5fbff 100%)}
-.hero:after{content:"";position:absolute;inset:auto -5% 0 46%;height:280px;background-image:radial-gradient(circle at 18px 18px,rgba(0,176,230,.15) 0 3px,transparent 4px);background-size:68px 68px;mask-image:linear-gradient(to top,#000,transparent);pointer-events:none}
-.network-bg:before{content:"";position:absolute;width:470px;height:260px;right:-60px;top:45px;opacity:.22;pointer-events:none;background-image:radial-gradient(circle at 8% 60%,#00b0e6 0 4px,transparent 5px),radial-gradient(circle at 25% 35%,#22265d 0 5px,transparent 6px),radial-gradient(circle at 42% 63%,#00b0e6 0 4px,transparent 5px),radial-gradient(circle at 61% 25%,#22265d 0 5px,transparent 6px),linear-gradient(26deg,transparent 20%,#8bdcf4 20.5%,#8bdcf4 21%,transparent 21.5%),linear-gradient(-24deg,transparent 45%,#8bdcf4 45.5%,#8bdcf4 46%,transparent 46.5%)}
+.hero{position:relative;overflow:hidden;background:linear-gradient(rgba(3,24,56,.70),rgba(3,24,56,.70)),url("portada.jpg") center center/cover no-repeat}
 .hero-grid{display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:54px;min-height:660px;padding:74px 0;position:relative;z-index:1}
 .hero-actions{display:flex;gap:13px;margin:30px 0}
-.hero-visual{display:flex;justify-content:center}
-.hero-visual img{width:min(100%,640px);filter:drop-shadow(0 28px 35px rgba(34,38,93,.18))}
-.trust{display:flex;align-items:center;gap:12px;margin-top:20px}
-.trust-dot{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#e7f8fc;color:#008bb8;font-weight:900}
-.trust p{margin:0;font-size:.88rem;color:var(--muted)}
-.trust span{font-weight:600}
 .section-title{text-align:center;margin-bottom:38px}
 .section-title.left{text-align:left;margin-bottom:22px}
 .section-title .lead{margin-inline:auto}
@@ -176,7 +168,6 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   .site-header.open .nav-actions{display:flex;position:absolute;top:335px;left:22px;right:22px;background:linear-gradient(105deg,#071f49 0%,#08295a 52%,#063b70 100%);padding-bottom:18px;margin:0}
   .hero-grid,.feature-row,.about-grid,.contact-grid{grid-template-columns:1fr}
   .hero-grid{min-height:auto;padding:56px 0}
-  .hero-visual{margin-top:14px}
   .grid-4{grid-template-columns:repeat(2,1fr)}
   .pricing-grid{grid-template-columns:1fr;max-width:660px;margin:auto}
   .apps-grid{grid-template-columns:1fr}
@@ -200,48 +191,3 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
 
-/* v1.0.4 - Inicio: reemplazo de imagen de hero y logo de navbar */
-.navbar-brand img{
-  width:205px;
-  height:auto;
-  max-height:62px;
-  object-fit:contain;
-}
-
-.hero{
-  background-color:#031838;
-  background-image:
-    linear-gradient(90deg,rgba(3,24,56,.96) 0%,rgba(3,24,56,.82) 38%,rgba(3,24,56,.30) 68%,rgba(3,24,56,.06) 100%),
-    url('portada.jpg');
-  background-position:center,center;
-  background-size:cover,cover;
-  background-repeat:no-repeat;
-}
-.hero:after{display:none}
-.network-bg:before{display:none}
-.hero-grid{grid-template-columns:1.05fr .95fr}
-.hero-copy{position:relative;z-index:2}
-.hero-copy .eyebrow{
-  background:transparent;
-  border:0;
-  padding:0;
-  color:var(--blue);
-  font-weight:800;
-  font-size:1.08rem;
-  letter-spacing:0;
-  text-transform:none;
-}
-.hero-copy h1{color:#fff}
-.hero-copy h1 strong{color:#fff}
-.hero-copy .lead{color:#fff}
-.hero-visual{min-height:500px}
-
-/* v1.0.5 - Corrección aislada del botón Solicitar Presupuesto del Navbar */
-.navbar .btn {
-  border-radius: 12px;
-}
-
-/* v1.0.6 - Corrección efectiva del botón Solicitar Presupuesto del Navbar */
-.nav-budget-btn{
-  border-radius:11px;
-}
