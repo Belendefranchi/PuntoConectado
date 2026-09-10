@@ -86,3 +86,11 @@ CAMBIO v1.0.7 — HERO (2026-09-09)
 - Botón de servicios sin flecha, azul oscuro y texto blanco regular.
 - Contactanos con texto azul oscuro regular.
 - Eliminado trust y CSS obsoleto del hero.
+
+
+CAMBIO v1.0.8 — HERO (2026-09-10)
+- Eliminada la capa que opacaba toda la imagen del hero.
+- Eyebrow: fondo azul oscuro como navbar, borde fino turquesa (#00B0E6), texto blanco regular.
+- H1 en tres líneas: PUNTO blanco bold; CONECTADO turquesa (#00B0E6) bold; TU PUNTO DE PARTIDA blanco regular.
+- Botón “Conocé nuestros servicios”: fondo turquesa, texto azul oscuro regular.
+- Botón “Contactanos”: fondo transparente, borde fino turquesa, texto blanco regular.
