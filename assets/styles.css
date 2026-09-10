@@ -42,7 +42,6 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .brand-word b{color:var(--blue)}
 .brand-word small{font-size:.46rem;letter-spacing:.22em;margin-top:5px;color:var(--blue);font-weight:900}
 .navbar-brand{flex:0 0 auto}
-.navbar-brand img{width:205px;height:auto;max-height:62px;object-fit:contain}
 .nav-links{display:flex;align-items:center;gap:30px;margin-left:auto;font-size:.87rem;font-weight:400}
 .nav-links a{position:relative;padding:27px 0;color:#fff;font-weight:400}
 .nav-links a.active,.nav-links a:hover{color:#fff}
@@ -54,9 +53,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .btn-outline{border-color:#b9c8db;background:#fff;color:var(--navy)}
 .btn-outline:hover{border-color:var(--blue);color:var(--blue-dark)}
 .btn-ghost{padding-inline:3px}
-.nav-budget-btn{border:1px solid var(--blue);background:transparent;color:#fff;padding:10px 17px;border-radius:11px;box-shadow:none}
 .nav-budget-btn span{font-size:1rem;line-height:1}
-.nav-budget-btn:hover{background:var(--blue);color:#fff;box-shadow:0 8px 22px rgba(0,176,230,.24)}
 .menu-btn{color:#fff}
 .menu-btn{display:none;margin-left:auto;border:0;background:none;padding:8px;color:var(--navy)}
 .menu-btn span{display:block;width:25px;height:2px;background:currentColor;margin:5px 0;border-radius:2px}
@@ -158,6 +155,61 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .toast.show{transform:none;opacity:1}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
 .reveal.visible{opacity:1;transform:none}
+
+/* v1.0.9 - Navbar */
+.navbar-brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-decoration:none;
+}
+
+.navbar-brand-logo{
+  width:48px;
+  height:48px;
+  object-fit:contain;
+  flex:0 0 auto;
+}
+
+.navbar-brand-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  line-height:1;
+}
+
+.navbar-brand-name{
+  color:#fff;
+  font-size:1.02rem;
+  font-weight:800;
+  letter-spacing:.015em;
+}
+
+.navbar-brand-slogan{
+  margin-top:4px;
+  color:var(--cyan);
+  font-size:.64rem;
+  font-weight:400;
+  letter-spacing:.08em;
+}
+
+.nav-budget-btn{
+  border:1px solid var(--cyan);
+  background:var(--cyan);
+  color:var(--navy);
+  padding:10px 17px;
+  border-radius:11px;
+  box-shadow:none;
+  font-weight:400;
+}
+
+.nav-budget-btn:hover{
+  background:var(--cyan);
+  border-color:var(--cyan);
+  color:var(--navy);
+  filter:brightness(.97);
+  transform:translateY(-1px);
+}
 
 /* v1.0.8 - Hero */
 .hero{
