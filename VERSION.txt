@@ -1,5 +1,12 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.12 - 2026-09-10
+- Corregido únicamente el degradado de fondo del Navbar.
+- Conservados exactamente los colores de la versión 1.0.9: #071f49, #08295a y #063b70.
+- Invertida la dirección del degradado de 105deg a 285deg.
+- Se mantienen sin cambios las demás modificaciones de la versión 1.0.11.
+Commit: v1.0.12 - Corregir degradado del navbar conservando los colores de v1.0.9 e invirtiendo su dirección
+
 1.0.11 - 2026-09-10
 - Modificado únicamente el bloque Navbar.
 - Fondo con degradado de izquierda más claro a derecha más oscuro.
@@ -88,4 +95,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.11
+Versión actual: 1.0.12

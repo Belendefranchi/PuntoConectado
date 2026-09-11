@@ -34,7 +34,7 @@ h2{font-size:clamp(2rem,3vw,3rem);line-height:1.08;letter-spacing:-.04em;margin-
 h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .lead{font-size:1.04rem;line-height:1.7;color:var(--muted);max-width:700px}
 .muted{color:var(--muted)}
-.site-header{position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(0,176,230,.22);box-shadow:0 8px 24px rgba(4,20,54,.18);background:linear-gradient(90deg,#33407f 0%,#22265D 55%,#141934 100%)}
+.site-header{position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(0,176,230,.22);box-shadow:0 8px 24px rgba(4,20,54,.18);background:linear-gradient(285deg,#071f49 0%,#08295a 52%,#063b70 100%);}
 .nav{height:74px;display:flex;align-items:center;gap:30px}
 .brand{display:flex;align-items:center;gap:10px;color:var(--navy);font-weight:900;letter-spacing:.01em;white-space:nowrap}
 .brand img{width:48px;height:48px;object-fit:contain}
