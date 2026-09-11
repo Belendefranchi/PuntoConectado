@@ -1,8 +1,6 @@
 PUNTO CONECTADO - PROMPT BASE DEL PROYECTO
 
 VERSIONADO
-Versión actual: 1.0.6
-Versión inicial de referencia: 1.0.0
 Fecha de la versión inicial: 2026-09-01
 
 REGLA DE VERSIONADO
@@ -79,32 +77,15 @@ HISTORIAL DE VERSIONES
 - Se incorporó la documentación de versionado y reglas de trabajo.
 - Esta primera documentación se considera parte de la versión inicial y no incrementa la versión.
 
+REGLAS DE VERSIONADO Y DOCUMENTACIÓN
+- VERSION.txt debe conservar el historial acumulativo completo.
+- Cada nueva versión debe agregarse al inicio del historial con fecha, detalle de cambios y el mensaje de commit correspondiente.
+- El mensaje de commit debe incluir siempre el número de versión.
+- PROMPT_BASE.txt no debe incluir el detalle ni el historial de cambios de cada versión.
+- PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
+- Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-CAMBIO v1.0.7 — HERO (2026-09-09)
-- Eyebrow redondeado, borde azul/turquesa y texto blanco regular.
-- PUNTO blanco bold, CONECTADO turquesa bold y TU PUNTO DE PARTIDA blanco regular, más pequeño y en una línea.
-- Botón de servicios sin flecha, azul oscuro y texto blanco regular.
-- Contactanos con texto azul oscuro regular.
-- Eliminado trust y CSS obsoleto del hero.
-
-
-CAMBIO v1.0.8 — HERO (2026-09-10)
-- Eliminada la capa que opacaba toda la imagen del hero.
-- Eyebrow: fondo azul oscuro como navbar, borde fino turquesa (#00B0E6), texto blanco regular.
-- H1 en tres líneas: PUNTO blanco bold; CONECTADO turquesa (#00B0E6) bold; TU PUNTO DE PARTIDA blanco regular.
-- Botón “Conocé nuestros servicios”: fondo turquesa, texto azul oscuro regular.
-- Botón “Contactanos”: fondo transparente, borde fino turquesa, texto blanco regular.
-
-
-CAMBIO v1.0.9 — NAVBAR (2026-09-10)
-- Logo del navbar cambiado de logo-punto-conectado-navbar.png a logo-punto-conectado.png.
-- El símbolo del logo se ajusta para mantener visualmente un tamaño equivalente al anterior.
-- PUNTO CONECTADO y TU PUNTO DE PARTIDA pasan a ser texto HTML editable, conservando tipografía, tamaño y disposición visual del logo con slogan.
-- Botón “Solicitar Presupuesto”: eliminado el check, fondo turquesa (#00B0E6), texto azul oscuro regular.
-
-
-REGLA DE VERSION.txt
-- VERSION.txt debe conservar SIEMPRE el historial acumulativo completo de versiones.
-- Cada nueva versión debe agregarse al inicio del historial, con fecha y detalle de los cambios realizados.
-- Nunca reemplazar VERSION.txt únicamente por el número y la fecha de la versión actual.
-- La línea “Versión actual” debe reflejar la última versión entregada.
+Versión actual: 1.0.11
+Fecha versión actual: 2026-09-10
+Versión inicial de referencia: 1.0.0
+Fecha versión inicial de referencia: 2026-09-01

@@ -1,11 +1,20 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.11 - 2026-09-10
+- Modificado únicamente el bloque Navbar.
+- Fondo con degradado de izquierda más claro a derecha más oscuro.
+- navbar-brand-name y navbar-brand-slogan con el mismo tamaño de fuente, en un valor intermedio respecto de los tamaños anteriores y sin negrita.
+- Botón “Solicitar Presupuesto” con tamaño de fuente igual al de nav-links.
+- No se modificaron los demás bloques.
+Commit: v1.0.11 - Ajustar navbar: degradado, textos de marca y tamaño del botón Solicitar Presupuesto
+
 1.0.10 - 2026-09-10
 - Restaurado el historial acumulativo de cambios en VERSION.txt.
 - Recuperadas las entradas históricas de las versiones anteriores.
 - Agregados los cambios correspondientes a las versiones 1.0.7, 1.0.8 y 1.0.9.
 - Se establece que VERSION.txt debe conservar el historial completo y no sobrescribirse con solo el número de versión actual.
 - No se modificó ningún bloque visual o funcional del sitio.
+Commit: v1.0.10 - Restaurar historial completo de versiones en VERSION.txt
 
 1.0.9 - 2026-09-10
 - Modificado únicamente el bloque Navbar.
@@ -15,6 +24,7 @@ PUNTO CONECTADO - HISTORIAL DE VERSIONES
 - Eliminado el check del botón “Solicitar Presupuesto”.
 - Botón “Solicitar Presupuesto” con fondo turquesa, texto azul oscuro y tipografía sin negrita.
 - No se modificaron los demás bloques.
+Commit: v1.0.9 - Modificar navbar: reemplazar logo, convertir marca y slogan a texto editable y actualizar botón Solicitar Presupuesto
 
 1.0.8 - 2026-09-10
 - Modificado únicamente el bloque Hero.
@@ -24,6 +34,7 @@ PUNTO CONECTADO - HISTORIAL DE VERSIONES
 - Botón “Conocé nuestros servicios” con fondo turquesa, texto azul oscuro y sin negrita.
 - Botón “Contactanos” con fondo transparente, borde fino turquesa y texto blanco sin negrita.
 - No se modificaron los demás bloques.
+Commit: v1.0.8 - Modificar hero: eliminar overlay, ajustar eyebrow, título en tres líneas y estilos de botones
 
 1.0.7 - 2026-09-09
 - Modificado únicamente el bloque Hero.
@@ -34,6 +45,7 @@ PUNTO CONECTADO - HISTORIAL DE VERSIONES
 - Botón “Contactanos” con texto azul oscuro sin negrita.
 - Eliminado el bloque trust del Hero.
 - Eliminadas referencias HTML/CSS obsoletas asociadas al Hero.
+Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar trust
 
 1.0.6 - 2026-09-07
 - Corregido el selector del botón “Solicitar Presupuesto” del Navbar.
@@ -76,4 +88,4 @@ PUNTO CONECTADO - HISTORIAL DE VERSIONES
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.10
+Versión actual: 1.0.11
