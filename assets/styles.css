@@ -1,3 +1,24 @@
+@font-face{
+  font-family:"Montserrat";
+  src:url("fonts/Montserrat-Regular.woff2") format("woff2");
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Montserrat";
+  src:url("fonts/Montserrat-Bold.woff2") format("woff2");
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Montserrat";
+  src:url("fonts/Montserrat-Black.woff2") format("woff2");
+  font-style:normal;
+  font-weight:900;
+  font-display:swap;
+}
 :root{
   --navy:#22265D;
   --navy-2:#10143a;
@@ -35,7 +56,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .lead{font-size:1.04rem;line-height:1.7;color:var(--muted);max-width:700px}
 .muted{color:var(--muted)}
 .site-header{position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(0,176,230,.22);box-shadow:0 8px 24px rgba(4,20,54,.18);background:linear-gradient(285deg,#071f49 0%,#08295a 52%,#08447c 100%);}
-.nav{height:74px;display:flex;align-items:center;gap:30px}
+.nav{height:74px;display:flex;align-items:center;gap:30px;font-family:"Montserrat",sans-serif}
 .brand{display:flex;align-items:center;gap:10px;color:var(--navy);font-weight:900;letter-spacing:.01em;white-space:nowrap}
 .brand img{width:48px;height:48px;object-fit:contain}
 .brand-word{display:flex;flex-direction:column;font-size:1.15rem;line-height:.95}
@@ -176,7 +197,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 
 .navbar-brand-name{color:#fff;font-size:.82rem;font-weight:700;letter-spacing:.04em}
 
-.navbar-brand-slogan{margin-top:3px;color:var(--cyan);font-size:.82rem;font-weight:700;letter-spacing:.04em}
+.navbar-brand-slogan{margin-top:3px;color:var(--cyan);font-size:.82rem;font-weight:400;letter-spacing:.04em}
 
 .nav-budget-btn{border:1px solid var(--cyan);
   background:var(--cyan);
@@ -195,6 +216,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 
 /* v1.0.8 - Hero */
 .hero{
+  font-family:"Montserrat",sans-serif;
   position:relative;
   overflow:hidden;
   background:url("portada.jpg") center center/cover no-repeat;
@@ -242,14 +264,14 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .hero-title-point{
   color:#fff;
   font-weight:900;
-  font-size:clamp(3.2rem,7vw,6.2rem);
+  font-size:clamp(1.7825rem,3.45vw,3.0475rem);
   letter-spacing:-.045em;
 }
 
 .hero-title-connected{
   color:var(--cyan);
   font-weight:900;
-  font-size:clamp(3.2rem,7vw,6.2rem);
+  font-size:clamp(1.7825rem,3.45vw,3.0475rem);
   letter-spacing:-.045em;
 }
 

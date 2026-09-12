@@ -1,5 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.14 - 2026-09-12
+- Incorporada Montserrat oficial en archivos WOFF2 locales, con pesos Regular (400), Bold (700) y Black (900), y licencia SIL OFL incluida.
+- Aplicada Montserrat a todo el texto del Navbar y del Hero.
+- Nombre de marca y botón Solicitar Presupuesto del Navbar conservados en Bold; slogan cambiado a Regular.
+- Reducido el tamaño de PUNTO y CONECTADO en el H1 del Hero a un 15 % más que TU PUNTO DE PARTIDA, manteniendo las tres líneas y la adaptación responsive.
+- Registradas las definiciones tipográficas permanentes en PROMPT_BASE.txt.
+Commit: v1.0.14 - Incorporar Montserrat local en navbar y hero y ajustar títulos
+
 1.0.13 - 2026-09-12
 - Aclarado mínimamente el extremo claro del degradado del Navbar de #063b70 a #08447c, conservando los otros colores y la dirección de 285deg.
 - Unificado el degradado de los paneles del menú móvil con el encabezado.
@@ -106,4 +114,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.13
+Versión actual: 1.0.14
