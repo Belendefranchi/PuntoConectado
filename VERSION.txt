@@ -1,5 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.15 - 2026-09-12
+- Restaurada la familia tipográfica general en el Navbar y el Hero, conservando Montserrat local únicamente en el nombre y slogan del Navbar.
+- Aumentado el nombre del Navbar de .82rem a .909rem para igualar visualmente el ancho del slogan, conservado en .82rem.
+- Reducido el padding superior del Hero de 74px a 32px en escritorio y de 56px a 28px en tablet y móvil para desplazar el contenido hacia arriba.
+- Conservados los tamaños del título y slogan del Hero y el padding inferior.
+- Eliminados el archivo Montserrat-Black.woff2 y su declaración @font-face, que quedaron sin uso.
+- Actualizadas las definiciones tipográficas permanentes y la documentación de fuentes.
+Commit: v1.0.15 - Ajustar tipografía del navbar y hero, alinear marca y subir contenido
+
 1.0.14 - 2026-09-12
 - Incorporada Montserrat oficial en archivos WOFF2 locales, con pesos Regular (400), Bold (700) y Black (900), y licencia SIL OFL incluida.
 - Aplicada Montserrat a todo el texto del Navbar y del Hero.
@@ -114,4 +123,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.14
+Versión actual: 1.0.15

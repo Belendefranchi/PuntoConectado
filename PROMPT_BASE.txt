@@ -31,7 +31,8 @@ REFERENCIA VISUAL
 - Los recursos gráficos propios deben mantenerse dentro del proyecto.
 
 TIPOGRAFÍA DEL NAVBAR Y HERO
-- Utilizar Montserrat oficial en todo el texto del Navbar y del Hero, alojada localmente en assets/fonts/ mediante @font-face, con su licencia incluida.
+- Utilizar Montserrat oficial únicamente en el nombre y slogan del Navbar, alojada localmente en assets/fonts/ mediante @font-face, con su licencia incluida. El resto del Navbar y todo el Hero heredan la familia tipográfica general del sitio.
+- El nombre del Navbar debe tener un tamaño de fuente mayor que el slogan para igualar visualmente sus anchos, con ambos textos alineados a la izquierda.
 - En el Navbar, nombre de marca y botón Solicitar Presupuesto en Bold (700); slogan y enlaces de navegación en Regular (400).
 - En el Hero, conservar el título en tres líneas; PUNTO y CONECTADO en Black (900), con tamaño de fuente un 15 % mayor que TU PUNTO DE PARTIDA, en Regular (400).
 
@@ -43,7 +44,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.14
+Versión actual: 1.0.15
 Fecha versión actual: 2026-09-12
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
