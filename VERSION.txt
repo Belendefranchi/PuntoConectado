@@ -1,5 +1,16 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.13 - 2026-09-12
+- Aclarado mínimamente el extremo claro del degradado del Navbar de #063b70 a #08447c, conservando los otros colores y la dirección de 285deg.
+- Unificado el degradado de los paneles del menú móvil con el encabezado.
+- Nombre, slogan y botón Solicitar Presupuesto del Navbar con fuente bold.
+- Consolidadas las reglas CSS duplicadas de navbar-brand, menu-btn, hero-grid y hero-actions, y eliminada la referencia residual nav-budget-btn span.
+- Eliminado el historial antiguo de PROMPT_BASE.txt y actualizadas la versión y fecha actuales.
+- Actualizadas las reglas de AGENTS.md para permitir actualizar la versión y fecha en PROMPT_BASE.txt.
+- AGENTS.md se incorporará al seguimiento de Git con esta versión.
+- Conservadas sin cambios las entradas históricas, incluidas las anteriores a v1.0.7 sin mensaje de commit.
+Commit: v1.0.13 - Ajustar navbar, limpiar CSS y actualizar reglas de documentación
+
 1.0.12 - 2026-09-10
 - Corregido únicamente el degradado de fondo del Navbar.
 - Conservados exactamente los colores de la versión 1.0.9: #071f49, #08295a y #063b70.
@@ -95,4 +106,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.12
+Versión actual: 1.0.13

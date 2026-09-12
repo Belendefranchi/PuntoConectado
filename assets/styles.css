@@ -34,14 +34,13 @@ h2{font-size:clamp(2rem,3vw,3rem);line-height:1.08;letter-spacing:-.04em;margin-
 h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .lead{font-size:1.04rem;line-height:1.7;color:var(--muted);max-width:700px}
 .muted{color:var(--muted)}
-.site-header{position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(0,176,230,.22);box-shadow:0 8px 24px rgba(4,20,54,.18);background:linear-gradient(285deg,#071f49 0%,#08295a 52%,#063b70 100%);}
+.site-header{position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(0,176,230,.22);box-shadow:0 8px 24px rgba(4,20,54,.18);background:linear-gradient(285deg,#071f49 0%,#08295a 52%,#08447c 100%);}
 .nav{height:74px;display:flex;align-items:center;gap:30px}
 .brand{display:flex;align-items:center;gap:10px;color:var(--navy);font-weight:900;letter-spacing:.01em;white-space:nowrap}
 .brand img{width:48px;height:48px;object-fit:contain}
 .brand-word{display:flex;flex-direction:column;font-size:1.15rem;line-height:.95}
 .brand-word b{color:var(--blue)}
 .brand-word small{font-size:.46rem;letter-spacing:.22em;margin-top:5px;color:var(--blue);font-weight:900}
-.navbar-brand{flex:0 0 auto}
 .nav-links{display:flex;align-items:center;gap:30px;margin-left:auto;font-size:.87rem;font-weight:400}
 .nav-links a{position:relative;padding:27px 0;color:#fff;font-weight:400}
 .nav-links a.active,.nav-links a:hover{color:#fff}
@@ -53,12 +52,8 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .btn-outline{border-color:#b9c8db;background:#fff;color:var(--navy)}
 .btn-outline:hover{border-color:var(--blue);color:var(--blue-dark)}
 .btn-ghost{padding-inline:3px}
-.nav-budget-btn span{font-size:1rem;line-height:1}
-.menu-btn{color:#fff}
 .menu-btn{display:none;margin-left:auto;border:0;background:none;padding:8px;color:var(--navy)}
 .menu-btn span{display:block;width:25px;height:2px;background:currentColor;margin:5px 0;border-radius:2px}
-.hero-grid{display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:54px;min-height:660px;padding:74px 0;position:relative;z-index:1}
-.hero-actions{display:flex;gap:13px;margin:30px 0}
 .section-title{text-align:center;margin-bottom:38px}
 .section-title.left{text-align:left;margin-bottom:22px}
 .section-title .lead{margin-inline:auto}
@@ -158,6 +153,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 
 /* v1.0.9 - Navbar */
 .navbar-brand{
+  flex:0 0 auto;
   display:flex;
   align-items:center;
   gap:12px;
@@ -178,16 +174,16 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   line-height:1;
 }
 
-.navbar-brand-name{color:#fff;font-size:.82rem;font-weight:400;letter-spacing:.04em}
+.navbar-brand-name{color:#fff;font-size:.82rem;font-weight:700;letter-spacing:.04em}
 
-.navbar-brand-slogan{margin-top:3px;color:var(--cyan);font-size:.82rem;font-weight:400;letter-spacing:.04em}
+.navbar-brand-slogan{margin-top:3px;color:var(--cyan);font-size:.82rem;font-weight:700;letter-spacing:.04em}
 
 .nav-budget-btn{border:1px solid var(--cyan);
   background:var(--cyan);
   color:var(--navy);
   padding:10px 17px;
   border-radius:11px;
-  box-shadow:none;font-size:.87rem;font-weight:400}
+  box-shadow:none;font-size:.87rem;font-weight:700}
 
 .nav-budget-btn:hover{
   background:var(--cyan);
@@ -311,10 +307,10 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 @media(max-width:1000px){
   .nav-links,.nav-actions{display:none}
   .menu-btn{display:block}
-  .site-header.open .nav-links{display:flex;position:absolute;left:0;right:0;top:74px;background:linear-gradient(105deg,#071f49 0%,#08295a 52%,#063b70 100%);flex-direction:column;gap:0;padding:10px 22px 18px;border-bottom:1px solid var(--line);box-shadow:0 15px 30px rgba(0,0,0,.08)}
+  .site-header.open .nav-links{display:flex;position:absolute;left:0;right:0;top:74px;background:linear-gradient(285deg,#071f49 0%,#08295a 52%,#08447c 100%);flex-direction:column;gap:0;padding:10px 22px 18px;border-bottom:1px solid var(--line);box-shadow:0 15px 30px rgba(0,0,0,.08)}
   .site-header.open .nav-links a{padding:13px 0;width:100%;color:#fff}
   .site-header.open .nav-links a.active:after{display:none}
-  .site-header.open .nav-actions{display:flex;position:absolute;top:335px;left:22px;right:22px;background:linear-gradient(105deg,#071f49 0%,#08295a 52%,#063b70 100%);padding-bottom:18px;margin:0}
+  .site-header.open .nav-actions{display:flex;position:absolute;top:335px;left:22px;right:22px;background:linear-gradient(285deg,#071f49 0%,#08295a 52%,#08447c 100%);padding-bottom:18px;margin:0}
   .hero-grid,.feature-row,.about-grid,.contact-grid{grid-template-columns:1fr}
   .hero-grid{min-height:auto;padding:56px 0}
   .grid-4{grid-template-columns:repeat(2,1fr)}
@@ -339,4 +335,3 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   html{scroll-behavior:auto}
   *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
-

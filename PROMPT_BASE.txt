@@ -30,53 +30,6 @@ REFERENCIA VISUAL
 - Las referencias visuales no implican copiar literalmente imágenes o recursos de terceros.
 - Los recursos gráficos propios deben mantenerse dentro del proyecto.
 
-HISTORIAL DE VERSIONES
-1.0.6 - 2026-09-07
-- Corregido el selector del botón “Solicitar Presupuesto” del Navbar.
-- Se aplicó el mismo radio de borde de 11 px utilizado por los botones generales de la página.
-- Se corrigió la regla de v1.0.5, que no afectaba al botón debido a que el selector no coincidía con la estructura HTML real.
-- No se modificó ningún otro bloque.
-
-1.0.5 - 2026-09-07
-- Corregido únicamente el botón “Solicitar Presupuesto” del Navbar.
-- Se redujo el redondeo para que tenga bordes redondeados de forma cuadrada, coherentes con los demás botones de la página.
-- No se modificaron los demás bloques.
-
-1.0.4 - 2026-09-04
-- Reemplazo del logo personalizado del Navbar.
-- Reemplazo del fondo del Hero por portada.jpg.
-- Ajuste de proporciones y recorte vertical del Hero sin deformación.
-- Resto de bloques preservados.
-
-
-1.0.3 - 2026-09-03
-- Modificado únicamente el bloque Inicio.
-- Incorporado fondo tecnológico propio con planeta Tierra y nodos interconectados.
-- Eyebrow: “Servidores · Redes · Soporte”, en azul.
-- H1: “PUNTO CONECTADO / TU PUNTO DE PARTIDA”, en blanco.
-- Texto descriptivo del hero en blanco.
-- Botones del hero conservados sin cambios.
-- Navbar, Servicios, Planes a medida, Sobre nosotros, Contacto y Footer sin modificaciones.
-
-1.0.2 - 2026-09-03
-- Corrección aislada del Footer afectado por los cambios visuales del Navbar.
-- Restaurado el tamaño correcto del logo del Footer.
-- Restaurada la composición, color y posición del slogan del Footer.
-- No se modificaron los demás bloques.
-
-1.0.1 - 2026-09-02
-- Modificado únicamente el bloque Navbar.
-- Fondo con degradado azul oscuro.
-- Logo del navbar adaptado al archivo de referencia adjunto.
-- Navegación en blanco y sin negrita.
-- Botón cambiado a “Solicitar Presupuesto” con ícono de palomita.
-- Resto de los bloques sin modificaciones.
-
-1.0.0 - 2026-09-01
-- Versión inicial de referencia del sitio.
-- Se incorporó la documentación de versionado y reglas de trabajo.
-- Esta primera documentación se considera parte de la versión inicial y no incrementa la versión.
-
 REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - VERSION.txt debe conservar el historial acumulativo completo.
 - Cada nueva versión debe agregarse al inicio del historial con fecha, detalle de cambios y el mensaje de commit correspondiente.
@@ -85,7 +38,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.12
-Fecha versión actual: 2026-09-10
+Versión actual: 1.0.13
+Fecha versión actual: 2026-09-12
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
