@@ -1,5 +1,15 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.18 - 2026-09-13
+- Aplicados desde la referencia juan los estilos de enlaces y botón del Navbar, fondo y colores solicitados del Hero y sus botones.
+- Corregida la regla específica de TU PUNTO DE PARTIDA en el Hero para mostrar el azul violáceo #24265D, al igual que PUNTO.
+- Incorporada Manrope para los textos de Servicios, Planes, Sobre nosotros y Contacto; eliminados sus eyebrows.
+- Adaptados los botones Mensual y Preparar mensaje, los SVG de contacto y el indicador SVG de privacidad.
+- Copiado el Footer completo con sus estilos responsive y recurso de marca.
+- Copiado íntegramente el bloque de aplicaciones desde juan, incluidos logos, tarjetas, degradado y botones.
+- Copiados los checks circulares de las listas de planes y aplicaciones con el CSS original de juan.
+Commit: v1.0.18 - Aplicar estilos y footer de la referencia juan
+
 1.0.17 - 2026-09-12
 - Aplicado a la página principal de PUNTO CONECTADO el esquema cromático de FitnessPoint.
 - Actualizados el azul violáceo principal a #24265D y el celeste de acento a #51AEE5, junto con tonos, transparencias, degradados, bordes y sombras relacionados.
@@ -139,4 +149,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.17
+Versión actual: 1.0.18
