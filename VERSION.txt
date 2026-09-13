@@ -1,5 +1,12 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.19 - 2026-09-13
+- Reemplazada la composición de marca del Navbar por la imagen completa logo-punto-conectado-navbar.png, con ancho de 240px adaptable al móvil.
+- Reemplazado el bloque de marca del Footer por logo-punto-conectado-footer2.png, con ancho máximo de 280px.
+- Conservadas las proporciones de ambas imágenes, el enlace a Inicio y los textos alternativos accesibles.
+- Eliminadas las reglas específicas de las composiciones de texto reemplazadas y actualizadas las definiciones permanentes de marca.
+Commit: v1.0.19 - Reemplazar las marcas del navbar y footer por logos completos
+
 1.0.18 - 2026-09-13
 - Aplicados desde la referencia juan los estilos de enlaces y botón del Navbar, fondo y colores solicitados del Hero y sus botones.
 - Corregida la regla específica de TU PUNTO DE PARTIDA en el Hero para mostrar el azul violáceo #24265D, al igual que PUNTO.
@@ -149,4 +156,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.18
+Versión actual: 1.0.19

@@ -164,10 +164,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .site-footer{background:var(--navy-2);color:#fff;margin-top:0;font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:400;letter-spacing:-.012em;line-height:1.5}
 .site-footer .footer-top.footer-two-column{display:flex;align-items:center;gap:0;padding:25px 0}
 .site-footer .footer-brand-block{flex:0 0 clamp(300px,34%,380px);min-width:0;padding-right:clamp(28px,3.4vw,48px);align-self:stretch;display:flex;flex-direction:column;justify-content:center}
-.site-footer .footer-brand-link{display:flex;align-items:center;gap:9px;color:#fff;white-space:nowrap;font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-size:1.22rem;font-weight:800;letter-spacing:.012em}
-.site-footer .footer-brand-link img{width:42px;height:42px;object-fit:contain}
-.site-footer .footer-brand-link span:last-child{color:var(--sky)}
-.site-footer .footer-brand-copy{margin:-8px 0 0 51px;color:rgba(255,255,255,.72);font-size:.76rem;line-height:1.55;font-weight:400}
+.site-footer .footer-brand-block img{width:280px;max-width:100%;height:auto;object-fit:contain}
 .site-footer .footer-contact-block{flex:1 1 auto;min-width:0;align-self:stretch;display:flex;flex-direction:column;justify-content:center;border-left:1px solid rgba(255,255,255,.16);padding-left:clamp(28px,3.4vw,48px)}
 .site-footer .footer-contact-inner{width:max-content;max-width:100%;margin-left:auto}
 .site-footer .footer-contact-grid{display:flex;align-items:center;justify-content:flex-end;gap:clamp(16px,1.8vw,26px);flex-wrap:nowrap;width:max-content;max-width:100%}
@@ -194,28 +191,16 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   flex:0 0 auto;
   display:flex;
   align-items:center;
-  gap:12px;
   text-decoration:none;
 }
 
 .navbar-brand-logo{
-  width:48px;
-  height:48px;
+  width:240px;
+  max-width:calc(100vw - 90px);
+  height:auto;
   object-fit:contain;
   flex:0 0 auto;
 }
-
-.navbar-brand-text{
-  font-family:"Montserrat",sans-serif;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  line-height:1;
-}
-
-.navbar-brand-name{color:var(--navy);font-size:.909rem;font-weight:700;letter-spacing:.04em}
-
-.navbar-brand-slogan{margin-top:3px;color:var(--cyan);font-size:.82rem;font-weight:400;letter-spacing:.04em}
 
 .nav-budget-btn{border:1px solid var(--navy);
   background:var(--navy);

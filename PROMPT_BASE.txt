@@ -31,9 +31,10 @@ REFERENCIA VISUAL
 - Los recursos gráficos propios deben mantenerse dentro del proyecto.
 
 TIPOGRAFÍA DEL NAVBAR Y HERO
-- Utilizar Montserrat oficial en el nombre y slogan del Navbar y en las palabras PUNTO y CONECTADO del título del Hero, alojada localmente en assets/fonts/ mediante @font-face, con su licencia incluida. El resto del Navbar y del Hero hereda la familia tipográfica general del sitio.
-- El nombre del Navbar debe tener un tamaño de fuente mayor que el slogan para igualar visualmente sus anchos, con ambos textos alineados a la izquierda.
-- En el Navbar, nombre de marca en Bold (700); slogan y enlaces de navegación en Regular (400); botón Solicitar Presupuesto en Manrope Semibold (600).
+- Utilizar Montserrat oficial en las palabras PUNTO y CONECTADO del título del Hero, alojada localmente en assets/fonts/ mediante @font-face, con su licencia incluida.
+- La marca completa del Navbar se presenta mediante assets/logo-punto-conectado-navbar.png, con ancho de 240px adaptable al móvil y altura proporcional.
+- La marca completa del Footer se presenta mediante assets/logo-punto-conectado-footer2.png, con ancho máximo de 280px y altura proporcional. Ambos logos enlazan a Inicio e incluyen el nombre y slogan dentro de la imagen.
+- En el Navbar, enlaces de navegación en Regular (400); botón Solicitar Presupuesto en Manrope Semibold (600).
 - Los enlaces del Navbar, el lead y botones del Hero, los textos de Servicios, Planes, Sobre nosotros, Contacto y el Footer utilizan Manrope cargada desde Google Fonts.
 - El Hero tiene fondo blanco; PUNTO y TU PUNTO DE PARTIDA en azul violáceo y CONECTADO en celeste.
 - En el Hero, conservar el título en tres líneas; PUNTO y CONECTADO en Black (900), con tamaño de fuente un 15 % mayor que TU PUNTO DE PARTIDA, en Regular (400).
@@ -46,7 +47,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.18
+Versión actual: 1.0.19
 Fecha versión actual: 2026-09-13
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
