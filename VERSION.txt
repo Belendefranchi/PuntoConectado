@@ -1,5 +1,11 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.20 - 2026-09-13
+- Reemplazados los seis símbolos de la lista principal de Servicios por SVG: engranaje, servidor vertical, red de nodos en árbol, monitor con torre, base de datos y monitor con auriculares.
+- Unificados los íconos con el estilo de Contacto: contorno celeste, tamaño de 28px, trazo de 1.65 y terminaciones redondeadas.
+- Conservados los recuadros de 52px, textos y distribución de la lista; los íconos decorativos se ocultan de los lectores de pantalla.
+Commit: v1.0.20 - Incorporar íconos SVG en la lista de servicios
+
 1.0.19 - 2026-09-13
 - Reemplazada la composición de marca del Navbar por la imagen completa logo-punto-conectado-navbar.png, con ancho de 240px adaptable al móvil.
 - Reemplazado el bloque de marca del Footer por logo-punto-conectado-footer2.png, con ancho máximo de 280px.
@@ -156,4 +162,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.19
+Versión actual: 1.0.20
