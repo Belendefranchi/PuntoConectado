@@ -16,13 +16,16 @@ if(menuBtn&&header){
 }
 
 const sections=[...document.querySelectorAll('main section[id]')];
-const observerNav=new IntersectionObserver(entries=>{
-  entries.forEach(entry=>{
-    if(!entry.isIntersecting)return;
-    navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));
-  });
-},{rootMargin:'-35% 0px -55% 0px',threshold:0});
-sections.forEach(s=>observerNav.observe(s));
+const sectionNavLinks=[...navLinks].filter(link=>link.getAttribute('href')?.startsWith('#'));
+if(sectionNavLinks.length&&'IntersectionObserver' in window){
+  const observerNav=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(!entry.isIntersecting)return;
+      sectionNavLinks.forEach(link=>link.classList.toggle('active',link.getAttribute('href')==='#'+entry.target.id));
+    });
+  },{rootMargin:'-35% 0px -55% 0px',threshold:0});
+  sections.forEach(section=>observerNav.observe(section));
+}
 
 const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const revealItems=document.querySelectorAll('.card,.price-card,.app-card,.feature-row,.about-grid,.contact-panel,.form-card');

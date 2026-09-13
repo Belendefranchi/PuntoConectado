@@ -25,6 +25,10 @@ BASE DE TRABAJO
 - La memoria conserva decisiones generales, pero no sustituye los archivos del proyecto.
 - Para continuar el trabajo con precisión, utilizar preferentemente el ZIP de la última versión.
 
+ESTRUCTURA DE NAVEGACIÓN
+- La página de inicio contiene únicamente el Hero como contenido principal.
+- Servicios, Planes a medida, Sobre nosotros y Contacto se mantienen en páginas HTML individuales enlazadas desde el Navbar y el Footer.
+
 REFERENCIA VISUAL
 - La segunda imagen de referencia generada durante el diseño sirve como guía visual para aproximar el sitio a ese estilo.
 - Las referencias visuales no implican copiar literalmente imágenes o recursos de terceros.
@@ -44,7 +48,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.17
+Versión actual: 1.0.18
 Fecha versión actual: 2026-09-12
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
