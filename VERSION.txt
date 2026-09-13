@@ -1,5 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.17 - 2026-09-12
+- Aplicado a la página principal de PUNTO CONECTADO el esquema cromático de FitnessPoint.
+- Actualizados el azul violáceo principal a #24265D y el celeste de acento a #51AEE5, junto con tonos, transparencias, degradados, bordes y sombras relacionados.
+- Unificados con la nueva paleta los estados interactivos, tarjetas, íconos, formularios, Navbar, bloques destacados y Footer; actualizada también la identidad cromática permanente en AGENTS.md.
+- Cambiado el fondo del Navbar a blanco y adaptados los textos, estados y paneles del menú móvil para conservar contraste y coherencia visual.
+- Retirada la imagen de fondo del Hero y reemplazada por un fondo sólido con el azul violáceo principal de FitnessPoint.
+- Conservadas sin cambios la estructura, el contenido y la carpeta fitnesspoint.
+Commit: v1.0.17 - Aplicar la paleta de FitnessPoint a Punto Conectado
+
 1.0.16 - 2026-09-12
 - Recuperada Montserrat Black para las palabras PUNTO y CONECTADO del título del Hero, reproduciendo el estilo más ancho y robusto de la versión anterior.
 - Reducido el ancho máximo del lead del Hero de 620px a 520px para distribuir el texto en tres líneas en escritorio.
@@ -130,4 +139,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.16
+Versión actual: 1.0.17

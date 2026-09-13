@@ -42,8 +42,8 @@ Identidad principal:
 
 * Nombre: PUNTO CONECTADO
 * Slogan: TU PUNTO DE PARTIDA
-* Color principal: `#22265D`
-* Color secundario: `#00B0E6`
+* Color principal: `#24265D`
+* Color secundario: `#51AEE5`
 
 No modificar colores, tipografías, espaciados, tamaños, imágenes, estructura o comportamiento de componentes que estén fuera del alcance de la tarea.
 

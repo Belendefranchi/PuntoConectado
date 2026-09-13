@@ -1,0 +1,18 @@
+/* FitnessPoint v5.151 · progressive enhancement sin JavaScript */
+.faq p{display:block;}
+.faq button{cursor:default;}
+.faq button span{display:none;}
+@media (max-width:1000px){
+  .site-header .nav{height:auto;padding:12px 0 18px;flex-wrap:wrap;align-content:center;}
+  .site-header .menu-btn{display:none;}
+  .site-header .nav-links{position:static;display:flex;order:3;width:100%;flex-direction:column;gap:0;padding:10px 0 4px;border-top:1px solid var(--line);border-bottom:0;box-shadow:none;background:#fff;}
+  .site-header .nav-links a{padding:9px 2px;width:100%;}
+  .site-header .nav-links a.active:after{display:none;}
+  .site-header .nav-actions{position:static;display:flex;order:4;width:100%;padding:8px 0 0;margin:0;background:#fff;}
+  .site-header .nav-actions .btn{flex:1;}
+}
+
+/* Sin JavaScript, el explorador conserva el primer módulo como contenido estático
+   y oculta los tabs que no podrían ejecutar una acción. */
+.page-gyms .module-tabs{display:none!important;}
+.page-gyms .module-content{grid-template-columns:1fr!important;}
