@@ -1,13 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-1.0.18 - 2026-09-12
+1.1.0 - 2026-09-13
 - Dividido el contenido de index.html en páginas individuales para Servicios, Planes a medida, Sobre nosotros y Contacto.
 - Conservado en index.html únicamente el Hero como contenido principal de Inicio.
 - Adaptados los enlaces del Navbar, botones y Footer a navegación multipágina, con estado activo y aria-current específicos para cada página.
 - Ajustadas las etiquetas semánticas para utilizar un H1 principal en cada página.
 - Adaptado el JavaScript de navegación para no sobrescribir el estado activo en las páginas individuales.
 - Reemplazado el símbolo de Servicio técnico informático por un engranaje SVG de contorno celeste, conservando el recuadro existente.
-Commit: v1.0.18 - Dividir el sitio en páginas individuales y adaptar la navegación
+Commit: v1.1.0 - Dividir el sitio en páginas individuales y agregar ícono SVG de servicio técnico
 
 1.0.17 - 2026-09-12
 - Aplicado a la página principal de PUNTO CONECTADO el esquema cromático de FitnessPoint.
@@ -148,4 +148,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.18
+Versión actual: 1.1.0
