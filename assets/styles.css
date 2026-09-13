@@ -12,6 +12,13 @@
   font-weight:700;
   font-display:swap;
 }
+@font-face{
+  font-family:"Montserrat";
+  src:url("fonts/Montserrat-Black.woff2") format("woff2");
+  font-style:normal;
+  font-weight:900;
+  font-display:swap;
+}
 :root{
   --navy:#22265D;
   --navy-2:#10143a;
@@ -249,6 +256,11 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 }
 
 .hero-title-point,
+.hero-title-connected{
+  font-family:"Montserrat",sans-serif;
+}
+
+.hero-title-point,
 .hero-title-connected,
 .hero-title-tagline{
   display:block;
@@ -279,7 +291,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 
 .hero-copy .lead{
   color:#fff;
-  max-width:620px;
+  max-width:520px;
 }
 
 .hero-actions{
@@ -292,7 +304,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   background:var(--cyan);
   border-color:var(--cyan);
   color:var(--navy);
-  font-weight:400;
+  font-weight:700;
   box-shadow:none;
 }
 

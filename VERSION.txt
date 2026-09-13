@@ -1,5 +1,12 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.16 - 2026-09-12
+- Recuperada Montserrat Black para las palabras PUNTO y CONECTADO del título del Hero, reproduciendo el estilo más ancho y robusto de la versión anterior.
+- Reducido el ancho máximo del lead del Hero de 620px a 520px para distribuir el texto en tres líneas en escritorio.
+- Cambiada a Bold (700) la tipografía del botón “Conocé nuestros servicios”.
+- Conservados sin cambios los demás elementos y secciones del sitio.
+Commit: v1.0.16 - Ajustar tipografía, lead y botón principal del hero
+
 1.0.15 - 2026-09-12
 - Restaurada la familia tipográfica general en el Navbar y el Hero, conservando Montserrat local únicamente en el nombre y slogan del Navbar.
 - Aumentado el nombre del Navbar de .82rem a .909rem para igualar visualmente el ancho del slogan, conservado en .82rem.
@@ -123,4 +130,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.15
+Versión actual: 1.0.16
