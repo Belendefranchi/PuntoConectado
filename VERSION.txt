@@ -4,6 +4,8 @@ PUNTO CONECTADO - HISTORIAL DE VERSIONES
 - Reemplazados los seis símbolos de la lista principal de Servicios por SVG: engranaje, servidor vertical, red de nodos en árbol, monitor con torre, base de datos y monitor con auriculares.
 - Unificados los íconos con el estilo de Contacto: contorno celeste, tamaño de 28px, trazo de 1.65 y terminaciones redondeadas.
 - Conservados los recuadros de 52px, textos y distribución de la lista; los íconos decorativos se ocultan de los lectores de pantalla.
+- Reutilizados los primeros cuatro SVG en las tarjetas de Soporte técnico, Servidores, Redes y Software.
+- Incorporados SVG del mismo estilo en Continuidad (flechas circulares y check), Mantenimiento periódico (calendario con check), Asistencia remota (monitor con auriculares, reutilizado de la lista principal) y Proyectos especiales (diagrama de bloques con signo más).
 Commit: v1.0.20 - Incorporar íconos SVG en la lista de servicios
 
 1.0.19 - 2026-09-13
