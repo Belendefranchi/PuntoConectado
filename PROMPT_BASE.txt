@@ -47,6 +47,7 @@ ORGANIZACIÓN DE SERVICIOS
 - Diferenciar tipos de servicio (Soluciones puntuales, Mantenimiento periódico, Proyectos e implementaciones) de modalidades de atención (Remota y Presencial).
 - Planes a medida presenta las opciones de contratación; no vuelve a enumerar el catálogo de servicios. El bloque de aplicaciones se ubica después de Planes.
 - Mantener los SVG de contorno con el estilo de Contacto, reutilizando recursos sin nuevas librerías.
+- Los contenedores icon-badge no tienen fondo; conservan el color de los íconos, dimensiones y alineación.
 
 REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - VERSION.txt debe conservar el historial acumulativo completo.
@@ -56,7 +57,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.22
+Versión actual: 1.0.24
 Fecha versión actual: 2026-09-14
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01

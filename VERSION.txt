@@ -1,5 +1,15 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.24 - 2026-09-14
+- Eliminados los fondos de icon-badge y sus variantes, conservando colores de los íconos, tamaños, espaciados y comportamiento responsive.
+- Conservadas las formas decorativas de las tarjetas y los íconos de Contacto sin cambios.
+Commit: v1.0.24 - Quitar el fondo de los icon-badge
+
+1.0.23 - 2026-09-14
+- Actualizados los títulos de Cómo trabajamos a El servicio que necesites y La modalidad que prefieras.
+- Actualizada la descripción de la primera subsección para presentar intervención puntual, mantenimiento continuo y nuevos proyectos.
+Commit: v1.0.23 - Actualizar títulos y descripción de las subsecciones de Cómo trabajamos
+
 1.0.22 - 2026-09-14
 - Rediseñada únicamente la sección Cómo trabajamos a ancho completo, con encabezado centrado y tres tarjetas numeradas de tipo de servicio.
 - Incorporadas dos tarjetas horizontales de atención Remota y Presencial, con curva decorativa CSS compartida e íconos sutiles de Wi-Fi y ubicación.
@@ -183,4 +193,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.22
+Versión actual: 1.0.24
