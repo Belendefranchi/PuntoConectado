@@ -43,7 +43,9 @@ ORGANIZACIÓN DE SERVICIOS
 - La navegación de contenido sigue Hero, Qué resolvemos por vos, Cómo trabajamos, Planes a medida y el resto del sitio.
 - Qué resolvemos por vos es el catálogo de seis servicios: Soporte técnico, Servidores, Redes e infraestructura, Software y licencias, Seguridad y antivirus, y Backup y continuidad. La grilla utiliza tres columnas en escritorio, dos en tablet y una en móvil.
 - Una solución integral para tu infraestructura explica Cómo trabajamos a ancho completo, sin ilustración lateral, con encabezado centrado, tres tarjetas numeradas de tipo de servicio y dos tarjetas de modalidad en escritorio; las tarjetas se apilan en móvil.
-- Las modalidades Remota y Presencial comparten una curva decorativa celeste CSS y presentan SVG sutiles de Wi-Fi y ubicación, detrás del contenido. La sección cierra con UN MISMO EQUIPO, TODAS LAS SOLUCIONES.
+- Las modalidades Remota y Presencial comparten una curva decorativa celeste CSS y presentan SVG sutiles de Wi-Fi y ubicación, detrás del contenido.
+- Los números decorativos de los tipos de servicio se integran junto al título dentro del bloque de texto.
+- Las tarjetas principales comparten sombras suaves mediante variables CSS; las cajas internas de Aplicaciones permanecen sin sombra.
 - Diferenciar tipos de servicio (Soluciones puntuales, Mantenimiento periódico, Proyectos e implementaciones) de modalidades de atención (Remota y Presencial).
 - Planes a medida presenta las opciones de contratación; no vuelve a enumerar el catálogo de servicios. El bloque de aplicaciones se ubica después de Planes.
 - Mantener los SVG de contorno con el estilo de Contacto, reutilizando recursos sin nuevas librerías.
@@ -57,7 +59,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.24
+Versión actual: 1.0.25
 Fecha versión actual: 2026-09-14
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01

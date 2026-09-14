@@ -1,5 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.25 - 2026-09-14
+- Integrados los números decorativos en la cabecera de las tarjetas de servicio y ajustados su tamaño y el espacio vertical del contenido.
+- Retirados el rótulo CÓMO TRABAJAMOS, el cierre UN MISMO EQUIPO, TODAS LAS SOLUCIONES y sus líneas y estilos exclusivos.
+- Unificadas las sombras suaves de las tarjetas principales y eliminadas las sombras de cajas internas de Aplicaciones.
+- Actualizada la descripción de Backup y continuidad para mencionar copias de seguridad y recuperación en entornos locales y en la nube.
+- Ampliado el logo del footer de 150px a 280px, manteniendo sus proporciones.
+Commit: v1.0.25 - Ajustar tarjetas y sombras, actualizar textos y ampliar el logo del footer
+
 1.0.24 - 2026-09-14
 - Eliminados los fondos de icon-badge y sus variantes, conservando colores de los íconos, tamaños, espaciados y comportamiento responsive.
 - Conservadas las formas decorativas de las tarjetas y los íconos de Contacto sin cambios.
@@ -193,4 +201,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.24
+Versión actual: 1.0.25
