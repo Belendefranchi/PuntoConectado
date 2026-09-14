@@ -25,7 +25,7 @@ const observerNav=new IntersectionObserver(entries=>{
 sections.forEach(s=>observerNav.observe(s));
 
 const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-const revealItems=document.querySelectorAll('.card,.price-card,.app-card,.feature-row,.about-grid,.contact-panel,.form-card');
+const revealItems=document.querySelectorAll('.card,.price-card,.app-card,.about-grid,.contact-panel,.form-card');
 if(!reduceMotion&&'IntersectionObserver' in window){
   const ro=new IntersectionObserver(entries=>{
     entries.forEach(e=>{

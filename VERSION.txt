@@ -1,5 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.22 - 2026-09-14
+- Rediseñada únicamente la sección Cómo trabajamos a ancho completo, con encabezado centrado y tres tarjetas numeradas de tipo de servicio.
+- Incorporadas dos tarjetas horizontales de atención Remota y Presencial, con curva decorativa CSS compartida e íconos sutiles de Wi-Fi y ubicación.
+- Añadidos separador, descripciones de bloque y cierre visual; adaptadas las grillas a tablet y móvil.
+- Eliminada la ilustración exclusiva services-tech.svg, la composición anterior y sus reglas y referencias obsoletas.
+- Conservadas sin cambios las demás secciones y actualizada la definición permanente de Cómo trabajamos.
+Commit: v1.0.22 - Rediseñar sección Cómo trabajamos y reorganizar modalidades de servicio
+
 1.0.21 - 2026-09-14
 - Reorganizado Servicios: catálogo de seis tarjetas en tres columnas de escritorio, dos en tablet y una en móvil.
 - Separadas Seguridad y antivirus de Software y licencias, y unificados Backup y continuidad.
@@ -175,4 +183,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.21
+Versión actual: 1.0.22
