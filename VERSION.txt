@@ -1,5 +1,16 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.21 - 2026-09-14
+- Reorganizado Servicios: catálogo de seis tarjetas en tres columnas de escritorio, dos en tablet y una en móvil.
+- Separadas Seguridad y antivirus de Software y licencias, y unificados Backup y continuidad.
+- Reemplazada la lista redundante por tipos de servicio y modalidades Remota y Presencial, conservando la ilustración.
+- Reutilizados los SVG existentes y añadidos escudo de seguridad e instalaciones con el mismo estilo de contorno.
+- Situado el bloque de aplicaciones después de Planes sin alterar su contenido, para mantener la secuencia de servicios, forma de trabajo y contratación.
+- Actualizados estilos responsive y eliminadas las clases obsoletas de la grilla y cabecera anteriores.
+- Reemplazado el logo de TrackPoint en el bloque de aplicaciones por assets/trackpoint-logo.png, conservando tamaño, proporciones y texto alternativo.
+- Retirado el SVG anterior, sin referencias restantes.
+Commit: v1.0.21 - Reorganizar servicios y modalidades de atención y actualizar el logo de TrackPoint
+
 1.0.20 - 2026-09-13
 - Reemplazados los seis símbolos de la lista principal de Servicios por SVG: engranaje, servidor vertical, red de nodos en árbol, monitor con torre, base de datos y monitor con auriculares.
 - Unificados los íconos con el estilo de Contacto: contorno celeste, tamaño de 28px, trazo de 1.65 y terminaciones redondeadas.
@@ -164,4 +175,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.20
+Versión actual: 1.0.21

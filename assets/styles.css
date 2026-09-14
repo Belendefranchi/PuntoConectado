@@ -84,19 +84,25 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .feature-row{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
 .card-surface{background:#fff;border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:var(--shadow);overflow:hidden}
 .card-surface img{width:100%;height:auto;border-radius:16px}
+.work-section{margin-top:70px}
+.work-content{min-width:0}
+.work-content > h3,.attention-block > h3{font-size:1.25rem}
+.work-content > .feature-link{margin-top:22px}
+.attention-block{margin-top:24px;padding:20px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--soft)}
+.attention-label{color:var(--muted);font-size:.85rem;margin:0 0 8px}
+.attention-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.attention-grid .service-item{grid-template-columns:minmax(0,1fr);border-bottom:0;padding:8px 0}
 .service-list{display:grid;gap:8px}
-.service-item{display:grid;grid-template-columns:auto 1fr;gap:13px;padding:13px 0;border-bottom:1px solid #eef2f6}
+.service-item{display:grid;grid-template-columns:auto minmax(0,1fr);gap:13px;padding:13px 0;border-bottom:1px solid #eef2f6}
 .service-item:last-child{border-bottom:0}
-.service-item h3{margin-bottom:4px}
+.service-item h4{font-size:1.06rem;line-height:1.25;margin:0 0 4px;font-weight:700}
 .service-item p{margin:0;color:var(--muted);font-size:.92rem}
 .icon-badge{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;background:rgba(81,174,229,.12);color:var(--blue);font-weight:900;font-size:1.25rem;flex:0 0 52px}
 .icon-badge.green{background:rgba(81,174,229,.12);color:var(--green)}
 .icon-badge.orange{background:rgba(36,38,93,.08);color:var(--orange)}
 .icon-badge.purple{background:rgba(36,38,93,.08);color:var(--purple)}
-.subsection-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin:70px 0 20px}
-.subsection-head h2{margin:5px 0 0}
 .feature-link{color:var(--navy);font-weight:800;display:inline-flex;gap:6px;align-items:center}
-.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);padding:22px;box-shadow:0 10px 28px rgba(36,38,93,.055);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
 .card:hover,.price-card:hover,.app-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(36,38,93,.10);border-color:rgba(81,174,229,.42)}
 .service-card .icon-badge{margin-bottom:17px}
@@ -164,7 +170,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .site-footer{background:var(--navy-2);color:#fff;margin-top:0;font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:400;letter-spacing:-.012em;line-height:1.5}
 .site-footer .footer-top.footer-two-column{display:flex;align-items:center;gap:0;padding:25px 0}
 .site-footer .footer-brand-block{flex:0 0 clamp(300px,34%,380px);min-width:0;padding-right:clamp(28px,3.4vw,48px);align-self:stretch;display:flex;flex-direction:column;justify-content:center}
-.site-footer .footer-brand-block img{width:280px;max-width:100%;height:auto;object-fit:contain}
+.site-footer .footer-brand-block img{width:150px;max-width:100%;height:auto;object-fit:contain}
 .site-footer .footer-contact-block{flex:1 1 auto;min-width:0;align-self:stretch;display:flex;flex-direction:column;justify-content:center;border-left:1px solid rgba(255,255,255,.16);padding-left:clamp(28px,3.4vw,48px)}
 .site-footer .footer-contact-inner{width:max-content;max-width:100%;margin-left:auto}
 .site-footer .footer-contact-grid{display:flex;align-items:center;justify-content:flex-end;gap:clamp(16px,1.8vw,26px);flex-wrap:nowrap;width:max-content;max-width:100%}
@@ -195,7 +201,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 }
 
 .navbar-brand-logo{
-  width:240px;
+  width:150px;
   max-width:calc(100vw - 90px);
   height:auto;
   object-fit:contain;
@@ -336,7 +342,7 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   .site-header.open .nav-actions{display:flex;position:absolute;top:335px;left:22px;right:22px;background:#fff;padding-bottom:18px;margin:0}
   .hero-grid,.feature-row,.about-grid,.contact-grid{grid-template-columns:1fr}
   .hero-grid{min-height:auto;padding:28px 0 56px}
-  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .services-grid{grid-template-columns:repeat(2,1fr)}
   .pricing-grid{grid-template-columns:1fr;max-width:660px;margin:auto}
   .apps-grid{grid-template-columns:1fr}
 
@@ -345,8 +351,8 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   .container{width:min(calc(100% - 28px),var(--max))}
   .section{padding:62px 0}
   h1{font-size:2.55rem}
-  .hero-actions,.subsection-head{flex-direction:column;align-items:stretch}
-  .grid-4,.about-values,.form-grid{grid-template-columns:1fr}
+  .hero-actions{flex-direction:column;align-items:stretch}
+  .services-grid,.attention-grid,.about-values,.form-grid{grid-template-columns:1fr}
   .apps-block{padding:28px 20px}
   .app-card{grid-template-columns:1fr}
   .price-card{padding:24px}
@@ -355,10 +361,10 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 
 }
 
-#servicios,#planes,#nosotros,#contacto{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:400;letter-spacing:-.012em;line-height:1.5}
-#servicios h2,#servicios h3,#planes h2,#planes h3,#nosotros h2,#nosotros h3,#contacto h2,#contacto h3{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:700}
-#servicios .lead,#planes .lead,#nosotros .lead,#contacto .lead{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:400}
-#servicios .btn,#planes .btn,#contacto .btn{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:600}
+#servicios,.applications,#planes,#nosotros,#contacto{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:400;letter-spacing:-.012em;line-height:1.5}
+#servicios h2,#servicios h3,.applications h2,.applications h3,#planes h2,#planes h3,#nosotros h2,#nosotros h3,#contacto h2,#contacto h3{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:700}
+#servicios .lead,.applications .lead,#planes .lead,#nosotros .lead,#contacto .lead{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:400}
+#servicios .btn,.applications .btn,#planes .btn,#contacto .btn{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:600}
 #planes .featured .btn-primary,#contacto .form-grid .btn-primary{background:var(--navy);color:#fff;box-shadow:none}
 #planes .featured .btn-primary:hover,#contacto .form-grid .btn-primary:hover{transform:translateY(-1px);box-shadow:0 13px 28px rgba(81,174,229,.36)}
 .contact-icon svg,.service-item .icon-badge svg,.service-card .icon-badge svg{display:block;width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
