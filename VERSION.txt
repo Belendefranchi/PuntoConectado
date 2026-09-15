@@ -1,5 +1,12 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.28 - 2026-09-15
+- Incorporada la sección Marcas líderes entre el catálogo de servicios y Cómo trabajamos, reutilizando la identidad visual vigente.
+- Integrados los logos locales de HPE, MikroTik, Ubiquiti UniFi, Kaspersky y Acronis; reservado el sexto espacio para Microsoft, pendiente de recibir el archivo.
+- Preparada una grilla estática de seis columnas en escritorio, tres en tablet y dos en móvil, con imágenes proporcionadas y sin referencias rotas.
+- Conservadas las secciones existentes y excluida la nueva sección sin enlace de navegación del seguimiento de enlaces activos.
+Commit: v1.0.28 - Incorporar sección de marcas líderes con grilla responsive
+
 1.0.27 - 2026-09-15
 - Separado del proyecto el sitio de ejemplo de FitnessPoint y actualizado su acceso desde Aplicaciones propias para dirigir a https://fitnesspoint.ar.
 - Corregido el Instagram compartido de Punto Conectado y FitnessPoint a @puntoconectado.com.ar.
@@ -218,4 +225,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.27
+Versión actual: 1.0.28

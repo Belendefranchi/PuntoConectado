@@ -85,6 +85,17 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 .card-surface{background:#fff;border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:var(--shadow);overflow:hidden}
 .card-surface img{width:100%;height:auto;border-radius:16px}
 .work-section{margin-top:70px}
+.brands-section{margin-top:70px;padding:42px 24px;background:var(--soft);border-radius:var(--radius);position:relative;overflow:hidden;isolation:isolate}
+.brands-section::before,.brands-section::after{content:"";position:absolute;width:320px;height:320px;border-radius:50%;background:var(--blue);opacity:.08;pointer-events:none;z-index:-1}
+.brands-section::before{top:-180px;left:-160px}
+.brands-section::after{bottom:-180px;right:-160px}
+.brands-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));list-style:none;padding:16px 8px;margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow)}
+.brand-logo{display:grid;place-items:center;position:relative;min-width:0;min-height:112px;padding:12px}
+.brand-logo + .brand-logo::before{content:"";position:absolute;left:0;top:30%;height:40%;width:1px;background:var(--line)}
+.brand-logo img{width:100%;height:88px;object-fit:contain}
+.brand-logo img[src="assets/hpe-logo.png"],.brand-logo img[src="assets/unifi-logo.png"]{width:70%;height:61.6px}
+.brands-closing{display:flex;align-items:center;justify-content:center;gap:16px;margin:32px 0 0;color:var(--blue);font-size:.75rem;font-weight:500;letter-spacing:.12em;text-align:center}
+.brands-closing::before,.brands-closing::after{content:"";flex:0 1 36px;height:1px;background:var(--line)}
 .work-section > .section-title{margin-bottom:48px}
 .work-section h2{font-size:clamp(1.85rem,3vw,2.7rem)}
 .work-block-head{margin-bottom:22px}
@@ -350,6 +361,8 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 }
 
 @media(max-width:1000px){
+  .brands-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .brand-logo:nth-child(3n + 1)::before{display:none}
   .nav-links,.nav-actions{display:none}
   .menu-btn{display:block}
   .site-header.open .nav-links{display:flex;position:absolute;left:0;right:0;top:74px;background:#fff;flex-direction:column;gap:0;padding:10px 22px 18px;border-bottom:1px solid var(--line);box-shadow:0 15px 30px rgba(36,38,93,.08)}
@@ -367,6 +380,12 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
 
 }
 @media(max-width:680px){
+  .brands-section{padding:28px 12px}
+  .brands-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .brand-logo:nth-child(3n + 1)::before{display:block}
+  .brand-logo:nth-child(2n + 1)::before{display:none}
+  .brand-logo{padding:8px}
+  .brands-closing{gap:8px;font-size:.68rem}
   .container{width:min(calc(100% - 28px),var(--max))}
   .section{padding:62px 0}
   h1{font-size:2.55rem}

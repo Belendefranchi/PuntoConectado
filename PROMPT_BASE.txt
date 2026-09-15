@@ -40,7 +40,8 @@ TIPOGRAFÍA DEL NAVBAR Y HERO
 - En el Hero, conservar el título en tres líneas; PUNTO y CONECTADO en Black (900), con tamaño de fuente un 15 % mayor que TU PUNTO DE PARTIDA, en Regular (400).
 
 ORGANIZACIÓN DE SERVICIOS
-- La navegación de contenido sigue Hero, Qué resolvemos por vos, Cómo trabajamos, Planes a medida y el resto del sitio.
+- La navegación de contenido sigue Hero, Qué resolvemos por vos, Marcas líderes, Cómo trabajamos, Planes a medida y el resto del sitio.
+- Marcas líderes presenta HPE, MikroTik, Ubiquiti UniFi, Kaspersky, Acronis y Microsoft mediante logos locales originales en una grilla estática de seis, tres o dos columnas según el dispositivo. No utilizar imágenes remotas ni reemplazos de texto para logos faltantes.
 - Qué resolvemos por vos es el catálogo de seis servicios: Soporte técnico, Servidores, Redes e infraestructura, Software y licencias, Seguridad y antivirus, y Backup y continuidad. La grilla utiliza tres columnas en escritorio, dos en tablet y una en móvil.
 - Una solución integral para tu infraestructura explica Cómo trabajamos a ancho completo, sin ilustración lateral, con encabezado centrado, tres tarjetas numeradas de tipo de servicio y dos tarjetas de modalidad en escritorio; las tarjetas se apilan en móvil.
 - Las modalidades Remota y Presencial comparten una curva decorativa celeste CSS y presentan SVG sutiles de Wi-Fi y ubicación, detrás del contenido.
@@ -67,7 +68,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.27
+Versión actual: 1.0.28
 Fecha versión actual: 2026-09-15
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01

@@ -15,7 +15,7 @@ if(menuBtn&&header){
   }));
 }
 
-const sections=[...document.querySelectorAll('main section[id]')];
+const sections=[...document.querySelectorAll('main section[id]')].filter(section=>[...navLinks].some(link=>link.getAttribute('href')==='#'+section.id));
 const observerNav=new IntersectionObserver(entries=>{
   entries.forEach(entry=>{
     if(!entry.isIntersecting)return;
