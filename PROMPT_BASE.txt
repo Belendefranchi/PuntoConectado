@@ -46,6 +46,7 @@ ORGANIZACIÓN DE SERVICIOS
 - Las modalidades Remota y Presencial comparten una curva decorativa celeste CSS y presentan SVG sutiles de Wi-Fi y ubicación, detrás del contenido.
 - Los números decorativos de los tipos de servicio se integran junto al título dentro del bloque de texto.
 - Las tarjetas principales comparten sombras suaves mediante variables CSS; las cajas internas de Aplicaciones permanecen sin sombra.
+- Aplicaciones presenta FitnessPoint y TrackPoint en tarjetas equivalentes con cinco ítems, logos originales sobre contenedores celestes claros y botones alineados en escritorio. El encabezado está centrado sobre el degradado y las tarjetas se apilan en pantallas estrechas.
 - Diferenciar tipos de servicio (Soluciones puntuales, Mantenimiento periódico, Proyectos e implementaciones) de modalidades de atención (Remota y Presencial).
 - Planes a medida presenta las opciones de contratación; no vuelve a enumerar el catálogo de servicios. El bloque de aplicaciones se ubica después de Planes.
 - Mantener los SVG de contorno con el estilo de Contacto, reutilizando recursos sin nuevas librerías.
@@ -59,7 +60,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.25
-Fecha versión actual: 2026-09-14
+Versión actual: 1.0.26
+Fecha versión actual: 2026-09-15
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01

@@ -1,5 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.26 - 2026-09-15
+- Centrado el encabezado de aplicaciones y ampliado el subtítulo, conservando degradado y decoración.
+- Igualadas las tarjetas de FitnessPoint y TrackPoint, con cinco ítems cada una, estructura horizontal y botones equivalentes alineados en escritorio.
+- Actualizados los contenidos de TrackPoint para gestión de faena y comercialización cárnica.
+- Conservados los logos originales y unificado el fondo celeste claro de sus contenedores.
+- Adaptadas las tarjetas y botones a móvil sin desbordamientos; conservadas las demás secciones.
+Commit: v1.0.26 - Actualizar y unificar las tarjetas de aplicaciones propias
+
 1.0.25 - 2026-09-14
 - Integrados los números decorativos en la cabecera de las tarjetas de servicio y ajustados su tamaño y el espacio vertical del contenido.
 - Retirados el rótulo CÓMO TRABAJAMOS, el cierre UN MISMO EQUIPO, TODAS LAS SOLUCIONES y sus líneas y estilos exclusivos.
@@ -201,4 +209,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.25
+Versión actual: 1.0.26
