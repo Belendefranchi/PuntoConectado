@@ -19,7 +19,12 @@ const sections=[...document.querySelectorAll('main section[id]')];
 const observerNav=new IntersectionObserver(entries=>{
   entries.forEach(entry=>{
     if(!entry.isIntersecting)return;
-    navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));
+    navLinks.forEach(a=>{
+      const active=a.getAttribute('href')==='#'+entry.target.id;
+      a.classList.toggle('active',active);
+      if(active)a.setAttribute('aria-current','page');
+      else a.removeAttribute('aria-current');
+    });
   });
 },{rootMargin:'-35% 0px -55% 0px',threshold:0});
 sections.forEach(s=>observerNav.observe(s));

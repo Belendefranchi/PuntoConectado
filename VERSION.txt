@@ -1,5 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.27 - 2026-09-15
+- Separado del proyecto el sitio de ejemplo de FitnessPoint y actualizado su acceso desde Aplicaciones propias para dirigir a https://fitnesspoint.ar.
+- Corregido el Instagram compartido de Punto Conectado y FitnessPoint a @puntoconectado.com.ar.
+- Incorporados canonical, robots.txt y sitemap.xml para el dominio de producción https://puntoconectado.com.ar.
+- Mejorada la accesibilidad de la navegación mediante aria-current sincronizado con la sección activa.
+- Declaradas las dimensiones intrínsecas de imágenes relevantes para mejorar la estabilidad del layout.
+- Auditoría frontend finalizada como APTO CON RIESGOS DOCUMENTADOS por quedar pendiente la validación visual real de los breakpoints; los assets no referenciados permanecen sin eliminar por falta de evidencia suficiente.
+Commit: v1.0.27 - Aplicar correcciones de auditoría y separar el sitio de FitnessPoint
+
 1.0.26 - 2026-09-15
 - Centrado el encabezado de aplicaciones y ampliado el subtítulo, conservando degradado y decoración.
 - Igualadas las tarjetas de FitnessPoint y TrackPoint, con cinco ítems cada una, estructura horizontal y botones equivalentes alineados en escritorio.
@@ -209,4 +218,4 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
 
-Versión actual: 1.0.26
+Versión actual: 1.0.27

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://puntoconectado.com.ar/sitemap.xml
