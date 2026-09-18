@@ -451,3 +451,31 @@ h3{font-size:1.06rem;line-height:1.25;margin-bottom:8px}
   html{scroll-behavior:auto}
   *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* v1.0.29 - Red tecnológica del Hero */
+.hero-visual{
+  width:100%;
+  max-width:620px;
+  justify-self:end;
+  align-self:center;
+  pointer-events:none;
+}
+.hero-visual img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+@media(max-width:1000px){
+  .hero-visual{
+    width:min(100%,680px);
+    max-width:680px;
+    justify-self:center;
+    margin-top:4px;
+  }
+}
+@media(max-width:680px){
+  .hero-visual{
+    width:min(112%,560px);
+    margin:0 -6% -8px;
+  }
+}

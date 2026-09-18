@@ -321,3 +321,260 @@ compararlo contra HEAD y verificar que no se haya perdido información.
 
 Si existe cualquier duda sobre si determinado contenido histórico debe
 eliminarse, conservarlo y consultar al usuario.
+
+## 22. Preservación integral del repositorio y principio de cambio mínimo
+
+Esta regla es obligatoria para cualquier tarea que implique modificar, copiar,
+extraer, reconstruir, empaquetar, comprimir o devolver el proyecto completo o
+una parte de él.
+
+### 22.1. Principio fundamental
+
+Todo elemento existente antes de iniciar una tarea se considera PRESERVADO POR
+DEFECTO.
+
+Si el usuario no solicitó explícitamente modificar, reemplazar, mover, renombrar
+o eliminar un elemento, dicho elemento debe permanecer exactamente como estaba.
+
+La ausencia de una instrucción sobre un archivo NO constituye autorización para
+eliminarlo, omitirlo, regenerarlo, reemplazarlo ni modificarlo.
+
+Regla:
+
+    NO SOLICITADO = NO TOCAR
+
+Esta regla aplica tanto al contenido de los archivos como a la estructura del
+repositorio.
+
+### 22.2. Alcance de la preservación
+
+Deben preservarse todos los elementos preexistentes, incluyendo:
+
+- archivos;
+- directorios;
+- subdirectorios;
+- archivos ocultos;
+- directorios ocultos;
+- archivos de configuración;
+- metadatos pertenecientes al proyecto;
+- assets;
+- documentación;
+- archivos auxiliares;
+- archivos sin referencias aparentes;
+- archivos generados que formen parte del proyecto;
+- estructura Git;
+- directorio `.git/`;
+- `.gitignore`;
+- `.gitattributes`;
+- hooks o configuraciones Git existentes;
+- cualquier otro elemento presente en el repositorio original.
+
+No asumir que un elemento es prescindible porque no interviene directamente en
+la ejecución del sitio.
+
+### 22.3. Prohibición de eliminación implícita
+
+Está prohibido eliminar u omitir elementos como efecto secundario de una tarea.
+
+Una eliminación solamente está permitida cuando se cumple al menos una de estas
+condiciones:
+
+1. el usuario solicitó explícitamente eliminar ese elemento; o
+2. el reemplazo solicitado hace técnicamente necesaria su eliminación y dicha
+   eliminación pertenece inequívocamente al alcance aprobado.
+
+En caso de duda, PRESERVAR.
+
+No realizar limpieza oportunista.
+No eliminar archivos aparentemente obsoletos.
+No eliminar assets aparentemente no utilizados.
+No eliminar archivos ocultos.
+No eliminar `.git/`.
+
+### 22.4. Regla especial para ZIP y otros paquetes
+
+Cuando el usuario entrega un ZIP del proyecto y solicita una modificación, el
+ZIP resultante debe considerarse una MODIFICACIÓN DEL PAQUETE ORIGINAL, no una
+reconstrucción parcial del proyecto.
+
+Por lo tanto:
+
+    ZIP SALIDA = ZIP ENTRADA + CAMBIOS EXPLÍCITAMENTE SOLICITADOS
+
+Todo elemento presente en el ZIP de entrada debe estar presente en el ZIP de
+salida, salvo que su eliminación haya sido explícitamente solicitada o sea una
+consecuencia directa y necesaria del reemplazo aprobado.
+
+No crear el ZIP final seleccionando únicamente los archivos que parezcan
+necesarios para ejecutar el proyecto.
+
+No reconstruir manualmente la estructura del ZIP a partir de una lista parcial
+de archivos.
+
+La extracción y posterior compresión deben preservar la estructura completa del
+paquete original.
+
+### 22.5. Preservación obligatoria de `.git`
+
+Si el proyecto recibido contiene `.git/`, el directorio `.git/` forma parte
+integral del proyecto entregado y DEBE conservarse.
+
+Está prohibido:
+
+- omitir `.git/` del ZIP de salida;
+- crear un repositorio Git nuevo;
+- ejecutar `git init` para sustituirlo;
+- reconstruir su historial;
+- copiar solamente los archivos de trabajo;
+- reemplazar su configuración;
+- modificar su historial salvo autorización explícita.
+
+La presencia de `.git/` debe verificarse ANTES y DESPUÉS de cualquier proceso
+de extracción, modificación y reempaquetado.
+
+### 22.6. Inventario previo obligatorio
+
+Antes de modificar un proyecto recibido como directorio o paquete:
+
+1. inspeccionar su estructura;
+2. identificar archivos y directorios ocultos;
+3. comprobar si existe `.git/`;
+4. identificar los archivos que serán modificados;
+5. establecer explícitamente el alcance permitido.
+
+No asumir que una herramienta de extracción, copia o compresión preservará
+automáticamente archivos o directorios ocultos.
+
+### 22.7. Comparación entrada/salida
+
+Antes de entregar un proyecto modificado, comparar la estructura original con
+la estructura final.
+
+Clasificar las diferencias como:
+
+- MODIFICADO;
+- AGREGADO;
+- ELIMINADO;
+- RENOMBRADO.
+
+Todo elemento ELIMINADO o RENOMBRADO debe poder justificarse directamente por
+una instrucción del usuario.
+
+Si aparece una eliminación no solicitada:
+
+    DETENER LA ENTREGA
+    RESTAURAR EL ELEMENTO
+    VOLVER A VALIDAR
+
+No entregar el paquete mientras existan eliminaciones accidentales.
+
+### 22.8. Git como mecanismo adicional de control
+
+Cuando exista un repositorio Git válido, utilizar Git para verificar el alcance
+antes de finalizar.
+
+Ejecutar, como mínimo:
+
+    git status --short
+    git diff --stat
+    git diff
+
+Los cambios observados deben corresponder exclusivamente al alcance solicitado.
+
+No utilizar Git como única comprobación de preservación cuando se esté
+reconstruyendo un ZIP, porque un `.git/` omitido impediría precisamente realizar
+esa comprobación.
+
+Primero verificar la preservación estructural; después utilizar Git.
+
+### 22.9. Regla de modificación mínima
+
+Entre varias soluciones técnicamente válidas, elegir aquella que produzca la
+menor cantidad de cambios sobre el estado existente.
+
+No modificar un archivo simplemente para:
+
+- reformatearlo;
+- normalizarlo;
+- reorganizarlo;
+- limpiarlo;
+- modernizarlo;
+- mejorar su estilo;
+- corregir problemas no relacionados;
+- eliminar código aparentemente innecesario.
+
+Los problemas preexistentes fuera del alcance pueden informarse, pero no deben
+corregirse sin autorización.
+
+### 22.10. Archivos críticos de continuidad
+
+Además de las reglas específicas existentes para:
+
+- AGENTS.md;
+- PROMPT_BASE.txt;
+- VERSION.txt;
+
+estos archivos están sujetos al principio general de preservación.
+
+Nunca deben reconstruirse a partir de memoria, conversaciones anteriores,
+resúmenes ni versiones parciales cuando existe una copia original disponible.
+
+El archivo existente es la fuente de verdad.
+
+### 22.11. Validación obligatoria antes de empaquetar
+
+Antes de generar el paquete final:
+
+1. verificar que todos los elementos originales no afectados sigan presentes;
+2. verificar archivos y directorios ocultos;
+3. verificar `.git/` si existía originalmente;
+4. revisar elementos agregados;
+5. revisar elementos eliminados;
+6. revisar elementos modificados;
+7. comprobar que cada diferencia pertenece al alcance solicitado;
+8. ejecutar las validaciones Git cuando corresponda;
+9. comprobar la integridad técnica del paquete resultante.
+
+### 22.12. Significado de "ZIP verificado"
+
+No informar simplemente:
+
+    "ZIP verificado"
+    "ZIP verificado sin errores"
+    "proyecto verificado"
+
+salvo que se hayan realizado las verificaciones correspondientes.
+
+Distinguir explícitamente entre:
+
+A. INTEGRIDAD DEL ARCHIVO
+El ZIP abre correctamente y no presenta errores de compresión/CRC.
+
+B. INTEGRIDAD ESTRUCTURAL
+La estructura de entrada y salida fue comparada y no existen pérdidas no
+autorizadas.
+
+C. INTEGRIDAD DEL REPOSITORIO
+`.git/` y los demás elementos del repositorio fueron preservados.
+
+D. ALCANCE DEL CAMBIO
+Las diferencias encontradas corresponden exclusivamente a lo solicitado.
+
+E. VALIDACIÓN FUNCIONAL/VISUAL
+Las pruebas funcionales o visuales que realmente hayan podido ejecutarse.
+
+Nunca presentar una de estas verificaciones como si implicara automáticamente
+las demás.
+
+### 22.13. Criterio ante incertidumbre
+
+Ante cualquier duda sobre si un archivo, directorio, asset, configuración,
+metadato o elemento oculto debe conservarse:
+
+    CONSERVARLO.
+
+Si conservarlo impide realizar correctamente la tarea, informar la situación
+antes de eliminarlo o modificarlo.
+
+La preservación tiene prioridad sobre la limpieza, optimización o simplificación
+no solicitada.

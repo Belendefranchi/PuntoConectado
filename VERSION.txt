@@ -1,5 +1,11 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+1.0.29 - 2026-09-17
+- Incorporada al Hero una ilustración SVG de infraestructura conectada con una esfera tridimensional formada por una malla densa de nodos y conexiones.
+- Integrados alrededor de la esfera los conceptos Servidores, Backups, Seguridad, Redes y Equipos mediante iconos vectoriales rellenos y conexiones visuales.
+- Conservado sin cambios el contenido aprobado del lado izquierdo del Hero y adaptada la ilustración para escritorio, tablet y móvil.
+Commit: v1.0.29 - Incorporar esfera tecnológica de servicios en el Hero
+
 1.0.28 - 2026-09-15
 - Incorporada la sección Marcas líderes entre el catálogo de servicios y Cómo trabajamos, reutilizando la identidad visual vigente.
 - Integrados los logos locales de HPE, MikroTik, Ubiquiti UniFi, Kaspersky y Acronis; reservado el sexto espacio para Microsoft, pendiente de recibir el archivo.
