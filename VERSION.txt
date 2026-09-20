@@ -1,6 +1,11 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.2
+Versión actual: 2.0.3
+
+v2.0.3 - 2026-09-20
+- Simplificados los textos del navbar en las cinco páginas: Planes a medida pasa a Planes y Sobre nosotros pasa a Nosotros.
+- Conservados destinos, clases, estados activos, botón Solicitar Presupuesto, estilos y contenidos fuera del navbar.
+Commit: v2.0.3 - Simplificar textos de Planes y Nosotros en el navbar
 
 v2.0.2 - 2026-09-20
 - Afinados los trazos de los iconos principales de las tarjetas de Inicio y Servicios de 1.65 a 1.2, conservando diseños, tamaños, colores y posiciones.
