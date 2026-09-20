@@ -387,8 +387,9 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 #servicios .btn,#servicios-integrales .btn,#planes .btn,#contacto .btn{font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:600}
 #planes .featured .btn-primary,#contacto .form-grid .btn-primary{background:var(--navy);color:#fff;box-shadow:none}
 #planes .featured .btn-primary:hover,#contacto .form-grid .btn-primary:hover{transform:translateY(-1px);box-shadow:0 13px 28px rgba(81,174,229,.36)}
-.contact-icon svg,.work-section .icon-badge svg,.service-card .icon-badge svg{display:block;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
-.contact-icon svg{width:28px;height:28px}
+.contact-icon svg,.work-section .icon-badge svg,.service-card .icon-badge svg{display:block;fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round}
+#servicios .service-card .icon-badge svg,#servicios-integrales .work-section .icon-badge svg{stroke-width:1.2}
+.contact-icon svg{width:28px;height:28px;stroke-width:1.65}
 .service-card .icon-badge svg,.work-section .icon-badge svg{width:100%;height:100%}
 .contact-icon--whatsapp svg{width:26px;height:26px;fill:currentColor;stroke:none}
 .form-trust svg{flex:0 0 15px;color:var(--sky);margin-top:1px}

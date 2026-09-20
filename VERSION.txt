@@ -1,6 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.1
+Versión actual: 2.0.2
+
+v2.0.2 - 2026-09-20
+- Afinados los trazos de los iconos principales de las tarjetas de Inicio y Servicios de 1.65 a 1.2, conservando diseños, tamaños, colores y posiciones.
+- Ajustado proporcionalmente el trazo del engranaje escalado del monitor para mantener el mismo grosor visual.
+- Conservados los checks circulares y las tildes del escudo y calendario, así como los SVG decorativos, Footer, Planes, Nosotros y Contacto.
+- Recreados únicamente los iconos principales de Proyectos e implementaciones (documento con checklist y engranaje) y Remota (monitor con auriculares centrados), manteniendo el estilo lineal fino.
+Commit: v2.0.2 - Afinar iconos de tarjetas y renovar Proyectos y Remota
 
 v2.0.1 - 2026-09-20
 - Reorganizada únicamente la cabecera de Servicios en dos columnas: H1 y nueva descripción a la izquierda, y tarjeta Nuestros servicios a la derecha.
