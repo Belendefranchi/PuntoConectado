@@ -31,13 +31,13 @@ REFERENCIA VISUAL
 - Los recursos gráficos propios deben mantenerse dentro del proyecto.
 
 TIPOGRAFÍA DEL NAVBAR Y HERO
-- Utilizar Montserrat oficial en las palabras PUNTO y CONECTADO del título del Hero, alojada localmente en assets/fonts/ mediante @font-face, con su licencia incluida.
+- El título del Hero utiliza Manrope, como la jerarquía tipográfica general del sitio.
 - La marca completa del Navbar se presenta mediante assets/logo-punto-conectado-navbar.png, con ancho de 240px adaptable al móvil y altura proporcional.
 - La marca completa del Footer se presenta mediante assets/logo-punto-conectado-footer2.png, con ancho máximo de 280px y altura proporcional. Ambos logos enlazan a Inicio e incluyen el nombre y slogan dentro de la imagen.
 - En el Navbar, enlaces de navegación en Regular (400); botón Solicitar Presupuesto en Manrope Semibold (600).
 - Los enlaces del Navbar, el lead y botones del Hero, los textos de Servicios, Planes, Sobre nosotros, Contacto y el Footer utilizan Manrope cargada desde Google Fonts.
-- El Hero tiene fondo blanco; PUNTO y TU PUNTO DE PARTIDA en azul violáceo y CONECTADO en celeste.
-- En el Hero, conservar el título en tres líneas; PUNTO y CONECTADO en Black (900), con tamaño de fuente un 15 % mayor que TU PUNTO DE PARTIDA, en Regular (400).
+- El Hero tiene fondo blanco; “Soluciones IT.” en azul violáceo y “Para que tu negocio siga creciendo.” en celeste.
+- El título principal del Hero usa un único H1 con salto de línea y un strong.accent para la segunda parte; ambas partes comparten la escala y el peso 700 del H1.
 
 ORGANIZACIÓN DE SERVICIOS
 - La navegación de contenido sigue Hero, Qué resolvemos por vos, Marcas líderes, Cómo trabajamos, Planes a medida y el resto del sitio.
@@ -68,7 +68,12 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.29
-Fecha versión actual: 2026-09-15
+Versión actual: 1.0.30
+Fecha versión actual: 2026-09-18
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
+
+TIPOGRAFÍA
+- Escala compartida basada en FitnessPoint: H1, H2, componentes, cuerpo, small, acciones, metadata, micro y CTA.
+- Pesos base: regular 400, medium 600 y bold 700.
+- Todos los H1 utilizan peso 700, incluido el Hero.

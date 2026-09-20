@@ -142,6 +142,8 @@ No inventar la versión actual basándose únicamente en conversaciones, commits
 
 `VERSION.txt` debe mantener un historial acumulativo.
 
+`VERSION.txt` debe mantener siempre el historial acumulativo en orden cronológico descendente. Cada versión nueva debe agregarse al comienzo del archivo, por encima de todas las versiones anteriores. Nunca se debe agregar una versión nueva al final del archivo ni reemplazar, eliminar o sobrescribir el historial existente.
+
 Cuando corresponda preparar una nueva versión:
 
 1. Conservar el historial existente.

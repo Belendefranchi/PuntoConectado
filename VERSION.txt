@@ -1,5 +1,17 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
+Versión actual: 1.0.30
+
+v1.0.30 - 2026-09-18
+- Hero: se elimina el eyebrow "Servidores · Redes · Soporte".
+- Hero: se reemplaza el encabezado principal por "Soluciones IT. Para que tu negocio siga creciendo.".
+- Botones: se agrega una flecha hacia la derecha a "Conocé nuestros servicios", "Contactanos" y "Solicitar Presupuesto".
+- Tipografía: se adopta la jerarquía compartida basada en FitnessPoint (H1/H2/componentes/cuerpo/acciones/metadatos), con escalas responsive y pesos 400/600/700.
+- Hero: el H1 completo utiliza peso bold 700; "Soluciones IT." conserva azul oscuro y "Para que tu negocio siga creciendo." celeste.
+- Ajustado el padding del Hero a 52px arriba y 58px abajo en todos los breakpoints, y eliminado el padding superior de Servicios.
+- Aplicada a cada logo de Marcas la misma sombra normal y de hover que utilizan las tarjetas de Servicios, retirándola del contenedor general.
+Commit: v1.0.30 - Actualizar Hero y tipografía, ajustar Servicios y sombras de Marcas
+
 1.0.29 - 2026-09-17
 - Incorporada al Hero una ilustración SVG de infraestructura conectada con una esfera tridimensional formada por una malla densa de nodos y conexiones.
 - Integrados alrededor de la esfera los conceptos Servidores, Backups, Seguridad, Redes y Equipos mediante iconos vectoriales rellenos y conexiones visuales.
@@ -230,5 +242,3 @@ Commit: v1.0.7 - Modificar hero: ajustar eyebrow, títulos, botones y eliminar t
 1.0.0 - 2026-09-01
 - Versión inicial de referencia del sitio.
 - Documentación inicial de versionado y reglas de trabajo.
-
-Versión actual: 1.0.28
