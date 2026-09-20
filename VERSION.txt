@@ -1,6 +1,19 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.0
+Versión actual: 2.0.1
+
+v2.0.1 - 2026-09-20
+- Reorganizada únicamente la cabecera de Servicios en dos columnas: H1 y nueva descripción a la izquierda, y tarjeta Nuestros servicios a la derecha.
+- Destacado tu infraestructura con el celeste existente y eliminado el margen adicional sobre el H1 para respetar el padding superior de la sección.
+- Incorporados un SVG de monitor con engranaje, seis servicios con un símbolo SVG de check reutilizable basado en el de Contacto y una curva decorativa celeste recortada dentro de la tarjeta.
+- Reutilizados estilos de tarjetas, listas, iconos, variables de color y breakpoints; conservadas las secciones posteriores y las demás páginas.
+- Adaptada la composición a una columna en tablet y móvil y retiradas las reglas exclusivas del encabezado centrado anterior.
+- Compactada la tarjeta Nuestros servicios con encabezado horizontal, engranaje en la esquina superior derecha del monitor y listado en dos columnas de tres servicios, adaptable a una columna en móvil.
+- Ajustada la curva decorativa a las nuevas proporciones, conservando el contenido izquierdo y las secciones posteriores.
+- Ampliada la tarjeta mediante la proporción de la cabecera, con seis servicios sin saltos de línea en escritorio y divisor vertical entre las dos columnas; conservados textos y tamaño de fuente, con una columna en móvil.
+- Ajustado el ancho de la tarjeta al contenido para eliminar espacio sobrante a la derecha y retirada la descripción debajo de Nuestros servicios.
+Commit: v2.0.1 - Rediseñar cabecera de Servicios y compactar tarjeta de infraestructura
+- Convertidos a H3 los tres títulos de tarjetas de El servicio que necesites, utilizando la tipografía general y responsive de H3.
 
 v2.0.0 - 2026-09-20
 - Distribuido el contenido existente en cinco páginas HTML estáticas: Inicio, Servicios, Planes a medida, Sobre nosotros y Contacto, compartiendo CSS, JavaScript y recursos.

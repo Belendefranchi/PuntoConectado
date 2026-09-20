@@ -82,7 +82,6 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .section-title.left .lead{margin-inline:0}
 .card-surface{background:#fff;border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:var(--shadow);overflow:hidden}
 .card-surface img{width:100%;height:auto;border-radius:16px}
-.work-section{margin-top:70px}
 .brands-section{margin-top:70px;padding:42px 24px;background:var(--soft);border-radius:var(--radius);position:relative;overflow:hidden;isolation:isolate}
 .brands-section::before,.brands-section::after{content:"";position:absolute;width:320px;height:320px;border-radius:50%;background:var(--blue);opacity:.08;pointer-events:none;z-index:-1}
 .brands-section::before{top:-180px;left:-160px}
@@ -95,7 +94,19 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .brand-logo img[src="assets/Kaspersky-logo.png"]{width:115%;max-width:115%;height:101.2px}
 .brands-closing{display:flex;align-items:center;justify-content:center;gap:16px;margin:32px 0 0;color:var(--blue);font-size:.75rem;font-weight:500;letter-spacing:.12em;text-align:center}
 .brands-closing::before,.brands-closing::after{content:"";flex:0 1 36px;height:1px;background:var(--line)}
-.work-section > .section-title{margin-bottom:48px}
+.services-intro{display:grid;grid-template-columns:minmax(0,1fr) max-content;align-items:start;gap:32px;margin-bottom:48px}
+.services-intro-copy{min-width:0}
+.services-intro-copy h1{text-wrap:balance}
+.services-intro-copy .lead{max-width:60ch;margin-bottom:0}
+.services-intro-card{position:relative;min-width:0;overflow:hidden;isolation:isolate}
+.services-intro-card::before{content:"";position:absolute;top:-12%;right:-12%;width:70%;height:48%;border-radius:30% 0 45% 85%;background:var(--blue);opacity:.08;z-index:-1;pointer-events:none}
+.services-intro-header{display:flex;align-items:center;gap:14px}
+.services-intro-header h2{min-width:0;margin-bottom:0}
+.services-intro-card .check-list.compact{position:relative;display:grid;grid-template-columns:max-content max-content;grid-template-rows:repeat(3,auto);grid-auto-flow:column;gap:14px 32px;margin:18px 0 0}
+.services-intro-card .check-list.compact::after{content:"";position:absolute;grid-column:2;grid-row:1 / 4;top:0;bottom:0;left:-16px;width:1px;background:var(--line)}
+.services-intro-card .check-list.compact li{margin:0;align-items:center;white-space:nowrap}
+.services-intro-card .check-list li::before{content:none}
+.services-intro-card .check-list svg{width:15px;height:15px;flex:0 0 15px;color:var(--sky)}
 .work-block-head{margin-bottom:22px}
 .work-block-head h2{margin-bottom:6px}
 .work-block-head p,.work-card p,.attention-card p{color:var(--muted);margin:0;line-height:1.6}
@@ -105,9 +116,9 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .work-card{display:flex;align-items:center;gap:20px;padding-top:56px;padding-bottom:48px}
 .work-copy{flex:1;min-width:0}
 .work-section .icon-badge{width:56px;height:56px;flex:0 0 56px}
-.work-card h4,.attention-card h4{font-size:var(--type-component-size);line-height:1.35;font-weight:var(--type-weight-bold);margin:0}
+.attention-card h4{font-size:var(--type-component-size);line-height:1.35;font-weight:var(--type-weight-bold);margin:0}
 .work-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:2px;margin-bottom:20px}
-.work-card h4{min-width:0;overflow-wrap:anywhere}
+.work-card h3{min-width:0;overflow-wrap:anywhere}
 .card p,.work-card p,.attention-card p,.app-card p,.price-card p{font-size:.83rem;font-weight:var(--type-weight-regular)}
 .work-number{flex:0 0 auto;font-size:2.3rem;line-height:calc(1 / 1.15);font-weight:800;color:var(--blue);opacity:.18;pointer-events:none}
 .work-divider{border:0;border-top:1px solid var(--line);margin:42px 0}
@@ -320,6 +331,7 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 }
 
 @media(max-width:1000px){
+  .services-intro{grid-template-columns:1fr;gap:32px}
   .brands-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   .brand-logo:nth-child(3n + 1)::before{display:none}
   .nav-links,.nav-actions{display:none}
@@ -351,7 +363,10 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
   .services-grid,.attention-grid,.about-values,.form-grid{grid-template-columns:1fr}
   .service-card{gap:16px}
   .service-card .icon-badge{width:48px;height:48px;flex-basis:48px}
-  .work-section > .section-title{margin-bottom:32px}
+  .services-intro{gap:24px;margin-bottom:32px}
+  .services-intro-card .check-list.compact{grid-template-columns:1fr;grid-template-rows:none;grid-auto-flow:row}
+  .services-intro-card .check-list.compact::after{content:none}
+  .services-intro-card .check-list.compact li{white-space:normal}
   .work-card{padding:56px 24px 44px;gap:16px}
   .work-number{font-size:1.725rem}
   .work-section .icon-badge{width:48px;height:48px;flex-basis:48px}

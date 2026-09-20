@@ -47,7 +47,9 @@ ORGANIZACIÓN DE SERVICIOS
 - Los planes preparan un correo con la opción y las cantidades seleccionadas; el formulario de Contacto prepara el mensaje mediante mailto. No existe transferencia de datos de Planes al formulario.
 - Marcas líderes presenta HPE, MikroTik, Ubiquiti UniFi, Kaspersky, Acronis y Microsoft mediante logos locales originales en una grilla estática de seis, tres o dos columnas según el dispositivo. No utilizar imágenes remotas ni reemplazos de texto para logos faltantes.
 - Qué resolvemos por vos es el catálogo de seis servicios: Soporte técnico, Servidores, Redes e infraestructura, Software y licencias, Seguridad y antivirus, y Backup y continuidad. La grilla utiliza tres columnas en escritorio, dos en tablet y una en móvil.
-- Una solución integral para tu infraestructura explica Cómo trabajamos a ancho completo, sin ilustración lateral, con encabezado centrado, tres tarjetas numeradas de tipo de servicio y dos tarjetas de modalidad en escritorio; las tarjetas se apilan en móvil.
+- Una solución integral para tu infraestructura abre Servicios con H1 y descripción alineados a la izquierda y una tarjeta Nuestros servicios a la derecha; tu infraestructura utiliza el celeste del proyecto. El bloque comienza después del padding de la sección, sin margen superior adicional, y se apila en tablet y móvil.
+- La tarjeta Nuestros servicios reutiliza los estilos de cards y listas, incorpora un icono lineal de monitor con engranaje, checks mediante un símbolo SVG compartido y una forma celeste suave recortada en la esquina superior derecha.
+- Después de la cabecera continúan las tres tarjetas numeradas de tipo de servicio y las dos tarjetas de modalidad en escritorio; las tarjetas se apilan en móvil.
 - Las modalidades Remota y Presencial comparten una curva decorativa celeste CSS y presentan SVG sutiles de Wi-Fi y ubicación, detrás del contenido.
 - Los números decorativos de los tipos de servicio se integran junto al título dentro del bloque de texto.
 - Las tarjetas principales comparten sombras suaves mediante variables CSS; las cajas internas de Aplicaciones permanecen sin sombra.
@@ -72,7 +74,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.0.0
+Versión actual: 2.0.1
 Fecha versión actual: 2026-09-20
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
