@@ -15,19 +15,6 @@ if(menuBtn&&header){
   }));
 }
 
-const sections=[...document.querySelectorAll('main section[id]')].filter(section=>[...navLinks].some(link=>link.getAttribute('href')==='#'+section.id));
-const observerNav=new IntersectionObserver(entries=>{
-  entries.forEach(entry=>{
-    if(!entry.isIntersecting)return;
-    navLinks.forEach(a=>{
-      const active=a.getAttribute('href')==='#'+entry.target.id;
-      a.classList.toggle('active',active);
-      if(active)a.setAttribute('aria-current','page');
-      else a.removeAttribute('aria-current');
-    });
-  });
-},{rootMargin:'-35% 0px -55% 0px',threshold:0});
-sections.forEach(s=>observerNav.observe(s));
 
 const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const revealItems=document.querySelectorAll('.card,.price-card,.app-card,.about-grid,.contact-panel,.form-card');

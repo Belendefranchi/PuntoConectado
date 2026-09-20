@@ -1,6 +1,16 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 1.0.30
+Versión actual: 2.0.0
+
+v2.0.0 - 2026-09-20
+- Distribuido el contenido existente en cinco páginas HTML estáticas: Inicio, Servicios, Planes a medida, Sobre nosotros y Contacto, compartiendo CSS, JavaScript y recursos.
+- Conservados en Inicio el Hero, el catálogo de servicios y Marcas; trasladados Cómo trabajamos y Aplicaciones a Servicios, y las demás secciones a sus respectivas páginas.
+- Convertidos los encabezados principales de las páginas internas a H1 con la tipografía y escala responsive general de H1 del proyecto.
+- Integrado el bloque de Aplicaciones como sección semántica con aria-labelledby al final de servicios-integrales, dentro del mismo contenedor.
+- Replicados navbar y footer completos, actualizados enlaces entre páginas y definido el enlace activo y aria-current por página; retirado el seguimiento de navegación por scroll.
+- Conservados el menú móvil, las animaciones, el formulario y la preparación de correos de los planes con los datos seleccionados.
+- Actualizados títulos, descripciones, canonical y sitemap para las cinco páginas, conservando el dominio de producción y los enlaces externos.
+Commit: v2.0.0 - Dividir el sitio en múltiples páginas conservando diseño y tipografía
 
 v1.0.30 - 2026-09-18
 - Hero: se elimina el eyebrow "Servidores · Redes · Soporte".

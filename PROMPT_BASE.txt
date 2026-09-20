@@ -21,9 +21,9 @@ REGLA DE MODIFICACIÓN AISLADA
 - Las reglas CSS nuevas deben ser específicas del bloque cuando sea posible, para evitar regresiones en otras secciones.
 
 BASE DE TRABAJO
-- El ZIP de la última versión entregada es la fuente de verdad del proyecto.
+- El código local del repositorio y sus reglas vigentes son la fuente de verdad del proyecto.
 - La memoria conserva decisiones generales, pero no sustituye los archivos del proyecto.
-- Para continuar el trabajo con precisión, utilizar preferentemente el ZIP de la última versión.
+- Para continuar el trabajo, revisar el último commit y preservar los cambios locales posteriores.
 
 REFERENCIA VISUAL
 - La segunda imagen de referencia generada durante el diseño sirve como guía visual para aproximar el sitio a ese estilo.
@@ -40,7 +40,11 @@ TIPOGRAFÍA DEL NAVBAR Y HERO
 - El título principal del Hero usa un único H1 con salto de línea y un strong.accent para la segunda parte; ambas partes comparten la escala y el peso 700 del H1.
 
 ORGANIZACIÓN DE SERVICIOS
-- La navegación de contenido sigue Hero, Qué resolvemos por vos, Marcas líderes, Cómo trabajamos, Planes a medida y el resto del sitio.
+- El sitio utiliza cinco páginas HTML estáticas en la raíz: index.html (Hero, Qué resolvemos por vos y Marcas), servicios.html (Cómo trabajamos y Aplicaciones), planes.html (Planes a medida), nosotros.html (Sobre nosotros) y contacto.html (Contacto).
+- Todas las páginas comparten assets/styles.css, assets/app.js y los recursos existentes; incluyen navbar y footer completos en su HTML, sin carga mediante fetch ni sistema de plantillas.
+- La navegación activa se define en cada HTML mediante active y aria-current="page". Los enlaces al catálogo apuntan a index.html#servicios; el enlace Servicios del navbar apunta a servicios.html.
+- Cada página tiene un único H1, con la tipografía y escala responsive general de H1 del proyecto; los títulos internos no conservan la escala de H2.
+- Los planes preparan un correo con la opción y las cantidades seleccionadas; el formulario de Contacto prepara el mensaje mediante mailto. No existe transferencia de datos de Planes al formulario.
 - Marcas líderes presenta HPE, MikroTik, Ubiquiti UniFi, Kaspersky, Acronis y Microsoft mediante logos locales originales en una grilla estática de seis, tres o dos columnas según el dispositivo. No utilizar imágenes remotas ni reemplazos de texto para logos faltantes.
 - Qué resolvemos por vos es el catálogo de seis servicios: Soporte técnico, Servidores, Redes e infraestructura, Software y licencias, Seguridad y antivirus, y Backup y continuidad. La grilla utiliza tres columnas en escritorio, dos en tablet y una en móvil.
 - Una solución integral para tu infraestructura explica Cómo trabajamos a ancho completo, sin ilustración lateral, con encabezado centrado, tres tarjetas numeradas de tipo de servicio y dos tarjetas de modalidad en escritorio; las tarjetas se apilan en móvil.
@@ -49,7 +53,7 @@ ORGANIZACIÓN DE SERVICIOS
 - Las tarjetas principales comparten sombras suaves mediante variables CSS; las cajas internas de Aplicaciones permanecen sin sombra.
 - Aplicaciones presenta FitnessPoint y TrackPoint en tarjetas equivalentes con cinco ítems, logos originales sobre contenedores celestes claros y botones alineados en escritorio. El encabezado está centrado sobre el degradado y las tarjetas se apilan en pantallas estrechas.
 - Diferenciar tipos de servicio (Soluciones puntuales, Mantenimiento periódico, Proyectos e implementaciones) de modalidades de atención (Remota y Presencial).
-- Planes a medida presenta las opciones de contratación; no vuelve a enumerar el catálogo de servicios. El bloque de aplicaciones se ubica después de Planes.
+- Planes a medida presenta las opciones de contratación en planes.html; no vuelve a enumerar el catálogo de servicios. Aplicaciones es una sección semántica apps-block con aria-labelledby, al final de servicios-integrales y después de Cómo trabajamos, dentro del mismo contenedor.
 - Mantener los SVG de contorno con el estilo de Contacto, reutilizando recursos sin nuevas librerías.
 - Los contenedores icon-badge no tienen fondo; conservan el color de los íconos, dimensiones y alineación.
 
@@ -68,8 +72,8 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 1.0.30
-Fecha versión actual: 2026-09-18
+Versión actual: 2.0.0
+Fecha versión actual: 2026-09-20
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
 
