@@ -32,9 +32,10 @@ REFERENCIA VISUAL
 
 TIPOGRAFÍA DEL NAVBAR Y HERO
 - El título del Hero utiliza Manrope, como la jerarquía tipográfica general del sitio.
-- La marca completa del Navbar se presenta mediante assets/logo-punto-conectado-navbar.png, con ancho de 240px adaptable al móvil y altura proporcional.
-- La marca completa del Footer se presenta mediante assets/logo-punto-conectado-footer2.png, con ancho máximo de 280px y altura proporcional. Ambos logos enlazan a Inicio e incluyen el nombre y slogan dentro de la imagen.
+- La marca del Navbar combina el símbolo adjunto original assets/punto-conectado-symbol.png con el texto PUNTO CONECTADO en HTML: Manrope 1.22rem, peso 800 y espaciado .012em, como FitnessPoint. Símbolo de 42px (38px hasta 430px) y separación de 9px; PUNTO azul oscuro y CONECTADO celeste.
+- El Footer reutiliza el símbolo original con un filtro SVG que convierte solamente el azul oscuro a blanco y conserva el celeste y la transparencia. El nombre mantiene la escala del Navbar, con PUNTO blanco y CONECTADO celeste. Debajo del nombre, alineada con su inicio, figura TU PUNTO DE PARTIDA a .76rem e interlineado 1.55. El símbolo queda centrado verticalmente respecto del bloque combinado del nombre y la leyenda mediante un desplazamiento visual que no altera su tamaño ni la posición de los textos. Ambas marcas enlazan a Inicio; la composición y proporciones siguen el footer de FitnessPoint y se conserva la columna de contacto y legales.
 - En el Navbar, enlaces de navegación en Regular (400); botón Solicitar Presupuesto en Manrope Semibold (600).
+- La topbar comparte con FitnessPoint una altura de navegación de 72px en escritorio y 68px hasta 1000px, más el borde inferior existente, y sombra 0 8px 24px rgba(36,38,93,.091). El menú móvil se posiciona según esa altura. El botón Solicitar Presupuesto no lleva flecha y conserva su estilo, tipografía y padding.
 - Los enlaces del Navbar, el lead y botones del Hero, los textos de Servicios, Planes, Sobre nosotros, Contacto y el Footer utilizan Manrope cargada desde Google Fonts.
 - El Hero tiene fondo blanco; “Soluciones IT.” en azul violáceo y “Para que tu negocio siga creciendo.” en celeste.
 - El título principal del Hero usa un único H1 con salto de línea y un strong.accent para la segunda parte; ambas partes comparten la escala y el peso 700 del H1.
@@ -42,18 +43,19 @@ TIPOGRAFÍA DEL NAVBAR Y HERO
 ORGANIZACIÓN DE SERVICIOS
 - El sitio utiliza cinco páginas HTML estáticas en la raíz: index.html (Hero, Qué resolvemos por vos y Marcas), servicios.html (Cómo trabajamos y Aplicaciones), planes.html (Planes a medida), nosotros.html (Sobre nosotros) y contacto.html (Contacto).
 - Todas las páginas comparten assets/styles.css, assets/app.js y los recursos existentes; incluyen navbar y footer completos en su HTML, sin carga mediante fetch ni sistema de plantillas.
+- Nosotros utiliza una estructura vertical con altura mínima del viewport y contenido principal flexible: el footer llega al borde inferior cuando el contenido es corto y permanece en el flujo normal cuando requiere desplazamiento.
 - La navegación activa se define en cada HTML mediante active y aria-current="page". Los enlaces al catálogo apuntan a index.html#servicios; el enlace Servicios del navbar apunta a servicios.html.
 - Cada página tiene un único H1, con la tipografía y escala responsive general de H1 del proyecto; los títulos internos no conservan la escala de H2.
 - Los planes preparan un correo con la opción y las cantidades seleccionadas; el formulario de Contacto prepara el mensaje mediante mailto. No existe transferencia de datos de Planes al formulario.
-- Marcas líderes presenta HPE, MikroTik, Ubiquiti UniFi, Kaspersky, Acronis y Microsoft mediante logos locales originales en una grilla estática de seis, tres o dos columnas según el dispositivo. No utilizar imágenes remotas ni reemplazos de texto para logos faltantes.
+- Marcas líderes presenta HPE, MikroTik, Ubiquiti UniFi, Kaspersky, Acronis y Microsoft mediante logos locales originales, con escalas ópticas individuales que compensan sus proporciones y márgenes internos sin modificar sus colores ni deformarlos. Utiliza un carrusel continuo hacia la izquierda, lineal y sin saltos, con el estilo de FitnessPoint y ciclos de 34s en escritorio, 30s hasta 1024px y 26s hasta 640px. Se pausa al pasar el mouse y mantiene la pausa al recibir foco o tocarlo; al volver a mostrar la página se restablece el movimiento. Con movimiento reducido muestra todas las marcas en una grilla estática adaptable. La copia visual del recorrido queda oculta a tecnologías de asistencia. No utilizar imágenes remotas ni reemplazos de texto para logos faltantes.
 - Qué resolvemos por vos es el catálogo de seis servicios: Soporte técnico, Servidores, Redes e infraestructura, Software y licencias, Seguridad y antivirus, y Backup y continuidad. La grilla utiliza tres columnas en escritorio, dos en tablet y una en móvil.
 - Una solución integral para tu infraestructura abre Servicios con H1 y descripción alineados a la izquierda y una tarjeta Nuestros servicios a la derecha; tu infraestructura utiliza el celeste del proyecto. El bloque comienza después del padding de la sección, sin margen superior adicional, y se apila en tablet y móvil.
 - La tarjeta Nuestros servicios reutiliza los estilos de cards y listas, incorpora un icono lineal de monitor con engranaje, checks mediante un símbolo SVG compartido y una forma celeste suave recortada en la esquina superior derecha.
-- Después de la cabecera continúan las tres tarjetas numeradas de tipo de servicio y las dos tarjetas de modalidad en escritorio; las tarjetas se apilan en móvil.
+- Después de la cabecera continúan las tres tarjetas de tipo de servicio y las dos tarjetas de modalidad en escritorio; las tarjetas se apilan en móvil.
 - Las modalidades Remota y Presencial comparten una curva decorativa celeste CSS y presentan SVG sutiles de Wi-Fi y ubicación, detrás del contenido.
-- Los números decorativos de los tipos de servicio se integran junto al título dentro del bloque de texto.
+- Las tarjetas de tipos de servicio presentan icono, título y descripción, sin números decorativos. El padding interno es de 32px verticales y 28px horizontales en escritorio y tablet; hasta 680px se utilizan 24px en todos los lados.
 - Las tarjetas principales comparten sombras suaves mediante variables CSS; las cajas internas de Aplicaciones permanecen sin sombra.
-- Aplicaciones presenta FitnessPoint y TrackPoint en tarjetas equivalentes con cinco ítems, logos originales sobre contenedores celestes claros y botones alineados en escritorio. El encabezado está centrado sobre el degradado y las tarjetas se apilan en pantallas estrechas.
+- Aplicaciones presenta FitnessPoint y TrackPoint en tarjetas equivalentes con cinco ítems, logos originales sobre contenedores transparentes, conservando sus bordes y dimensiones y botones alineados en escritorio. El encabezado está centrado sobre el degradado y las tarjetas se apilan en pantallas estrechas.
 - Diferenciar tipos de servicio (Soluciones puntuales, Mantenimiento periódico, Proyectos e implementaciones) de modalidades de atención (Remota y Presencial).
 - Planes a medida presenta las opciones de contratación en planes.html; no vuelve a enumerar el catálogo de servicios. Aplicaciones es una sección semántica apps-block con aria-labelledby, al final de servicios-integrales y después de Cómo trabajamos, dentro del mismo contenedor.
 - Mantener los SVG de contorno con el estilo de Contacto, reutilizando recursos sin nuevas librerías.
@@ -74,7 +76,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.0.3
+Versión actual: 2.0.14
 Fecha versión actual: 2026-09-20
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
@@ -83,3 +85,12 @@ TIPOGRAFÍA
 - Escala compartida basada en FitnessPoint: H1, H2, componentes, cuerpo, small, acciones, metadata, micro y CTA.
 - Pesos base: regular 400, medium 600 y bold 700.
 - Todos los H1 utilizan peso 700, incluido el Hero.
+
+BOTONES E ICONOS DE CARDS
+- Todos los botones comparten un radio de 8px, incluidos menú móvil, navbar, planes y formulario, en todos sus estados.
+- Los iconos grandes de cards siguen las referencias de FitnessPoint y TrackPoint: SVG de contorno, trazo 0.98 sobre viewBox 24, extremos y uniones redondeados, tamaño de 52px limitado al contenedor en móvil.
+- Los detalles SVG a escala 0.5 compensan el trazo al doble para conservar el grosor visual; las tildes internas heredan el trazo del icono.
+- Los iconos de contacto mantienen la jerarquía secundaria de FitnessPoint, con 30px y trazo 1.7; los logos conservan su diseño original.
+
+- Las cards de Planes incluyen iconos SVG celestes sin fondo, de 30px y trazo 1.7 sobre viewBox 24, con extremos y uniones redondeados, siguiendo la jerarquía de Planes de FitnessPoint. Calendario con tilde para Semanal, escudo con tilde para Mensual y controles de ajuste para A medida; contenedor de 50px y separación inferior de 12px.
+- El aviso de precios referenciales debajo de Planes utiliza fondo transparente, conservando borde, texto y espaciado.

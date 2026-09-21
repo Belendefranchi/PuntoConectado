@@ -1,6 +1,70 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.3
+Versión actual: 2.0.14
+
+v2.0.14 - 2026-09-20
+- Eliminado el fondo celeste de la caja de aviso de precios referenciales en Planes, conservando borde, texto, dimensiones y espaciado.
+Commit: v2.0.14 - Quitar fondo del aviso de precios referenciales en Planes
+
+v2.0.13 - 2026-09-20
+- Equilibrado el peso visual de los seis logos de Marcas líderes mediante tamaños ópticos individuales, conservando imágenes, colores y proporciones originales.
+- Incorporado el carrusel continuo de FitnessPoint: estilo de contenedor y bordes difuminados, ciclos lineales de 34s/30s/26s y pausa con mouse, foco o toque.
+- Duplicado el recorrido para una transición sin saltos y ocultada la copia a tecnologías de asistencia; con movimiento reducido se muestran las seis marcas en una grilla estática adaptable.
+Commit: v2.0.13 - Equilibrar logos de marcas e incorporar carrusel como FitnessPoint
+
+v2.0.12 - 2026-09-20
+- Centrado verticalmente el símbolo del footer respecto del bloque PUNTO CONECTADO y TU PUNTO DE PARTIDA en todas las páginas.
+- Aplicado un desplazamiento visual adaptable al tamaño del símbolo, sin alterar sus dimensiones ni la posición de los textos, contactos o demás elementos del footer.
+Commit: v2.0.12 - Centrar el logo del footer respecto del nombre y la leyenda
+
+v2.0.11 - 2026-09-20
+- Corregido el espacio blanco debajo del footer en Nosotros mediante una estructura flex vertical con altura mínima del viewport y main flexible.
+- El footer permanece al final del contenido, sin posicionamiento fijo ni superposiciones, tanto en pantallas altas como en móvil.
+- Cambio limitado a Nosotros, conservando contenido, estilos internos del footer y las demás páginas.
+Commit: v2.0.11 - Corregir posición del footer en Nosotros
+
+v2.0.10 - 2026-09-20
+- Eliminado el fondo celeste de los contenedores de los logos FitnessPoint y TrackPoint en Aplicaciones.
+- Conservados los logos, tamaños, bordes, alineación y adaptación móvil; retiradas las clases que únicamente definían el fondo anterior.
+Commit: v2.0.10 - Quitar fondo de los contenedores de logos de aplicaciones
+
+v2.0.9 - 2026-09-20
+- Equilibrado el padding de las tres cards de tipos de servicio: 32px arriba y abajo y 28px a los lados en escritorio y tablet; 24px en todos los lados en móvil.
+- Eliminado el exceso y la asimetría del espacio vertical, conservando iconos, textos, separación entre elementos y estilos de las demás cards.
+Commit: v2.0.9 - Equilibrar padding de las cards de tipos de servicio
+
+v2.0.8 - 2026-09-20
+- Igualada la altura de la topbar a FitnessPoint: navegación de 72px en escritorio y 68px hasta 1000px, conservando el borde inferior.
+- Aplicada la sombra de FitnessPoint: 0 8px 24px rgba(36,38,93,.091).
+- Ajustado el posicionamiento del menú móvil a la nueva altura de navegación.
+- Eliminada la flecha de Solicitar Presupuesto en las cinco páginas, conservando el resto de sus estilos.
+Commit: v2.0.8 - Igualar altura y sombra de topbar con FitnessPoint y quitar flecha de presupuesto
+
+v2.0.7 - 2026-09-20
+- Agregados iconos SVG a los encabezados de Planes: calendario con tilde (Semanal), escudo con tilde (Mensual) y controles de ajuste (A medida).
+- Aplicada la escala visual de Planes de FitnessPoint: iconos de 30px, trazo 1.7, color celeste, extremos redondeados y contenedores de 50px sin fondo.
+- Conservados los textos, selectores, botones, distintivo Más elegido y comportamiento de contratación.
+Commit: v2.0.7 - Agregar iconos a Planes con el peso visual de FitnessPoint
+
+v2.0.6 - 2026-09-20
+- Reemplazada la marca de la topbar en las cinco páginas por el nuevo símbolo original y el texto PUNTO CONECTADO en HTML, con tamaño 1.22rem, peso 800 y proporciones de FitnessPoint.
+- Actualizada la marca del footer con símbolo blanco y celeste, nombre y leyenda TU PUNTO DE PARTIDA alineada debajo, respetando tamaños y separación de FitnessPoint.
+- Conservado el PNG original sin alteraciones; el tratamiento de color del footer se aplica mediante un filtro SVG que mantiene el celeste y la transparencia.
+- Conservada la estructura de dos bloques del footer, los contactos, enlaces y legales; marca adaptable en móvil.
+Commit: v2.0.6 - Actualizar marcas de topbar y footer con proporciones de FitnessPoint
+
+v2.0.5 - 2026-09-20
+- Eliminados los números decorativos 01, 02 y 03 de las tarjetas Soluciones puntuales, Mantenimiento periódico y Proyectos e implementaciones.
+- Retirados los estilos de numeración sin uso; conservados iconos y textos.
+Commit: v2.0.5 - Eliminar numeración de las cards de tipos de servicio
+
+v2.0.4 - 2026-09-20
+- Unificado el border-radius de todos los botones en 8px mediante una variable compartida, incluidos navbar, hero, aplicaciones, planes, formulario y menú móvil.
+- Alineados los iconos principales de las cards de Inicio y Servicios con FitnessPoint y TrackPoint: trazo 0.98, tamaño 52px adaptable al contenedor móvil y terminaciones redondeadas.
+- Unificado el trazo de tildes internas y compensado el de los engranajes a escala 0.5 para mantener el mismo peso visual.
+- Ajustados los iconos lineales de Contacto a 30px y trazo 1.7 según la jerarquía secundaria de FitnessPoint.
+- Conservados colores, textos, disposición de las cards, logos, SVG decorativos, checks de listas y comportamiento del sitio.
+Commit: v2.0.4 - Unificar botones e iconos de cards con FitnessPoint y TrackPoint
 
 v2.0.3 - 2026-09-20
 - Simplificados los textos del navbar en las cinco páginas: Planes a medida pasa a Planes y Sobre nosotros pasa a Nosotros.

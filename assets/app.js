@@ -16,6 +16,14 @@ if(menuBtn&&header){
 }
 
 
+const brandsMarquee=document.querySelector('.brands-marquee');
+if(brandsMarquee){
+  const pauseBrands=()=>brandsMarquee.classList.add('is-paused');
+  brandsMarquee.addEventListener('focus',pauseBrands);
+  brandsMarquee.addEventListener('pointerdown',pauseBrands,{passive:true});
+  window.addEventListener('pageshow',()=>brandsMarquee.classList.remove('is-paused'));
+}
+
 const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const revealItems=document.querySelectorAll('.card,.price-card,.app-card,.about-grid,.contact-panel,.form-card');
 if(!reduceMotion&&'IntersectionObserver' in window){

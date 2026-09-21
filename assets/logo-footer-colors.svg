@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Map the original navy (#24265d) to white while preserving sky (#51aee5)
+       and alpha. The source PNG remains unchanged. Values operate in sRGB. -->
+  <filter id="footer-colors" color-interpolation-filters="sRGB">
+    <feComponentTransfer>
+      <feFuncR type="linear" slope="-3.8666666667" intercept="1.5458823529"/>
+      <feFuncG type="linear" slope="-0.5955882353" intercept="1.0887543253"/>
+      <feFuncB type="linear" slope="-0.1911764706" intercept="1.0697231834"/>
+    </feComponentTransfer>
+  </filter>
+</svg>
