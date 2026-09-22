@@ -1,6 +1,18 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.15
+Versión actual: 2.0.16
+
+v2.0.16 - 2026-09-22
+- Reformulada la página Nosotros con presentación en dos columnas, título destacado y los tres párrafos institucionales.
+- Incorporada una composición SVG de 18 nodos, circunferencia discontinua y cuatro tarjetas de beneficios, con frase manuscrita y decoración suave.
+- Reorganizados Compromiso, Cercanía, Prevención e Innovación en una franja con iconos lineales y divisores.
+- Añadido el bloque Nuestras especialidades con descripción y tres tarjetas de Redes y Conectividad, Servidores y Copias de Seguridad, y Equipos y Seguridad.
+- Adaptada la composición a escritorio, tablet y móvil; retirados HTML y CSS exclusivos reemplazados, conservando navbar, footer, otras páginas y paleta global #24265D / #51AEE5.
+- Ajustada la presentación superior: retirado el eyebrow, reutilizado el símbolo oficial con la marca centrada y distribuidas las cuatro tarjetas simétricamente alrededor del círculo.
+- Convertidos los valores en cuatro tarjetas independientes de altura uniforme, con sombras sutiles y sin divisores; conservado íntegramente el bloque de especialidades.
+- Retirados el texto PUNTO CONECTADO bajo el símbolo central, los fondos de los iconos de valores y el eyebrow Nuestras especialidades, junto con sus estilos exclusivos obsoletos.
+- Alineado el divisor de Especialidades con el centro del gap entre las dos primeras tarjetas mediante la geometría compartida de la grilla; ampliada la descripción conservando la tipografía, las tarjetas y el comportamiento móvil.
+Commit: v2.0.16 - Rediseñar página Nosotros con presentación, valores y especialidades
 
 v2.0.15 - 2026-09-22
 - Incorporada una tabla comparativa semántica debajo de las cards de Planes, con cinco categorías, checks accesibles y desplazamiento horizontal limitado al contenedor en móvil.
