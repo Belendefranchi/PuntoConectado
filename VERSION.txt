@@ -1,6 +1,30 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.14
+Versión actual: 2.0.15
+
+v2.0.15 - 2026-09-22
+- Incorporada una tabla comparativa semántica debajo de las cards de Planes, con cinco categorías, checks accesibles y desplazamiento horizontal limitado al contenedor en móvil.
+- Documentadas periodicidad, soporte, puesta en marcha, revisiones y tareas adicionales, sin inventar cantidades de urgencias.
+- Confirmada prioridad de atención no incluida en Mensual; conservada la prioridad de A medida y utilizado Según alcance para condiciones personalizadas no definidas.
+- Conservados íntegramente las cards comerciales, sus botones, el encabezado, navbar, footer y las demás páginas.
+- Reorganizado el encabezado de Planes a ancho completo con la descripción debajo del H1, ambos centrados y sin divisor.
+- Retirada la card informativa y sus estilos exclusivos; conservados el texto y los colores, con el H1 en dos líneas mediante un salto después de Elegí la modalidad que y ajuste natural en móvil.
+- Actualizadas las prestaciones comerciales de Semanal y Mensual, conservando el contenido del plan A medida.
+- Unificados los tres botones como Elegir plan →, manteniendo selectores y preparación del correo con plan y cantidades.
+- Limitados los colores solicitados al nuevo bloque introductorio, sin alterar navbar, footer ni otras páginas.
+- Adaptado el estilo de la tabla a la referencia: fondo blanco, filas compactas, categorías con iconos y línea celeste, radio de 13px y tipografía equivalente, conservando todas las prestaciones.
+- Reemplazada la comparativa anterior por un encabezado Nuestro trabajo con ilustración SVG de calendario, check y engranaje, y dos tablas independientes.
+- Incorporadas cuatro filas de modalidad y periodicidad y 27 tareas en cuatro grupos, diferenciando tareas de única vez y de cada visita según la especificación.
+- Añadidos checks específicos de círculo celeste sólido y tilde blanca, guiones accesibles y desplazamiento horizontal local en ambas tablas.
+- Retirados el HTML y los estilos exclusivos de la comparativa anterior; conservados encabezado principal, cards comerciales, botones, navbar, footer y demás páginas.
+- Simplificada la tabla de tareas: eliminado el título independiente, incorporado Tareas incluidas al primer encabezado y reemplazados los fondos celestes por líneas inferiores de 3px en columnas y 1px en categorías, conservando contenido y responsive.
+- Ajustado el divisor del encabezado de tareas al mismo borde de las filas comunes (1px y color neutro); reemplazados los checks circulares por tildes SVG de trazo celeste sin fondo.
+- Acortadas las líneas turquesa de las categorías con márgenes simétricos de 16px a izquierda y derecha, conservando grosor y espaciados.
+- Unificados los indicadores de tareas incluidas con las tildes de las cards de Planes, compartiendo la regla CSS del círculo con borde celeste y fondo blanco, sin modificar las cards.
+- Eliminado el eyebrow Nuestro trabajo del encabezado de la comparativa, junto con su regla CSS exclusiva.
+- Unificada la paleta de Planes con Index y Servicios: azul oscuro #24265D y celeste claro #51AEE5 en encabezados, foco e ilustración; eliminados los colores locales alternativos y actualizada la definición permanente en PROMPT_BASE.txt.
+- Igualado el fondo de Planes con Index y Servicios mediante la eliminación del degradado exclusivo section-soft; la página utiliza ahora el fondo blanco global y la paleta compartida.
+Commit: v2.0.15 - Reorganizar encabezado de Planes, actualizar prestaciones y rediseñar comparativa de modalidades y tareas
 
 v2.0.14 - 2026-09-20
 - Eliminado el fondo celeste de la caja de aviso de precios referenciales en Planes, conservando borde, texto, dimensiones y espaciado.

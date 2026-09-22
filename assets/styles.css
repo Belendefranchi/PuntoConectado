@@ -188,9 +188,45 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .app-content p{color:var(--muted);margin-bottom:10px}
 .check-list{list-style:none;padding:0;margin:24px 0}
 .check-list li{display:flex;gap:10px;margin:10px 0;color:var(--muted)}
-.check-list li:before{content:"✓";width:15px;height:15px;border-radius:50%;background:#fff;border:1.4px solid var(--sky);color:var(--sky);display:grid;place-items:center;font-weight:900;font-size:.52rem;line-height:1;flex:0 0 15px;-webkit-text-stroke:.22px currentColor}
+.check-list li:before,.visit-check::before{content:"✓";width:15px;height:15px;border-radius:50%;background:#fff;border:1.4px solid var(--sky);color:var(--sky);display:grid;place-items:center;font-weight:900;font-size:.52rem;line-height:1;flex:0 0 15px;-webkit-text-stroke:.22px currentColor}
 .check-list.compact{margin:10px 0 18px}
 .check-list.compact li{font-size:.87rem;margin:7px 0}
+.plan-visits{margin-top:64px;color:var(--navy)}
+.plan-visits-head{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);align-items:center;gap:40px;margin-bottom:32px}
+.plan-visits-head h2{font-size:var(--type-h1-size);line-height:1.08;margin-bottom:18px}
+.plan-visits-head h2 span{color:var(--sky)}
+.plan-visits-head .lead{max-width:64ch;margin-bottom:0}
+.plan-visits-art{display:block;width:100%;max-width:400px;justify-self:end}
+.plan-visits > .visit-table-wrap,.visit-task-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.visit-table-wrap{overflow-x:auto}
+.visit-table-wrap:focus-visible{outline:2px solid var(--sky);outline-offset:3px}
+.visit-table{width:100%;min-width:720px;table-layout:fixed;border-collapse:separate;border-spacing:0;font-size:var(--type-small)}
+.visit-modality-label{width:44%}
+.visit-task-label{width:58%}
+.visit-table th,.visit-table td{padding:11px 16px;border-bottom:1px solid var(--line);vertical-align:middle;text-align:center;overflow-wrap:break-word}
+.visit-table th:first-child{text-align:left}
+.visit-table thead th{font-weight:700;padding-block:15px}
+.visit-table th[scope="row"]{font-weight:400}
+.visit-table td{color:var(--muted)}
+.visit-table tbody:last-child tr:last-child > *{border-bottom:0}
+.visit-label{display:flex;align-items:center;gap:10px}
+.visit-icon{width:20px;height:20px;flex:0 0 20px;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
+.visit-task-card{margin-top:28px;overflow:hidden}
+.visit-task-table .visit-category th{position:relative;font-size:.75rem;font-weight:700;letter-spacing:.045em;padding-block:16px;border-bottom:1px solid transparent}
+.visit-task-table .visit-category th::after{content:"";position:absolute;left:16px;right:16px;bottom:-1px;height:1px;background:var(--cyan)}
+.visit-task-table tbody + tbody .visit-category th{border-top:10px solid #fff}
+.visit-check{display:grid;place-items:center;width:20px;height:20px;margin:auto}
+.visit-dash{color:rgba(36,38,93,.42)}
+.visit-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(max-width:680px){
+  .plan-visits{margin-top:48px}
+  .plan-visits-head{grid-template-columns:1fr;gap:20px}
+  .plan-visits-art{max-width:300px;justify-self:center}
+}
+.plans-intro{margin-bottom:48px;color:var(--navy)}
+.plans-intro-copy{min-width:0;text-align:center}
+.plans-intro-copy h1{margin-bottom:16px;font-size:min(var(--type-h1-size),3vw)}
+.plans-intro-copy .lead{max-width:none;margin:0}
 .pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .price-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px;position:relative;transition:.22s ease;display:flex;flex-direction:column;box-shadow:var(--shadow)}
 .price-card.featured{border:2px solid var(--blue);box-shadow:var(--shadow)}
@@ -345,6 +381,7 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 }
 
 @media(max-width:1000px){
+  .plans-intro-copy h1{font-size:var(--type-h1-size)}
   .site-header{--nav-height:68px}
   .services-intro{grid-template-columns:1fr;gap:32px}
   .nav-links,.nav-actions{display:none}

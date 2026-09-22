@@ -76,8 +76,8 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.0.14
-Fecha versión actual: 2026-09-20
+Versión actual: 2.0.15
+Fecha versión actual: 2026-09-22
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
 
@@ -94,3 +94,4 @@ BOTONES E ICONOS DE CARDS
 
 - Las cards de Planes incluyen iconos SVG celestes sin fondo, de 30px y trazo 1.7 sobre viewBox 24, con extremos y uniones redondeados, siguiendo la jerarquía de Planes de FitnessPoint. Calendario con tilde para Semanal, escudo con tilde para Mensual y controles de ajuste para A medida; contenedor de 50px y separación inferior de 12px.
 - El aviso de precios referenciales debajo de Planes utiliza fondo transparente, conservando borde, texto y espaciado.
+- La paleta permanente de Punto Conectado utiliza azul oscuro #24265D y celeste claro #51AEE5 en todo el proyecto. Planes abre con un encabezado a ancho completo, con el título y la descripción debajo centrados, sin divisor. El H1 tiene un salto después de Elegí la modalidad que; en pantallas estrechas puede ajustarse naturalmente para evitar desbordes. Planes reutiliza la paleta global sin valores locales alternativos y conserva el diseño de las cards comerciales.
