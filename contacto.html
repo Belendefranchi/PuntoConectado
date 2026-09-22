@@ -54,7 +54,7 @@
             <path class="contact-chat-outline" d="M64 72h150a24 24 0 0 1 24 24v31a24 24 0 0 1-24 24h-78l-25 20 5-20H64a24 24 0 0 1-24-24V96a24 24 0 0 1 24-24Z"/>
             <path class="contact-chat-copy" d="M79 98h101M79 113h82M79 128h91"/>
             <path class="contact-art-dash" d="M238 110c25-31 52-36 78-23"/>
-            <circle cx="340" cy="104" r="47"/>
+            <circle class="contact-user-outline" cx="340" cy="104" r="47"/>
             <circle cx="340" cy="89" r="13"/>
             <path d="M315 132c4-17 14-25 25-25s21 8 25 25"/>
             <circle class="contact-art-dot" cx="273" cy="48" r="7"/><circle class="contact-art-dot" cx="390" cy="54" r="5"/><circle class="contact-art-dot" cx="287" cy="167" r="5"/>
@@ -90,7 +90,7 @@
           <label>Teléfono / WhatsApp *<input required name="telefono" placeholder="+54 9 ..."></label>
           <label class="full">¿Qué necesitás? *<select required name="tema"><option value="">Seleccionar</option><option>Soporte técnico</option><option>Servidores</option><option>Redes y cableado</option><option>Software / licencias</option><option>Backup y recuperación</option><option>Plan de mantenimiento</option><option>Fitness Point / TrackPoint</option><option>Otro</option></select></label>
           <label class="full">Mensaje<textarea required name="mensaje" placeholder="Contanos brevemente el problema o proyecto."></textarea></label>
-          <div class="form-trust full"><span class="trust-check" aria-hidden="true">✓</span><span>La información se utilizará únicamente para responder la consulta.</span></div>
+          <div class="form-trust full"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><use href="assets/service-check.svg#check"/></svg><span>La información se utilizará únicamente para responder la consulta.</span></div>
           <button class="btn btn-primary full" type="submit">Preparar mensaje →</button>
           <p class="form-note full" id="form-note" role="status"></p>
         </form>

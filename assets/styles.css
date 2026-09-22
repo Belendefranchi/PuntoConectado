@@ -289,6 +289,7 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .contact-art-line{fill:none;stroke:var(--blue);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
 .contact-chat-outline{stroke:var(--navy)}
 .contact-chat-copy{stroke:var(--blue)}
+.contact-user-outline{stroke:var(--navy)}
 .contact-art-dash{stroke-dasharray:7 9}
 .contact-art-dot{stroke-width:2.4}
 .contact-panel h2,.form-card h2{margin:0 0 9px;color:var(--navy);font-size:var(--type-h2-size);font-weight:var(--type-weight-bold)}
@@ -300,7 +301,7 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .contact-row b,.contact-row small{display:block}
 .contact-row b{font-size:var(--type-small)}
 .contact-row small{margin-top:3px;color:var(--muted);font-size:var(--type-meta);overflow-wrap:anywhere}
-.contact-icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:rgba(255,255,255,.72);color:var(--blue);flex:0 0 42px}
+.contact-icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:transparent;color:var(--blue);flex:0 0 42px}
 .contact-arrow{flex:0 0 auto;color:var(--blue);font-size:1.25rem;transition:transform .18s ease}
 .form-card{min-width:0;width:100%;padding:clamp(26px,3vw,38px);background:#fff;border:1px solid var(--line);border-radius:calc(var(--radius) - 2px);box-shadow:0 4px 16px rgba(36,38,93,.045)}
 .form-card>.muted{margin:0 0 25px;line-height:1.6}
@@ -312,7 +313,6 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .form-grid textarea{min-height:128px;resize:vertical}
 .form-grid input:focus,.form-grid select:focus,.form-grid textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(81,174,229,.16)}
 .form-trust{display:flex;gap:9px;align-items:center;color:var(--muted);font-size:var(--type-meta);font-weight:var(--type-weight-regular)}
-.trust-check{display:grid;place-items:center;flex:0 0 18px;width:18px;height:18px;border-radius:50%;background:var(--blue);color:#fff;font-size:11px;font-weight:700;line-height:1}
 .form-grid .btn{width:100%}
 .form-note{min-height:20px;margin:0;color:var(--navy);font-size:.8rem;font-weight:var(--type-weight-regular)}
 .site-footer{background:var(--navy-2);color:#fff;margin-top:0;font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:400;letter-spacing:-.012em;line-height:1.5}
@@ -519,7 +519,7 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .service-card .icon-badge svg,.work-section .icon-badge svg{width:var(--card-icon-size);height:var(--card-icon-size);max-width:100%;max-height:100%;stroke-width:var(--card-icon-stroke)}
 .icon-badge .icon-detail-half{stroke-width:calc(var(--card-icon-stroke) * 2)}
 .contact-icon--whatsapp svg{width:26px;height:26px;fill:currentColor;stroke:none}
-.form-trust svg{flex:0 0 15px;color:var(--sky);margin-top:1px}
+.form-trust svg{width:15px;height:15px;flex:0 0 15px;color:var(--sky);margin-top:1px}
 
 @media(max-width:1080px){
   .site-footer .footer-brand-block{flex-basis:280px;padding-right:28px}
