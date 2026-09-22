@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" preserveAspectRatio="xMidYMid meet">
+  <style>
+    .p{fill:none;stroke:#24265D;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.a{fill:none;stroke:#51AEE5;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.d{fill:none;stroke:#24265D;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:7 11}.soft{fill:#EDF8FE}.pale{fill:#D3EBF9}.white{fill:#fff}.lite{fill:#A9D9F4}.accent{fill:#51AEE5}.primary{fill:#24265D}
+  </style>
+  <!-- organic background -->
+  <path class="soft" d="M91 390C52 281 125 196 247 174c116-21 132-105 254-128 143-27 251 18 279 132 17 68 61 101 130 122 83 26 95 112 62 181-39 81-136 92-215 126-105 45-197 14-287 10-99-4-164 45-258 12C133 601 113 520 91 390Z"/>
+  <!-- decorative circles -->
+  <circle cx="132" cy="350" r="11" class="a" opacity=".5"/><circle cx="830" cy="165" r="12" class="a" opacity=".5"/><circle cx="895" cy="425" r="10" class="a" opacity=".5"/>
+  <!-- cloud -->
+  <path class="a white" d="M427 255h-49c-34 0-61-27-61-61 0-31 23-57 54-60-3-34 24-64 58-64 13 0 25 4 35 11 12-42 50-72 96-72 55 0 100 45 100 100v7c44-2 79 31 79 74 0 41-33 74-74 74H579"/>
+  <!-- upload/download -->
+  <path class="a" d="M489 222v-69m0 0-20 20m20-20 20 20M553 169v69m0 0-20-20m20 20 20-20"/>
+  <!-- cloud server links -->
+  <path class="d" d="M489 264v61M531 264v61M573 264v61"/>
+  <!-- shield -->
+  <path class="a white" d="M170 174c25-8 44-19 58-31 14 12 33 23 58 31v54c0 45-26 72-58 91-32-19-58-46-58-91Z"/>
+  <rect x="209" y="215" width="38" height="34" rx="5" class="a"/><path class="a" d="M216 215v-10a12 12 0 0 1 24 0v10M228 229v8"/>
+  <path class="d" d="M228 319v47q0 16 16 16h92"/>
+  <!-- plant -->
+  <path class="a" opacity=".45" d="M83 527c4-55 11-92 27-126M109 465c-29-11-42-34-45-61 28 5 48 21 53 45M112 440c14-31 37-46 65-48-6 29-25 51-57 62M99 487c-24-4-42-18-52-41 26-2 46 8 59 29M111 489c18-23 38-33 61-30-7 25-25 41-55 48"/>
+  <path class="lite" d="M79 526h62l-8 54H87Z" opacity=".7"/>
+  <!-- laptop -->
+  <path class="p white" d="M185 456h136l28 100H207Z"/><path class="p white" d="M198 556h165v9c0 12-9 21-21 21H219c-12 0-21-9-21-21Z"/>
+  <path class="a" opacity=".55" d="M225 490h72M231 506h55M237 522h37"/>
+  <path class="d" d="M349 518h49"/>
+  <!-- server rack -->
+  <g>
+    <rect x="398" y="326" width="242" height="65" rx="11" class="p white"/><rect x="398" y="391" width="242" height="65" rx="11" class="p white"/><rect x="398" y="456" width="242" height="65" rx="11" class="p white"/>
+    <path class="p" opacity=".55" d="M424 349h50M424 365h50M424 414h50M424 430h50M424 479h50M424 495h50"/>
+    <circle cx="580" cy="359" r="8" class="a"/><circle cx="611" cy="359" r="8" class="a"/><circle cx="580" cy="424" r="8" class="a"/><circle cx="611" cy="424" r="8" class="a"/><circle cx="580" cy="489" r="8" class="a"/><circle cx="611" cy="489" r="8" class="a"/>
+    <path class="p" d="M416 521v59M622 521v59"/>
+  </g>
+  <!-- monitor -->
+  <rect x="689" y="342" width="155" height="108" rx="9" class="p white"/><path class="p" d="M752 450l-7 28h43l-7-28M735 478h63"/>
+  <path class="a" opacity=".35" d="M713 422v-17h18v17M740 422v-31h18v31M767 422v-47h18v47M794 422v-65h18v65"/><path class="a" opacity=".35" d="M704 423h125"/>
+  <path class="d" d="M640 487h78q17 0 17-17v-20"/>
+  <!-- gear -->
+  <path class="a" d="m874 228 9 5 11-5 8 8-4 11 5 9 12 2v12l-12 2-5 9 4 11-8 8-11-5-9 5-2 12h-12l-2-12-9-5-11 5-8-8 4-11-5-9-12-2v-12l12-2 5-9-4-11 8-8 11 5 9-5 2-12h12Z"/><circle cx="866" cy="264" r="16" class="a"/>
+  <path class="d" d="M735 342v-32q0-16 16-16h67"/>
+  <!-- router -->
+  <path class="p" d="M829 531v-46M923 531v-46"/><rect x="801" y="531" width="151" height="44" rx="11" class="p white"/><path class="a" opacity=".55" d="M820 551h22"/><circle cx="873" cy="553" r="5" class="a"/><circle cx="895" cy="553" r="5" class="a"/><circle cx="917" cy="553" r="5" class="p"/>
+  <!-- baseline -->
+  <path class="p" d="M46 586h918"/>
+</svg>

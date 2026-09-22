@@ -1,6 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.16
+Versión actual: 2.0.17
+
+v2.0.17 - 2026-09-22
+- Reemplazada exclusivamente la ilustración raster del Hero de Inicio por un SVG vectorial editable de infraestructura IT.
+- Incorporados fondo orgánico, nube con subida/descarga, tres servidores, escudo, notebook, planta, monitor, engranaje, router, conexiones punteadas, círculos decorativos y línea base.
+- Aplicada la paleta vigente #24265D / #51AEE5 y conservado sin cambios el contenido izquierdo del Hero y el resto del sitio.
+- Eliminado el recurso hero-network.webp y su referencia al quedar obsoletos.
+Commit: v2.0.17 - Reemplazar ilustración del Hero por ecosistema IT vectorial
 
 v2.0.16 - 2026-09-22
 - Reformulada la página Nosotros con presentación en dos columnas, título destacado y los tres párrafos institucionales.
