@@ -1,6 +1,17 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.17
+Versión actual: 2.0.18
+
+
+v2.0.18 - 2026-09-22
+- Rediseñada exclusivamente la página Contacto con encabezado sin eyebrow, título en dos líneas y mensaje lateral con divisor.
+- Incorporado un gran contenedor de contacto a ancho útil completo, con columna de canales e ilustración SVG vectorial y formulario amplio en relación aproximada 35/65.
+- Reorganizados Instagram, WhatsApp y Email como filas ligeras con iconos, datos, flechas y enlaces funcionales.
+- Actualizado el formulario con distribución 2x2 en desktop, controles a ancho completo, indicador de privacidad y adaptación a una columna en móvil, conservando la preparación del correo existente.
+- Eliminados el bloque de asistencia y los estilos exclusivos de la implementación anterior; conservados navbar, footer y demás páginas.
+- Ajuste dentro de v2.0.18: eliminado el mensaje lateral “Estamos para escucharte. Tu negocio, en buenas manos.” y su divisor/estructura CSS exclusiva.
+- Ajuste dentro de v2.0.18: cambiado únicamente el contorno exterior y la punta del globo de contacto a azul principal, conservando las líneas interiores en el celeste secundario oficial.
+Commit: v2.0.18 - Rediseñar página Contacto con canales y formulario ampliado
 
 v2.0.17 - 2026-09-22
 - Reemplazada exclusivamente la ilustración raster del Hero de Inicio por un SVG vectorial editable de infraestructura IT.
