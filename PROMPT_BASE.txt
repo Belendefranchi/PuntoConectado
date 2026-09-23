@@ -67,7 +67,7 @@ ANIMACIONES
 - Las tarjetas y bloques equivalentes utilizan reveal al entrar al viewport: opacity de 0 a 1 y translateY de 14px a 0 durante 0,55s con easing ease; el stagger es de 55ms en ciclos de cuatro elementos dentro de cada grupo visual.
 - El reveal se activa con IntersectionObserver usando threshold 0,07 y margen inferior de 20px, y debe reiniciarse de forma determinista en pageshow/reentradas BFCache mediante preparación previa del estado inicial y activación posterior a cuadros reales de pintura.
 - Inicio anima las seis cards de servicios; Servicios anima la card resumen, cards de tipos de servicio, modalidades y aplicaciones; Planes anima únicamente las tres price-card; Nosotros anima el encabezado principal mediante la secuencia de título/descripción y, de forma individual, valores y especialidades; Contacto anima las dos columnas principales.
-- El Hero de Inicio mantiene estático su contenido textual y construye progresivamente únicamente la ilustración tecnológica: servidor central, dispositivos, nube/seguridad/conectividad y elementos secundarios. Cada etapa utiliza opacity de 0 a 1, translateY de 8px a 0, duración de 0,5s y stagger de 80ms; la animación se ejecuta una vez al cargar la ilustración y no mantiene movimiento permanente.
+- El Hero de Inicio mantiene estático su contenido textual y construye progresivamente únicamente la ilustración tecnológica: servidor central, dispositivos, nube/seguridad/conectividad y elementos secundarios. Cada etapa utiliza opacity de 0 a 1, translateY de 8px a 0, duración de 0,5s y stagger de 80ms; la construcción se ejecuta una vez al cargar. Después de finalizar esa entrada, solo tres recursos del SVG mantienen microanimación permanente: el engranaje gira en sentido horario cada 8s sobre su propio centro, las conexiones punteadas animan stroke-dashoffset durante 2,2s en modo alternado para simular circulación de ida y vuelta, y las flechas de la nube se desplazan verticalmente 5px de forma alternada dentro de un ciclo de 2,4s. Servidores, dispositivos, escudo, planta y demás elementos permanecen estáticos.
 - Los encabezados de sección utilizan una secuencia de entrada al viewport: título con opacity y translateY de 10px, descripción 90ms después y cards asociadas desde 190ms, integrada al mismo ciclo de IntersectionObserver, reentrada y BFCache. Las tablas de Planes permanecen sin reveal individual por fila.
 - Instagram, WhatsApp y Email de Contacto utilizan una secuencia propia: opacity de 0 a 1 y translateY de 8px a 0 durante 0,42s con demoras de 0, 160 y 320ms.
 - En Nosotros, las cuatro tarjetas que rodean al símbolo central aparecen individualmente en sentido horario: superior izquierda, superior derecha, inferior derecha e inferior izquierda. Mantienen un stagger de 160ms y comienzan después de la entrada del título/descripción de la sección.
@@ -91,7 +91,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.2.0
+Versión actual: 2.3.0
 Fecha versión actual: 2026-09-23
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
