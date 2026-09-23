@@ -1,7 +1,15 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.20
+Versión actual: 2.0.21
 
+
+v2.0.21 - 2026-09-23
+- Compactado el formulario de Contacto mediante menor padding vertical, separación entre labels y controles, espacios entre filas y altura mínima del textarea.
+- Equilibradas las alturas de las columnas con el stretch existente y una grilla flexible dentro del formulario, conservando la proporción y los anchos actuales sin fijar alturas arbitrarias a las cards.
+- Eliminada la altura mínima de la nota de estado vacía y reducido el espacio inferior del formulario, manteniendo el mensaje accesible y el comportamiento existente.
+- Ajustada la separación vertical en pantallas intermedias y conservadas las alturas naturales al apilar las columnas y los campos en móvil.
+- Conservados encabezado, textos, campos, enlaces, validación, ilustración SVG, paleta global, navbar, footer y demás páginas.
+Commit: v2.0.21 - Compactar formulario de Contacto y equilibrar la altura de sus columnas
 
 v2.0.20 - 2026-09-23
 - Ajustada exclusivamente la altura del hero de Inicio a 585px en escritorio, reemplazando el min-height anterior de 660px.
