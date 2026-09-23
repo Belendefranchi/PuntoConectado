@@ -1,6 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.3.1
+Versión actual: 2.3.2
+
+
+v2.3.2 - 2026-09-23
+- Aplicado a las cuatro tarjetas orbitales de la página Nosotros el mismo comportamiento hover de las cuatro tarjetas de valores ubicadas debajo.
+- Cada tarjeta orbital se eleva 4px, utiliza el borde celeste y la sombra hover compartida; su SVG principal sube 2px y escala a 1.03 durante 0,25s.
+- El hover se integra con la secuencia de aparición horaria existente sin alterar el orden ni los tiempos de entrada de las tarjetas.
+- prefers-reduced-motion elimina los desplazamientos y escalados del nuevo hover.
+Commit: v2.3.2 - Igualar hover de tarjetas orbitales en Nosotros
 
 
 v2.3.1 - 2026-09-23

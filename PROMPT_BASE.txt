@@ -70,7 +70,7 @@ ANIMACIONES
 - El Hero de Inicio mantiene estático su contenido textual y construye progresivamente únicamente la ilustración tecnológica: servidor central, dispositivos, nube/seguridad/conectividad y elementos secundarios. Cada etapa utiliza opacity de 0 a 1, translateY de 8px a 0, duración de 0,5s y stagger de 80ms; la construcción se ejecuta una vez al cargar. Después de finalizar esa entrada, solo tres recursos del SVG mantienen microanimación permanente: el engranaje gira en sentido horario cada 8s sobre su propio centro, las conexiones punteadas animan stroke-dashoffset durante 2,2s en modo alternado para simular circulación de ida y vuelta, y las flechas de la nube se desplazan verticalmente 5px de forma alternada dentro de un ciclo de 2,4s. Servidores, dispositivos, escudo, planta y demás elementos permanecen estáticos.
 - Los encabezados de sección utilizan una secuencia de entrada al viewport: título con opacity y translateY de 10px, descripción 90ms después y cards asociadas desde 190ms, integrada al mismo ciclo de IntersectionObserver, reentrada y BFCache. Las tablas de Planes permanecen sin reveal individual por fila.
 - Instagram, WhatsApp y Email de Contacto utilizan una secuencia propia: opacity de 0 a 1 y translateY de 8px a 0 durante 0,42s con demoras de 0, 160 y 320ms.
-- En Nosotros, las cuatro tarjetas que rodean al símbolo central aparecen individualmente en sentido horario: superior izquierda, superior derecha, inferior derecha e inferior izquierda. Mantienen un stagger de 160ms y comienzan después de la entrada del título/descripción de la sección.
+- En Nosotros, las cuatro tarjetas que rodean al símbolo central aparecen individualmente en sentido horario: superior izquierda, superior derecha, inferior derecha e inferior izquierda. Mantienen un stagger de 160ms y comienzan después de la entrada del título/descripción de la sección. En hover reutilizan el mismo comportamiento de las cuatro tarjetas de valores ubicadas debajo: elevación de 4px, borde celeste y sombra suave; su SVG principal sube 2px y escala a 1.03 durante 0,25s.
 - En Nosotros, el símbolo central responde al hover con un giro transversal 3D sutil sobre el eje vertical: 0° → 20° → -16° → 0° durante 0,75s. El efecto se ejecuta una sola vez por hover, no modifica tamaño ni posición y queda desactivado con prefers-reduced-motion.
 - Las tarjetas principales equivalentes utilizan hover con elevación de 4px, borde celeste y sombra suave. Sus SVG principales suben 2px y escalan a 1.03 durante 0,25s; logos raster y SVG decorativos secundarios no deben forzarse a usar esta microanimación.
 - En los botones que incluyen una flecha, únicamente la flecha se desplaza 4px hacia la derecha al hacer hover; el botón completo permanece estable.
@@ -92,7 +92,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.3.1
+Versión actual: 2.3.2
 Fecha versión actual: 2026-09-23
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01

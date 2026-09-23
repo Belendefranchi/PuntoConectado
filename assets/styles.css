@@ -341,14 +341,14 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .contact-channels.contact-sequence-ready .contact-row:nth-child(2){transition-delay:160ms}
 .contact-channels.contact-sequence-ready .contact-row:nth-child(3){transition-delay:320ms}
 .about-network.about-orbit-sequence-ready .about-orbit-card{opacity:0;transform:translateY(8px);transition:opacity .42s ease,transform .42s ease}
-.about-network.about-orbit-sequence-ready.about-orbit-sequence-visible .about-orbit-card{opacity:1;transform:none}
+.about-network.about-orbit-sequence-ready.about-orbit-sequence-visible .about-orbit-card{opacity:1;transform:var(--orbit-hover-transform,none)}
 .about-network.about-orbit-sequence-ready .about-orbit-card--1{transition-delay:220ms}
 .about-network.about-orbit-sequence-ready .about-orbit-card--2{transition-delay:380ms}
 .about-network.about-orbit-sequence-ready .about-orbit-card--4{transition-delay:540ms}
 .about-network.about-orbit-sequence-ready .about-orbit-card--3{transition-delay:700ms}
-.card:hover,.work-card:hover,.attention-card:hover,.app-card:hover,.price-card:hover,.about-value:hover,.about-specialty:hover{--reveal-final-transform:translateY(-4px);transform:translateY(-4px);border-color:rgba(81,174,229,.42);box-shadow:var(--shadow-hover)}
-.card .icon-badge svg,.work-card .icon-badge svg,.attention-card .icon-badge svg,.price-card .icon-badge svg,.about-value .about-icon,.about-specialty>.about-icon{transform-origin:center;transition:transform .25s ease}
-.card:hover .icon-badge svg,.work-card:hover .icon-badge svg,.attention-card:hover .icon-badge svg,.price-card:hover .icon-badge svg,.about-value:hover .about-icon,.about-specialty:hover>.about-icon{transform:translateY(-2px) scale(1.03)}
+.card:hover,.work-card:hover,.attention-card:hover,.app-card:hover,.price-card:hover,.about-value:hover,.about-specialty:hover,.about-orbit-card:hover{--reveal-final-transform:translateY(-4px);--orbit-hover-transform:translateY(-4px);transform:translateY(-4px);border-color:rgba(81,174,229,.42);box-shadow:var(--shadow-hover)}
+.card .icon-badge svg,.work-card .icon-badge svg,.attention-card .icon-badge svg,.price-card .icon-badge svg,.about-value .about-icon,.about-specialty>.about-icon,.about-orbit-card .about-icon{transform-origin:center;transition:transform .25s ease}
+.card:hover .icon-badge svg,.work-card:hover .icon-badge svg,.attention-card:hover .icon-badge svg,.price-card:hover .icon-badge svg,.about-value:hover .about-icon,.about-specialty:hover>.about-icon,.about-orbit-card:hover .about-icon{transform:translateY(-2px) scale(1.03)}
 .btn-arrow{display:inline-block;transform:translateX(0);transition:transform .2s ease}
 .btn-arrow-action:hover .btn-arrow{transform:translateX(4px)}
 html.motion-reset *,html.motion-reset *::before,html.motion-reset *::after{transition:none!important;animation:none!important}
@@ -551,7 +551,7 @@ html.motion-reset *,html.motion-reset *::before,html.motion-reset *::after{trans
   html{scroll-behavior:auto}
   *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
   .reveal,.reveal.reveal-ready,.section-heading-title,.section-heading-description{opacity:1!important;transform:none!important}
-  .btn-arrow-action:hover .btn-arrow,.card:hover,.work-card:hover,.attention-card:hover,.app-card:hover,.price-card:hover,.about-value:hover,.about-specialty:hover,.card:hover .icon-badge svg,.work-card:hover .icon-badge svg,.attention-card:hover .icon-badge svg,.price-card:hover .icon-badge svg,.about-value:hover .about-icon,.about-specialty:hover>.about-icon,.about-identity:hover img{transform:none!important;animation:none!important}
+  .btn-arrow-action:hover .btn-arrow,.card:hover,.work-card:hover,.attention-card:hover,.app-card:hover,.price-card:hover,.about-value:hover,.about-specialty:hover,.about-orbit-card:hover,.card:hover .icon-badge svg,.work-card:hover .icon-badge svg,.attention-card:hover .icon-badge svg,.price-card:hover .icon-badge svg,.about-value:hover .about-icon,.about-specialty:hover>.about-icon,.about-orbit-card:hover .about-icon,.about-identity:hover img{transform:none!important;animation:none!important}
   .contact-channels.contact-sequence-ready .contact-row{opacity:1!important;transform:none!important;transition:none!important}
   .brands-marquee{-webkit-mask-image:none;mask-image:none}
   .brands-track{width:100%;min-width:0;animation:none;transform:none;will-change:auto}
