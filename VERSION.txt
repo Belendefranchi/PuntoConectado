@@ -1,6 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.3.0
+Versión actual: 2.3.1
+
+
+v2.3.1 - 2026-09-23
+- Incorporada una microanimación transversal al pasar el puntero sobre el símbolo central de la página Nosotros.
+- El símbolo realiza un giro 3D sutil sobre su eje vertical, con recorrido 0° → 20° → -16° → 0° durante 0,75s, sin rotación plana ni movimiento permanente.
+- Añadida perspectiva local al contenedor del símbolo para dar profundidad al efecto sin modificar su tamaño, posición ni proporciones.
+- prefers-reduced-motion mantiene el símbolo completamente estático durante el hover.
+Commit: v2.3.1 - Animar transversalmente el símbolo central de Nosotros
 
 
 v2.3.0 - 2026-09-23

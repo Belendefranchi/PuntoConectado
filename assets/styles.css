@@ -239,8 +239,10 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .about-handwritten svg{position:absolute;bottom:0;left:0;width:100%;height:24px;fill:none;stroke:var(--sky);stroke-width:2;stroke-linecap:round}
 .about-network{position:relative;aspect-ratio:5 / 4;width:100%;max-width:520px;margin:auto}
 .about-network-art{display:block;width:100%;height:100%}
-.about-identity{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:30%;text-align:center}
-.about-identity img{width:76%;height:auto;margin:0 auto}
+.about-identity{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:30%;text-align:center;perspective:700px}
+.about-identity img{width:76%;height:auto;margin:0 auto;transform-origin:center;transform-style:preserve-3d;backface-visibility:hidden}
+.about-identity:hover img{animation:about-logo-transverse .75s ease-in-out 1}
+@keyframes about-logo-transverse{0%,100%{transform:rotateY(0deg)}30%{transform:rotateY(20deg)}65%{transform:rotateY(-16deg)}}
 .about-icon{display:block;width:36px;height:36px;flex:0 0 36px;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;color:var(--sky)}
 .about-orbit-card{position:absolute;display:flex;flex-direction:column;justify-content:center;align-items:center;width:32%;height:29%;padding:14px 8px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:0 4px 14px rgba(36,38,93,.055);text-align:center}
 .about-orbit-card .about-icon{margin:0 auto 8px}
@@ -549,7 +551,7 @@ html.motion-reset *,html.motion-reset *::before,html.motion-reset *::after{trans
   html{scroll-behavior:auto}
   *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
   .reveal,.reveal.reveal-ready,.section-heading-title,.section-heading-description{opacity:1!important;transform:none!important}
-  .btn-arrow-action:hover .btn-arrow,.card:hover,.work-card:hover,.attention-card:hover,.app-card:hover,.price-card:hover,.about-value:hover,.about-specialty:hover,.card:hover .icon-badge svg,.work-card:hover .icon-badge svg,.attention-card:hover .icon-badge svg,.price-card:hover .icon-badge svg,.about-value:hover .about-icon,.about-specialty:hover>.about-icon{transform:none!important}
+  .btn-arrow-action:hover .btn-arrow,.card:hover,.work-card:hover,.attention-card:hover,.app-card:hover,.price-card:hover,.about-value:hover,.about-specialty:hover,.card:hover .icon-badge svg,.work-card:hover .icon-badge svg,.attention-card:hover .icon-badge svg,.price-card:hover .icon-badge svg,.about-value:hover .about-icon,.about-specialty:hover>.about-icon,.about-identity:hover img{transform:none!important;animation:none!important}
   .contact-channels.contact-sequence-ready .contact-row{opacity:1!important;transform:none!important;transition:none!important}
   .brands-marquee{-webkit-mask-image:none;mask-image:none}
   .brands-track{width:100%;min-width:0;animation:none;transform:none;will-change:auto}
