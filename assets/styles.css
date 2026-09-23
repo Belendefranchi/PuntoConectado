@@ -357,7 +357,7 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
   grid-template-columns:1.03fr .97fr;
   align-items:center;
   gap:54px;
-  min-height:660px;
+  height:585px;
   padding:52px 0 58px;
   position:relative;
   z-index:1;
@@ -433,12 +433,11 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
   .site-header.open .nav-links a{padding:13px 0;width:100%;color:var(--navy)}
   .site-header.open .nav-links a.active:after{display:none}
   .site-header.open .nav-actions{display:flex;position:absolute;top:calc(var(--nav-height) + 261px);left:22px;right:22px;background:#fff;padding-bottom:18px;margin:0}
-  .hero-grid{grid-template-columns:1fr}
+  .hero-grid{grid-template-columns:1fr;row-gap:24px;height:auto}
   .about-grid{grid-template-columns:1fr;gap:28px}
   .about-visual{width:100%;max-width:520px;justify-self:center}
   .about-values{grid-template-columns:repeat(2,minmax(0,1fr))}
   .about-specialties-grid{grid-template-columns:1fr}
-  .hero-grid{min-height:auto}
   .services-grid{grid-template-columns:repeat(2,1fr)}
   .pricing-grid{grid-template-columns:1fr;max-width:660px;margin:auto}
   .apps-grid{grid-template-columns:1fr}

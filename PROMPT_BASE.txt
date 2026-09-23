@@ -76,7 +76,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.0.19
+Versión actual: 2.0.20
 Fecha versión actual: 2026-09-23
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
