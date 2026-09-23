@@ -29,7 +29,7 @@ const revealItems=[...document.querySelectorAll('main section .card,main section
 const revealItemSet=new Set(revealItems);
 const sectionHeadingGroups=[...document.querySelectorAll('#servicios > .container > .section-title,#marcas > .section-title,.services-intro-copy,.work-block-head,.apps-block > .section-title,.plans-intro-copy,.plan-visits-head > div:first-child,.about-copy,.about-specialties-head,.contact-intro-main')];
 const contactChannels=document.querySelector('.contact-channels');
-const aboutOrbit=document.querySelector('.about-network');
+const aboutOrbit=document.querySelector('.about-visual');
 let revealObserver;
 let sectionHeadingObserver;
 let contactChannelsObserver;
