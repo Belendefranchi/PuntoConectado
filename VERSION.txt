@@ -1,7 +1,16 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.18
+Versión actual: 2.0.19
 
+
+v2.0.19 - 2026-09-23
+- Cerrada la auditoría frontend integral sobre la versión 2.0.18, consolidando las correcciones aprobadas de semántica, accesibilidad, estabilidad de layout y limpieza de recursos obsoletos.
+- Eliminados la página histórica `assets/planes.html`, recursos gráficos sin uso comprobado y el paquete local Montserrat sin referencias activas.
+- Corregida la jerarquía de encabezados en las páginas auditadas y completadas las dimensiones intrínsecas de las imágenes productivas sin alterar su presentación visual prevista.
+- Incorporado un indicador de foco visible para los seis selectores de Planes mediante `:focus-visible`, manteniendo intacto su estado normal.
+- Validado el comportamiento responsive, navegación, interacciones principales, referencias locales, SEO técnico y control de regresiones en el alcance de la auditoría.
+- PC-A11Y-003 queda como riesgo aceptado para esta versión: se conserva sin cambios el color secundario #51AEE5 en sus usos textuales aprobados.
+Commit: v2.0.19 - Cerrar auditoría frontend con correcciones de accesibilidad y limpieza de recursos
 
 v2.0.18 - 2026-09-22
 - Rediseñada exclusivamente la página Contacto con encabezado sin eyebrow, título en dos líneas y mensaje lateral con divisor.
