@@ -1,6 +1,33 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.0.21
+Versión actual: 2.2.0
+
+
+v2.2.0 - 2026-09-23
+- Incorporada una construcción progresiva de la ilustración tecnológica del Hero de Inicio: servidor central, dispositivos, nube/seguridad/conectividad y elementos secundarios, con opacity, desplazamiento vertical de 8px, duración de 0,5s y stagger de 80ms, sin movimiento permanente.
+- Separadas las flechas de todos los botones que las incluyen para desplazar únicamente la flecha 4px en hover, manteniendo estable el botón completo.
+- Añadida microanimación de los SVG principales de las cards al hover mediante subida de 2px y escala 1.03 durante 0,25s, conservando la elevación existente de la card.
+- Incorporada una secuencia de entrada para encabezados de sección: título con opacity y translateY de 10px, descripción 90ms después y cards asociadas a partir de 190ms, integrada al ciclo de IntersectionObserver y BFCache existente.
+- Suavizada la toma de foco de inputs, selects y textarea de Contacto mediante transición de 0,2s sobre borde y sombra.
+- Conservado prefers-reduced-motion para mostrar el contenido sin secuencias ni microdesplazamientos animados.
+Commit: v2.2.0 - Ampliar sistema de animaciones y microinteracciones del sitio
+
+
+v2.1.1 - 2026-09-23
+- Incorporada en la página Nosotros una secuencia de aparición individual para las cuatro tarjetas que rodean al símbolo central.
+- Definido el orden visual en sentido horario: superior izquierda, superior derecha, inferior derecha e inferior izquierda.
+- Reutilizada la animación sutil del sistema vigente con opacidad y desplazamiento vertical de 8px durante 0,42s, escalonada cada 160ms.
+- Integrada la secuencia al mismo ciclo de IntersectionObserver, reentrada/BFCache y prefers-reduced-motion ya utilizado por el sitio, sin agregar dependencias.
+Commit: v2.1.1 - Animar tarjetas orbitales de Nosotros en sentido horario
+
+
+v2.1.0 - 2026-09-23
+- Reemplazado el reveal anterior por el sistema de aparición de FitnessPoint: opacidad y desplazamiento vertical de 14px durante 0,55s, con stagger de 55ms en ciclos de cuatro elementos y activación por IntersectionObserver.
+- Extendidas las animaciones a las cards equivalentes de Inicio, Servicios, Planes, Nosotros y Contacto, manteniendo sin animación específica el Hero y las tablas de Planes.
+- Incorporada en Contacto la entrada secuencial de Instagram, WhatsApp y Email con desplazamiento de 8px, duración de 0,42s y demoras de 0/160/320ms.
+- Añadido el ciclo determinista de preparación y activación en pageshow/pagehide/visibilitychange para soportar reentradas y BFCache sin transiciones invertidas, junto con el respeto de prefers-reduced-motion.
+- Unificado el hover de las tarjetas principales equivalentes con elevación de 4px, borde celeste y sombra suave, sin incorporar librerías ni animaciones decorativas nuevas.
+Commit: v2.1.0 - Incorporar animaciones de aparición inspiradas en FitnessPoint
 
 
 v2.0.21 - 2026-09-23

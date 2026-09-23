@@ -61,6 +61,21 @@ ORGANIZACIÓN DE SERVICIOS
 - Mantener los SVG de contorno con el estilo de Contacto, reutilizando recursos sin nuevas librerías.
 - Los contenedores icon-badge no tienen fondo; conservan el color de los íconos, dimensiones y alineación.
 
+
+ANIMACIONES
+- El sistema de animaciones se implementa con CSS y JavaScript nativo, sin librerías externas, siguiendo el comportamiento de FitnessPoint.
+- Las tarjetas y bloques equivalentes utilizan reveal al entrar al viewport: opacity de 0 a 1 y translateY de 14px a 0 durante 0,55s con easing ease; el stagger es de 55ms en ciclos de cuatro elementos dentro de cada grupo visual.
+- El reveal se activa con IntersectionObserver usando threshold 0,07 y margen inferior de 20px, y debe reiniciarse de forma determinista en pageshow/reentradas BFCache mediante preparación previa del estado inicial y activación posterior a cuadros reales de pintura.
+- Inicio anima las seis cards de servicios; Servicios anima la card resumen, cards de tipos de servicio, modalidades y aplicaciones; Planes anima únicamente las tres price-card; Nosotros anima el encabezado principal mediante la secuencia de título/descripción y, de forma individual, valores y especialidades; Contacto anima las dos columnas principales.
+- El Hero de Inicio mantiene estático su contenido textual y construye progresivamente únicamente la ilustración tecnológica: servidor central, dispositivos, nube/seguridad/conectividad y elementos secundarios. Cada etapa utiliza opacity de 0 a 1, translateY de 8px a 0, duración de 0,5s y stagger de 80ms; la animación se ejecuta una vez al cargar la ilustración y no mantiene movimiento permanente.
+- Los encabezados de sección utilizan una secuencia de entrada al viewport: título con opacity y translateY de 10px, descripción 90ms después y cards asociadas desde 190ms, integrada al mismo ciclo de IntersectionObserver, reentrada y BFCache. Las tablas de Planes permanecen sin reveal individual por fila.
+- Instagram, WhatsApp y Email de Contacto utilizan una secuencia propia: opacity de 0 a 1 y translateY de 8px a 0 durante 0,42s con demoras de 0, 160 y 320ms.
+- En Nosotros, las cuatro tarjetas que rodean al símbolo central aparecen individualmente en sentido horario: superior izquierda, superior derecha, inferior derecha e inferior izquierda. Mantienen un stagger de 160ms y comienzan después de la entrada del título/descripción de la sección.
+- Las tarjetas principales equivalentes utilizan hover con elevación de 4px, borde celeste y sombra suave. Sus SVG principales suben 2px y escalan a 1.03 durante 0,25s; logos raster y SVG decorativos secundarios no deben forzarse a usar esta microanimación.
+- En los botones que incluyen una flecha, únicamente la flecha se desplaza 4px hacia la derecha al hacer hover; el botón completo permanece estable.
+- Los controles del formulario de Contacto realizan una transición suave de 0,2s al cambiar borde y sombra durante el foco.
+- prefers-reduced-motion debe mostrar los elementos directamente, sin desplazamientos, secuencias ni microanimaciones de movimiento.
+
 DOMINIOS, CONTACTO Y APLICACIONES EXTERNAS
 - El dominio canónico de producción de Punto Conectado es https://puntoconectado.com.ar/.
 - El Instagram compartido por Punto Conectado y FitnessPoint es @puntoconectado.com.ar.
@@ -76,7 +91,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.0.21
+Versión actual: 2.2.0
 Fecha versión actual: 2026-09-23
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
