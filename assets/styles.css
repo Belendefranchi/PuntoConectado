@@ -307,6 +307,12 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .form-trust{display:flex;gap:9px;align-items:center;color:var(--muted);font-size:var(--type-meta);font-weight:var(--type-weight-regular)}
 .form-grid .btn{width:100%}
 .form-note{margin:0;color:var(--navy);font-size:.8rem;font-weight:var(--type-weight-regular)}
+@media(min-width:1001px){
+  main>.section:last-child{padding-bottom:28px}
+  #marcas{padding-bottom:0}
+  .contact-shell{padding-bottom:0}
+}
+
 .site-footer{background:var(--navy-2);color:#fff;margin-top:0;font-family:"Manrope",ui-sans-serif,system-ui,sans-serif;font-weight:400;letter-spacing:-.012em;line-height:1.5}
 .site-footer .footer-top.footer-two-column{display:flex;align-items:center;gap:0;padding:25px 0}
 .site-footer .footer-brand-block{flex:0 0 clamp(300px,34%,380px);min-width:0;padding-right:clamp(28px,3.4vw,48px);align-self:stretch;display:flex;flex-direction:column;justify-content:center}

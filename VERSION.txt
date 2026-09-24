@@ -1,6 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.3.6
+Versión actual: 2.3.7
+
+
+v2.3.7 - 2026-09-24
+- Ajustada la sección “Trabajamos con marcas líderes” de Inicio para eliminar su padding lateral propio y alinear título, divisor, descripción y carrusel con los límites horizontales de la sección superior.
+- Integradas “Trabajamos con marcas líderes.” y “Tecnología que potencia tu negocio.” dentro de un único H2 de dos líneas, con idéntica jerarquía tipográfica y colores #22265D y #51AEE5 respectivamente, eliminando el antiguo subtítulo independiente y sus estilos específicos.
+- Normalizado en desktop el espacio exterior inmediatamente anterior al footer a 28px en todas las páginas mediante una regla estructural compartida, evitando acumulaciones de espaciado específicas en Inicio y Contacto.
+- Conservados sin cambios el contenido interno del footer, el carrusel de marcas, los layouts de las páginas y el comportamiento responsive de tablet/mobile.
+Commit: v2.3.7 - Consolidar alineación de Marcas y espaciado previo al footer
 
 
 v2.3.6 - 2026-09-24
