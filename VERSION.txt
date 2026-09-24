@@ -1,6 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.3.3
+Versión actual: 2.3.4
+
+
+v2.3.4 - 2026-09-24
+- Ajustado exclusivamente el bloque orbital de Nosotros para aplicar border-radius: 100px a las cuatro tarjetas mediante la regla compartida .about-orbit-card, sin alterar dimensiones, posición, padding, sombras, bordes, SVG, textos ni distribución.
+- Eliminado el degradado/fondo celeste del contenedor principal de “Soluciones integrales en tecnología”, conservando su geometría, espaciados, divisor, contenido y las tres tarjetas internas sin cambios.
+- Verificado que no se agreguen overrides duplicados, que las variantes orbitales no sobrescriban el radio y que no se introduzcan colores fuera de la paleta vigente.
+Commit: v2.3.4 - Ajustar cards orbitales y fondo de especialidades en Nosotros
 
 
 v2.3.3 - 2026-09-23
