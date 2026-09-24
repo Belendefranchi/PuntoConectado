@@ -1,6 +1,15 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.3.5
+Versión actual: 2.3.6
+
+
+v2.3.6 - 2026-09-24
+- Rediseñada exclusivamente la cabecera de “Trabajamos con marcas líderes” en Inicio con una composición horizontal de dos columnas en desktop/tablet y una sola columna en mobile.
+- Eliminados el fondo celeste y las formas circulares decorativas de la sección, integrándola con el fondo general de la página.
+- Reubicado “TECNOLOGÍA QUE POTENCIA TU NEGOCIO” como subtítulo debajo del título, en #51AEE5, eliminando su presentación inferior y sus líneas laterales.
+- Ubicada la descripción en la mitad derecha con un divisor vertical centrado exactamente al 50 % del ancho útil del encabezado.
+- Conservados sin cambios los logos, orden, tamaños, colores, contenedor, animación y comportamiento del carrusel de marcas.
+Commit: v2.3.6 - Rediseñar encabezado de marcas líderes en Inicio
 
 
 v2.3.5 - 2026-09-24
