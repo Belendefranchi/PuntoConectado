@@ -1,6 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.3.4
+Versión actual: 2.3.5
+
+
+v2.3.5 - 2026-09-24
+- Eliminado el padding interno propio de “Soluciones integrales en tecnología” para alinear su contenido con los límites horizontales de la sección superior, manteniendo intacta su estructura y responsive.
+- Ajustada la decoración celeste detrás de “Acompañamiento cercano” para conservar una forma circular limpia y desplazarla 15px hacia la izquierda sin alterar la tarjeta ni la composición orbital.
+- Eliminado el fondo celeste del contenedor principal de la página Contacto para integrarlo con el fondo general blanco de la página, conservando formulario, ilustración, canales, espaciados, responsive y animaciones.
+Commit: v2.3.5 - Consolidar ajustes visuales de Nosotros y Contacto
 
 
 v2.3.4 - 2026-09-24
