@@ -60,7 +60,7 @@ ORGANIZACIÓN DE SERVICIOS
 - Las tarjetas principales comparten sombras suaves mediante variables CSS; las cajas internas de Aplicaciones permanecen sin sombra.
 - Aplicaciones presenta FitnessPoint y TrackPoint en tarjetas equivalentes con cinco ítems, logos originales sobre contenedores transparentes, conservando sus bordes y dimensiones y botones alineados en escritorio. El encabezado está centrado sobre el degradado y las tarjetas se apilan en pantallas estrechas.
 - Diferenciar tipos de servicio (Soluciones puntuales, Mantenimiento periódico, Proyectos e implementaciones) de modalidades de atención (Remota y Presencial).
-- Planes a medida presenta las opciones de contratación en planes.html; no vuelve a enumerar el catálogo de servicios. Aplicaciones es una sección semántica apps-block con aria-labelledby, al final de servicios-integrales y después de Cómo trabajamos, dentro del mismo contenedor.
+- Planes a medida presenta las opciones de contratación en planes.html; no vuelve a enumerar el catálogo de servicios. La segunda tabla “Tareas incluidas” funciona como resumen comercial y contiene exactamente 10 tareas distribuidas en los cuatro grupos vigentes: 3 de Puesta en marcha y relevamiento, 4 de Revisiones periódicas, 2 de Soporte e incidencias y 1 de Servicios y tareas adicionales. Debajo incluye un cierre liviano que invita a consultar el alcance completo y enlaza a Contacto. Aplicaciones es una sección semántica apps-block con aria-labelledby, al final de servicios-integrales y después de Cómo trabajamos, dentro del mismo contenedor.
 - Mantener los SVG de contorno con el estilo de Contacto, reutilizando recursos sin nuevas librerías.
 - Los contenedores icon-badge no tienen fondo; conservan el color de los íconos, dimensiones y alineación.
 
@@ -95,7 +95,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.3.7
+Versión actual: 2.3.8
 Fecha versión actual: 2026-09-24
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01

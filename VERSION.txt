@@ -1,6 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.3.7
+Versión actual: 2.3.8
+
+
+v2.3.8 - 2026-09-24
+- Simplificada la segunda tabla de Planes “Tareas incluidas” a exactamente 10 tareas comerciales, conservando sus cuatro grupos, columnas, indicadores, iconografía y diseño general.
+- Agrupadas las tareas de puesta en marcha en 3 filas, revisiones periódicas en 4 filas, soporte e incidencias en 2 filas y servicios adicionales en 1 fila, eliminando del HTML las filas técnicas reemplazadas.
+- Agregado debajo de la tabla un cierre comercial liviano con el texto “¿Querés conocer el alcance completo de cada plan?”, descripción y CTA hacia Contacto, reutilizando estilos existentes del sitio.
+- Conservadas sin cambios la primera tabla “Modalidad y periodicidad”, las cards de planes, sus botones, el encabezado, navbar, footer y el comportamiento responsive.
+Commit: v2.3.8 - Simplificar tareas incluidas y agregar consulta de alcance en Planes
 
 
 v2.3.7 - 2026-09-24

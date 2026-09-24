@@ -199,6 +199,14 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .visit-label{display:flex;align-items:center;gap:10px}
 .visit-icon{width:20px;height:20px;flex:0 0 20px;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
 .visit-task-card{margin-top:28px;overflow:hidden}
+.plan-scope-cta{margin-top:28px;padding:24px 28px;display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"title actions" "copy actions";column-gap:28px;row-gap:4px;align-items:center;background:#22265D;border-radius:var(--radius);overflow:hidden;text-align:left}
+.plan-scope-cta h2{grid-area:title;margin:0;color:#fff;font-size:1.35rem;line-height:1.25}
+.plan-scope-cta p{grid-area:copy;margin:0;color:rgba(255,255,255,.82);max-width:72ch}
+.plan-scope-actions{grid-area:actions;display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+.plan-scope-cta .btn{width:auto;background:#fff;border-color:#fff;color:#22265D}
+.plan-scope-cta .btn:hover{background:#fff;border-color:#fff;color:#22265D;box-shadow:0 8px 20px rgba(0,0,0,.14)}
+.plan-scope-cta .plan-scope-btn-outline{background:transparent;border-color:#fff;color:#fff}
+.plan-scope-cta .plan-scope-btn-outline:hover{background:rgba(255,255,255,.08);border-color:#fff;color:#fff;box-shadow:none}
 .visit-task-table .visit-category th{position:relative;font-size:.75rem;font-weight:700;letter-spacing:.045em;padding-block:16px;border-bottom:1px solid transparent}
 .visit-task-table .visit-category th::after{content:"";position:absolute;left:16px;right:16px;bottom:-1px;height:1px;background:var(--cyan)}
 .visit-task-table tbody + tbody .visit-category th{border-top:10px solid #fff}
@@ -206,6 +214,9 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .visit-dash{color:rgba(36,38,93,.42)}
 .visit-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 @media(max-width:680px){
+  .plan-scope-cta{grid-template-columns:1fr;grid-template-areas:"title" "copy" "actions";row-gap:10px;padding:22px 20px}
+  .plan-scope-actions{justify-content:flex-start;margin-top:4px}
+  .plan-scope-cta .btn{justify-self:start}
   .plan-visits{margin-top:48px}
   .plan-visits-head{grid-template-columns:1fr;gap:20px}
   .plan-visits-art{max-width:300px;justify-self:center}
