@@ -1,6 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.4.0
+Versión actual: 2.4.1
+
+v2.4.1 - 2026-09-24
+- Modificado el botón “Agendar una reunión” del bloque CTA de Inicio para abrir un correo dirigido a info@puntoconectado.com.ar mediante mailto, con el asunto “Solicitud de reunión”.
+- Incorporada en Contacto una franja informativa previa al footer con cuatro conceptos: Atención personalizada, Soluciones a medida, Respuesta rápida y Acompañamiento continuo.
+- La nueva franja utiliza SVG lineales, fondo celeste suave, separadores sutiles y adaptación responsive a cuatro columnas en desktop, dos en tablet y una en mobile.
+- Conservados sin cambios el formulario, el contenido principal y la estructura interna del footer.
+Commit: v2.4.1 - Ajustar CTA de Inicio y agregar franja de confianza en Contacto
 
 
 v2.4.0 - 2026-09-24
