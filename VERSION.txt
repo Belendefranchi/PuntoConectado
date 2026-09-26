@@ -1,6 +1,16 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.3.8
+Versión actual: 2.4.0
+
+
+v2.4.0 - 2026-09-24
+- Incorporado un componente CTA azul compartido al cierre de Inicio, Servicios y Nosotros, reutilizando el mismo lenguaje visual del cierre de Planes.
+- Inicio incorpora “Hablemos de tu infraestructura tecnológica.” con acciones “Agendar una reunión →” y “Contactanos por WhatsApp”.
+- Servicios incorpora “¿Necesitás más información sobre nuestros servicios?” con acciones “Ver planes →” y “Contactanos por WhatsApp”.
+- Nosotros incorpora “Conozcámonos y hablemos de tu proyecto.” con acciones “Solicitar una propuesta →” y “Contactanos por WhatsApp”.
+- Unificado el cierre de Planes con el componente CTA compartido y consolidado el texto manual vigente: “Consultanos y te contamos en detalle qué tareas incluir según tus necesidades.”
+- Los botones del componente se dimensionan según su contenido, sin anchos fijos ni igualación forzada, y conservan adaptación responsive mediante flex-wrap.
+Commit: v2.4.0 - Incorporar CTA compartido de cierre en Inicio, Servicios y Nosotros
 
 
 v2.3.8 - 2026-09-24

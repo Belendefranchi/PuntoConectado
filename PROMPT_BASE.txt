@@ -42,6 +42,7 @@ TIPOGRAFÍA DEL NAVBAR Y HERO
 
 ORGANIZACIÓN DE SERVICIOS
 - El sitio utiliza cinco páginas HTML estáticas en la raíz: index.html (Hero, Qué resolvemos por vos y Marcas), servicios.html (Cómo trabajamos y Aplicaciones), planes.html (Planes a medida), nosotros.html (Sobre nosotros) y contacto.html (Contacto).
+- Inicio, Servicios, Planes y Nosotros utilizan al final de su contenido el componente compartido `.site-cta-banner`: fondo #22265D, texto blanco, acción principal blanca y acción secundaria transparente con borde blanco. Los botones deben dimensionarse según su contenido (`width:auto`), sin anchos iguales o fijos; en espacios reducidos pueden envolver mediante flex-wrap sin generar overflow.
 - Todas las páginas comparten assets/styles.css, assets/app.js y los recursos existentes; incluyen navbar y footer completos en su HTML, sin carga mediante fetch ni sistema de plantillas.
 - En desktop (desde 1001px), todas las páginas deben conservar exactamente 28px de espacio exterior entre el último bloque de contenido principal y el inicio visual del footer, resuelto mediante una regla estructural compartida y sin acumular márgenes o paddings adicionales por página. El footer no se modifica internamente por esta separación.
 - Nosotros utiliza una estructura vertical con altura mínima del viewport y contenido principal flexible: el footer llega al borde inferior cuando el contenido es corto y permanece en el flujo normal cuando requiere desplazamiento.
@@ -60,7 +61,7 @@ ORGANIZACIÓN DE SERVICIOS
 - Las tarjetas principales comparten sombras suaves mediante variables CSS; las cajas internas de Aplicaciones permanecen sin sombra.
 - Aplicaciones presenta FitnessPoint y TrackPoint en tarjetas equivalentes con cinco ítems, logos originales sobre contenedores transparentes, conservando sus bordes y dimensiones y botones alineados en escritorio. El encabezado está centrado sobre el degradado y las tarjetas se apilan en pantallas estrechas.
 - Diferenciar tipos de servicio (Soluciones puntuales, Mantenimiento periódico, Proyectos e implementaciones) de modalidades de atención (Remota y Presencial).
-- Planes a medida presenta las opciones de contratación en planes.html; no vuelve a enumerar el catálogo de servicios. La segunda tabla “Tareas incluidas” funciona como resumen comercial y contiene exactamente 10 tareas distribuidas en los cuatro grupos vigentes: 3 de Puesta en marcha y relevamiento, 4 de Revisiones periódicas, 2 de Soporte e incidencias y 1 de Servicios y tareas adicionales. Debajo incluye un cierre liviano que invita a consultar el alcance completo y enlaza a Contacto. Aplicaciones es una sección semántica apps-block con aria-labelledby, al final de servicios-integrales y después de Cómo trabajamos, dentro del mismo contenedor.
+- Planes a medida presenta las opciones de contratación en planes.html; no vuelve a enumerar el catálogo de servicios. La segunda tabla “Tareas incluidas” funciona como resumen comercial y contiene exactamente 10 tareas distribuidas en los cuatro grupos vigentes: 3 de Puesta en marcha y relevamiento, 4 de Revisiones periódicas, 2 de Soporte e incidencias y 1 de Servicios y tareas adicionales. Debajo utiliza el componente CTA azul compartido del sitio; su párrafo vigente es exactamente “Consultanos y te contamos en detalle qué tareas incluir según tus necesidades.”. Aplicaciones es una sección semántica apps-block con aria-labelledby, al final de servicios-integrales y después de Cómo trabajamos, dentro del mismo contenedor.
 - Mantener los SVG de contorno con el estilo de Contacto, reutilizando recursos sin nuevas librerías.
 - Los contenedores icon-badge no tienen fondo; conservan el color de los íconos, dimensiones y alineación.
 
@@ -95,7 +96,7 @@ REGLAS DE VERSIONADO Y DOCUMENTACIÓN
 - PROMPT_BASE.txt debe contener únicamente reglas permanentes del proyecto y definiciones vigentes.
 - Respecto al versionado, PROMPT_BASE.txt debe indicar solamente la versión actual, la fecha de la versión actual, la versión inicial de referencia y la fecha de la versión inicial de referencia.
 
-Versión actual: 2.3.8
+Versión actual: 2.4.0
 Fecha versión actual: 2026-09-24
 Versión inicial de referencia: 1.0.0
 Fecha versión inicial de referencia: 2026-09-01
