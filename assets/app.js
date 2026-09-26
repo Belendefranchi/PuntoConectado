@@ -30,10 +30,12 @@ const revealItemSet=new Set(revealItems);
 const sectionHeadingGroups=[...document.querySelectorAll('#servicios > .container > .section-title,#marcas > .section-title,.services-intro-copy,.work-block-head,.apps-block > .section-title,.plans-intro-copy,.plan-visits-head > div:first-child,.about-copy,.about-specialties-head,.contact-intro-main')];
 const contactChannels=document.querySelector('.contact-channels');
 const aboutOrbit=document.querySelector('.about-visual');
+const footerPreludeGroups=[...document.querySelectorAll('.site-cta-banner,.contact-trust-strip')];
 let revealObserver;
 let sectionHeadingObserver;
 let contactChannelsObserver;
 let aboutOrbitObserver;
+let footerPreludeObserver;
 let animationEpoch=0;
 let animationResetInProgress=false;
 let animationLifecycleFrame1;
@@ -272,12 +274,81 @@ function activateContactChannelSequence(epoch){
   if(!('IntersectionObserver' in window))showContactChannelSequence();
 }
 
+function getFooterPreludeItems(group){
+  if(group.classList.contains('contact-trust-strip')){
+    return [...group.querySelectorAll('.contact-trust-item')];
+  }
+  return [
+    group.querySelector('.site-cta-copy h2'),
+    group.querySelector('.site-cta-copy p'),
+    ...group.querySelectorAll('.site-cta-actions .btn')
+  ].filter(Boolean);
+}
+
+function prepareFooterPreludeMetadata(){
+  footerPreludeGroups.forEach(group=>{
+    getFooterPreludeItems(group).forEach((item,index)=>{
+      item.classList.add('footer-prelude-item');
+      item.style.setProperty('--footer-prelude-delay',`${70+index*140}ms`);
+    });
+  });
+}
+
+prepareFooterPreludeMetadata();
+
+function cleanupFooterPreludeSequences(){
+  if(footerPreludeObserver){
+    footerPreludeObserver.disconnect();
+    footerPreludeObserver=undefined;
+  }
+}
+
+function showFooterPreludeSequence(group){
+  if(!group||document.hidden||animationResetInProgress||group.classList.contains('footer-prelude-sequence-visible'))return;
+  group.classList.add('footer-prelude-sequence-visible');
+  if(footerPreludeObserver)footerPreludeObserver.unobserve(group);
+}
+
+function revealFooterPreludesIfPending(){
+  if(reduceMotion||animationResetInProgress)return;
+  footerPreludeGroups.forEach(group=>{
+    if(!group.classList.contains('footer-prelude-sequence-visible')&&elementMeetsViewportThreshold(group,.18,18)){
+      showFooterPreludeSequence(group);
+    }
+  });
+}
+
+function prepareFooterPreludeSequences(){
+  cleanupFooterPreludeSequences();
+  footerPreludeGroups.forEach(group=>{
+    group.classList.add('footer-prelude-sequence-ready');
+    if(reduceMotion)group.classList.add('footer-prelude-sequence-visible');
+    else group.classList.remove('footer-prelude-sequence-visible');
+  });
+}
+
+function activateFooterPreludeSequences(epoch){
+  if(!footerPreludeGroups.length||reduceMotion||epoch!==animationEpoch)return;
+  if('IntersectionObserver' in window){
+    footerPreludeObserver=new IntersectionObserver(entries=>{
+      if(epoch!==animationEpoch||animationResetInProgress)return;
+      entries.forEach(entry=>{
+        if(entry.isIntersecting&&!document.hidden)showFooterPreludeSequence(entry.target);
+      });
+    },{threshold:.18,rootMargin:'0px 0px -18px 0px'});
+    footerPreludeGroups.forEach(group=>footerPreludeObserver.observe(group));
+  }
+  revealFooterPreludesIfPending();
+  if(!('IntersectionObserver' in window))footerPreludeGroups.forEach(showFooterPreludeSequence);
+}
+
 function cleanupAnimationSystems(){
   cancelAnimationLifecycleFrames();
   cleanupRevealAnimations();
   cleanupSectionHeadingSequences();
   cleanupContactChannelSequence();
   cleanupAboutOrbitSequence();
+  cleanupFooterPreludeSequences();
   animationResetInProgress=false;
   animationRoot.classList.remove('motion-reset');
 }
@@ -288,6 +359,7 @@ function prepareAnimationSystems(){
   cleanupSectionHeadingSequences();
   cleanupContactChannelSequence();
   cleanupAboutOrbitSequence();
+  cleanupFooterPreludeSequences();
   animationEpoch+=1;
   const epoch=animationEpoch;
   animationResetInProgress=true;
@@ -296,6 +368,7 @@ function prepareAnimationSystems(){
   prepareSectionHeadingSequences();
   prepareContactChannelSequence();
   prepareAboutOrbitSequence();
+  prepareFooterPreludeSequences();
   if(brandsMarquee)brandsMarquee.classList.remove('is-paused');
   void animationRoot.offsetHeight;
   return epoch;
@@ -320,6 +393,7 @@ function activateAnimationSystems(epoch){
         activateSectionHeadingSequences(epoch);
         activateContactChannelSequence(epoch);
         activateAboutOrbitSequence(epoch);
+        activateFooterPreludeSequences(epoch);
       });
     });
   });
@@ -354,6 +428,7 @@ document.addEventListener('visibilitychange',()=>{
   revealSectionHeadingsIfPending();
   revealContactChannelsIfPending();
   revealAboutOrbitIfPending();
+  revealFooterPreludesIfPending();
 });
 
 const toast=document.querySelector('#toast');

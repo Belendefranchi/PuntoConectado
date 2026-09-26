@@ -1,6 +1,15 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.4.1
+Versión actual: 2.4.2
+
+
+v2.4.2 - 2026-09-24
+- Incorporada una secuencia de aparición compartida para todos los nuevos elementos ubicados inmediatamente antes del footer.
+- Los CTA azules de Inicio, Servicios, Planes y Nosotros aparecen al entrar al viewport con opacity de 0 a 1 y translateY de 8px a 0 durante 0,42s; título, descripción y botones se revelan de forma escalonada con intervalos de 140ms.
+- La franja informativa de Contacto utiliza el mismo sistema: el bloque aparece suavemente y sus cuatro ítems “Atención personalizada”, “Soluciones a medida”, “Respuesta rápida” y “Acompañamiento continuo” se revelan uno a uno.
+- La nueva secuencia se integra al ciclo existente de IntersectionObserver, pageshow/BFCache, visibilitychange y prefers-reduced-motion, sin agregar librerías ni movimiento permanente.
+Commit: v2.4.2 - Animar bloques previos al footer en todas las páginas
+
 
 v2.4.1 - 2026-09-24
 - Modificado el botón “Agendar una reunión” del bloque CTA de Inicio para abrir un correo dirigido a info@puntoconectado.com.ar mediante mailto, con el asunto “Solicitud de reunión”.
