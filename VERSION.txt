@@ -1,6 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.4.2
+Versión actual: 2.4.3
+
+
+v2.4.3 - 2026-09-26
+- Eliminado el padding lateral propio de `.contact-shell` en Contacto para que el bloque principal utilice el mismo ancho útil que la franja informativa inferior de “Atención personalizada”, “Soluciones a medida”, “Respuesta rápida” y “Acompañamiento continuo”.
+- Conservado el padding vertical existente de Contacto y ajustadas las reglas responsive equivalentes para evitar que tablet y mobile vuelvan a introducir padding lateral interno en `.contact-shell`.
+- No se modificaron el formulario, la ilustración, los canales de contacto, la franja informativa inferior, el footer ni otras páginas.
+Commit: v2.4.3 - Alinear ancho del bloque principal de Contacto con la franja inferior
 
 
 v2.4.2 - 2026-09-24
