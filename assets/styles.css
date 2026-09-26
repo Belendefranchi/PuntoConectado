@@ -162,9 +162,9 @@ p{margin-top:0;font-weight:var(--type-weight-regular);line-height:1.58}
 .apps-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr;gap:16px;position:relative;z-index:1}
 .app-card{display:grid;grid-template-columns:80px minmax(0,1fr);gap:20px;align-items:start;background:#fff;color:var(--ink);border:1px solid rgba(255,255,255,.35);border-radius:18px;padding:22px;box-shadow:var(--shadow);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
 .app-card.app-featured{background:#fff}
-.app-logo-box{width:80px;height:80px;border-radius:22px;display:grid;place-items:center;flex:0 0 80px;overflow:hidden;background:transparent;border:1px solid rgba(36,38,93,.08)}
+.app-logo-box{width:80px;height:80px;border-radius:22px;display:grid;place-items:center;flex:0 0 80px;overflow:hidden;background:transparent;border:0}
 .app-logo-image{display:block;max-width:100%;max-height:100%;object-fit:contain}
-.app-logo-image-fitness{width:58px;height:58px}
+.app-logo-image-fitness{width:64px;height:64px}
 .app-logo-image-trackpoint{width:64px;height:64px}
 .apps-block .btn-primary{background:var(--navy);color:#fff;box-shadow:none}
 .apps-block .btn-primary:hover{transform:translateY(-1px);box-shadow:0 13px 28px rgba(81,174,229,.36)}

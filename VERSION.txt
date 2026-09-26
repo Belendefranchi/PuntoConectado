@@ -1,6 +1,13 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.4.3
+Versión actual: 2.4.4
+
+
+v2.4.4 - 2026-09-26
+- Igualado el tamaño visual de los logos de FitnessPoint y TrackPoint en la sección Aplicaciones de Servicios: ambos se muestran a 64x64px.
+- Eliminado el borde gris de los contenedores de ambos logos, manteniendo fondo transparente, posición y proporciones.
+- Conservadas sin cambios las cards, textos, botones, layout y comportamiento responsive de la sección.
+Commit: v2.4.4 - Igualar logos de Aplicaciones y quitar borde gris
 
 
 v2.4.3 - 2026-09-26
