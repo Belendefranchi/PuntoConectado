@@ -1,6 +1,14 @@
 PUNTO CONECTADO - HISTORIAL DE VERSIONES
 
-Versión actual: 2.4.4
+Versión actual: 2.4.5
+
+
+v2.4.5 - 2026-09-26
+- Actualizada la franja informativa previa al footer de Contacto para utilizar el mismo fondo azul principal #22265D y lenguaje visual de los CTA de cierre del resto del sitio.
+- Eliminados los fondos circulares de los cuatro iconos, manteniendo sus dimensiones de distribución y conservando exactamente el grosor de trazo SVG existente de 1.7.
+- Los iconos pasan a utilizar el celeste oficial #51AEE5; títulos y descripciones se muestran en blanco con jerarquía coherente sobre el fondo azul.
+- Eliminada cualquier decoración adicional de puntos y líneas en la franja; se mantienen únicamente los separadores sutiles entre conceptos y el responsive existente.
+Commit: v2.4.5 - Unificar franja de confianza de Contacto con los CTA azules
 
 
 v2.4.4 - 2026-09-26
